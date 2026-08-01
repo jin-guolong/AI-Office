@@ -1,195 +1,517 @@
 # Industrial B2B Product Detail Page Standard
 
-## 1. Page Objective
+> Internal execution rules for Codex. Apply to overseas English-language product pages for machinery, electrical products, industrial equipment, and industrial components.
 
-A product detail page must enable an engineer, procurement professional, or project buyer to determine whether a specific product or model is suitable and what information is required to obtain a quote or technical recommendation.
+## Operating Principle
 
-The page must communicate:
+A product detail page must help an engineer, procurement professional, project owner, OEM, integrator, distributor, or maintenance buyer determine whether a specific product or model is suitable and what information is required for technical confirmation or quotation.
 
-- Product identity and intended use
-- Key performance and configuration options
-- Operating fit and limitations
-- Applicable standards, quality evidence, and documentation
-- Supplier support and next action
+The page must connect verified product facts to buyer decisions. Marketing language must never replace specifications, application limits, manufacturing evidence, or a qualified inquiry path.
 
-Primary success signals include specification engagement, downloads, relevant internal navigation, RFQ starts, and qualified product inquiries.
+## Required Inputs
 
-## 2. Buyer Decision Path
+Before analyzing, writing, or modifying a product page, Codex must confirm:
 
-Recommended path:
+- Approved product name, model, parent category, status, and canonical URL
+- Target countries, English variant, buyer roles, industries, and applications
+- Current datasheet, drawing, manual, catalog, and document revisions
+- Verified specifications, units, ranges, tolerances, ratings, options, and limitations
+- Applicable materials, standards, certifications, testing, and quality evidence
+- Working principle and technical review source
+- Installation, commissioning, operation, maintenance, and safety documentation
+- Manufacturing, customization, supply, and support capability
+- Required RFQ fields, downloads, forms, tracking, and integrations
 
-`Identify product → Confirm application fit → Review specifications/options → Validate evidence and support → Configure or inquire`
+Missing information must be marked internally for confirmation. Codex must not infer specifications, material grades, ratings, compatibility, certification, performance, lifespan, price, stock, MOQ, or lead time.
 
-Buyer questions:
+## 1. Product Positioning
 
-1. Is this the exact product type or model I need?
-2. Will it work under my operating conditions?
-3. Which size, material, rating, interface, or option should I select?
-4. Does it meet required standards and quality expectations?
-5. What must I provide for engineering review or quotation?
+### Objective
 
-## 3. Required Modules
+The page must define:
 
-### 3.1 Breadcrumb and product identity
+- What the product is
+- Which exact model or configurable family is represented
+- What function it performs
+- Which applications and operating conditions it supports
+- How it differs from adjacent products
+- What selection or quotation action the buyer should take
 
-- Parent category path
-- Specific product/model H1
-- Product type and concise verified value statement
-- Correct product image or drawing
-- Primary CTA visible near the opening section
+### Required positioning fields
 
-### 3.2 Key features and buyer value
+- Product/model name
+- Product type and parent category
+- Primary function
+- Verified differentiating attribute
+- Suitable application context
+- Standard versus configurable scope
+- Primary buyer and decision stage
 
-- Distinguishing features
-- Engineering, operational, maintenance, sourcing, or lifecycle value
-- No unsupported superlatives
+### Page-boundary rules
 
-### 3.3 Applications and operating conditions
+- Broad product-family intent belongs to the category page.
+- Exact model/configuration intent belongs to the product page.
+- System/problem intent belongs to a Solution page.
+- Detailed operating context may belong to an Application page.
+- General comparison, calculation, installation, or troubleshooting may require a separate technical guide.
 
-- Suitable systems, industries, media, environments, or processes
-- Known limitations or conditions requiring confirmation
-- Links to relevant solution/application pages
+### Positioning failures
 
-### 3.4 Technical specifications
+- Product name is only an internal model code with no product type
+- Page combines unrelated models with incompatible specifications
+- Several URLs represent trivial keyword or parameter variants
+- Product claims conflict with category, datasheet, schema, or inquiry data
+- Discontinued or replaced product status is hidden
 
-- Structured, readable table
-- Units and standards stated consistently
-- Model or option distinctions preserved
-- Source and revision checked internally
-- Mobile-readable presentation
+## 2. Hero Area
 
-### 3.5 Options and configuration
+### Required components
 
-- Materials, dimensions, ratings, connections, accessories, custom options, or model logic
-- Selection notes and incompatible combinations
-- Engineering-review trigger where needed
+- Breadcrumb to canonical parent category
+- One clear product/model H1
+- Concise product definition and verified value
+- Primary product image or accurate drawing
+- Key decision attributes
+- Primary CTA
+- Secondary CTA such as datasheet or selection support
 
-### 3.6 Drawings, downloads, and media
+### Hero content formula
 
-- Datasheet, drawing, manual, certificate, CAD, catalog, or video where approved
-- File type, size, revision, and language where useful
-- Product media that accurately represents the offered configuration
+`Exact product identity → primary function/application → verified differentiator → next action`
 
-### 3.7 Standards, testing, and quality
+### Key attribute examples
 
-- Applicable certifications and standards
-- Relevant inspection or test processes
-- Evidence limited to this product or clearly labeled broader company capability
+Use only attributes relevant to the product:
 
-### 3.8 Supply and support information
+- Machinery: capacity, output, accuracy, automation, material/process, machine configuration
+- Electrical: voltage, current, power, poles/phases, breaking/protection rating, enclosure, standard
+- Components: material, size, tolerance, load, speed, pressure, temperature, interface, environment
 
-- Customization, MOQ, sample, packaging, lead-time process, documentation, engineering, or after-sales support when verified
-- Avoid fixed commercial promises that require confirmation
+### Hero rules
 
-### 3.9 FAQ
+- Use approved images showing the actual product or clearly labeled variant.
+- Do not use a system/application image that implies a configuration not supplied.
+- Keep key values consistent with the specification table.
+- Do not overload the hero with every technical attribute.
+- Optimize the primary image and maintain mobile usability.
+- Preserve product/model context in CTA and form events.
 
-- Product-specific selection, compatibility, installation, maintenance, documentation, or ordering questions
-- Answers consistent with technical source material
+## 3. Technical Parameters
 
-### 3.10 Related content
+### Objective
 
-- Parent category
-- Relevant alternatives or accessories
-- Solutions/applications
-- Case studies and technical guides
-- Do not add unrelated products solely for cross-linking
+Provide structured information needed to validate fit and compare configurations.
 
-### 3.11 RFQ section
+### Required parameter groups
 
-- Product context automatically preserved where possible
-- Fields matched to the actual qualification process
-- Drawing/file upload when needed
-- Privacy and response expectation stated accurately
+#### Machinery and industrial equipment
 
-## 4. Content Requirements
+- Process/material handled
+- Capacity, output, speed, accuracy, or cycle
+- Size, weight, footprint, utilities, and environmental requirements
+- Power, voltage, frequency, air, water, or other services
+- Automation, controls, interfaces, safety, and line integration
+- Standard configuration and optional modules
 
-- Use exact approved product names, model codes, values, units, and standards
-- Separate standard specifications from optional or custom configurations
-- Connect each feature to a real buyer consequence
-- State limitations, dependencies, and “confirm with engineering” conditions
-- Use tables for comparable data and prose for interpretation
-- Explain abbreviations and specialized terms where target buyers may need them
-- Keep product data consistent with datasheets, catalogs, schema, feeds, and related pages
-- Distinguish product evidence from company-level capability
-- Mark missing information for confirmation; never infer a specification
+#### Electrical products
 
-If multiple variants have materially different specifications or intent, define whether separate canonical pages or one configurable page is appropriate before writing.
+- Rated voltage/current/power/frequency
+- Poles, phases, duty, breaking/protection capacity, insulation, or trip characteristics
+- IP/NEMA or enclosure information where applicable
+- Temperature, altitude, derating, EMC, communication, and connection
+- IEC, UL, regional, or product-specific standard scope
+- Accessories, coordination, compatibility, and installation conditions
 
-## 5. CTA Design
+#### Industrial components
 
-Primary CTA options:
+- Dimensions, tolerances, load, speed, pressure, temperature, or flow
+- Material grade, hardness, finish, coating, or treatment
+- Mounting, interface, thread, connection, seal, lubrication, or medium
+- Environmental and chemical compatibility
+- Standard, custom, replacement, and accessory relationships
+
+### Parameter rules
+
+- Use tables for comparable data.
+- State units consistently and provide verified conversions only when useful.
+- Distinguish rated, nominal, typical, tested, calculated, minimum, and maximum values.
+- State test/operating conditions behind performance values.
+- Separate standard, optional, custom, and not-applicable fields.
+- Never convert missing data into zero, “No,” or a guessed value.
+- Record source document and revision internally.
+- Make tables readable and accessible on mobile.
+
+## 4. Features
+
+### Objective
+
+Explain how verified product characteristics create technical, operational, maintenance, procurement, or lifecycle value.
+
+### Required feature structure
+
+`Feature → evidence/mechanism → buyer value → applicable condition or limitation`
+
+### Feature categories
+
+- Performance and process control
+- Reliability and durability
+- Safety and protection
+- Accuracy and consistency
+- Efficiency and resource use
+- Integration and compatibility
+- Maintenance and serviceability
+- Customization and configuration
+- Documentation and traceability
+
+### Rules
+
+- Do not repeat specifications without explaining relevance.
+- Replace “high quality,” “advanced,” “reliable,” and “cost-effective” with concrete evidence.
+- Avoid universal claims; state conditions and model scope.
+- Separate product features from company capabilities.
+- Use comparisons only when criteria, conditions, and sources are equivalent.
+- Do not claim “best,” “No. 1,” “zero maintenance,” “failure-proof,” or guaranteed ROI.
+
+## 5. Working Principle
+
+### Objective
+
+Explain how the product performs its function so the buyer can evaluate suitability, integration, and operating implications.
+
+### Required content
+
+- Inputs, energy, signal, material, or medium
+- Main components and their functions
+- Operating sequence or mechanism
+- Output or controlled result
+- Interfaces with other equipment or systems
+- Control/protection logic where applicable
+- Operating conditions, limits, and safety boundaries
+
+### Format options
+
+- Step-by-step sequence
+- System flow diagram
+- Section/cutaway drawing
+- Electrical or functional block diagram
+- Component relationship table
+
+### Rules
+
+- Use approved engineering sources and diagrams.
+- Distinguish general principle from model-specific implementation.
+- Do not reveal confidential design or trade-secret information.
+- Do not oversimplify safety-critical machinery or electrical functions.
+- Explain terminology and abbreviations as needed.
+- State when system design, protection coordination, sizing, or application approval requires qualified engineering review.
+
+## 6. Applications
+
+### Objective
+
+Show where the product is used and what determines suitability.
+
+### Required content
+
+- Industry, process, machine, system, environment, or medium
+- Product function in the application
+- Operating requirements
+- Suitable configuration or option
+- Limitations and validation requirements
+- Links to dedicated Application, Solution, and Case pages
+
+### Application rules
+
+- Do not list industries without explaining fit.
+- Verify every product-to-application relationship.
+- State relevant conditions such as load, speed, temperature, pressure, voltage, current, dust, moisture, corrosion, washdown, hazardous area, or duty.
+- Explain incompatibilities and “confirm with engineering” conditions.
+- Do not imply one configuration supports every application.
+- Use an Application page for deeper context and a Solution page for system/problem logic.
+
+## 7. Materials
+
+### Objective
+
+Explain the materials, grades, treatments, and selection implications that affect product performance and sourcing.
+
+### Required content where applicable
+
+- Material and grade
+- Component/location using the material
+- Surface treatment, coating, plating, heat treatment, or insulation
+- Mechanical, electrical, thermal, chemical, corrosion, wear, or hygiene relevance
+- Standard versus optional material
+- Restricted or incompatible media/environment
+- Traceability or material documentation availability
+
+### Industry-specific requirements
+
+#### Machinery
+
+- Frame, contact parts, tooling, guarding, wear parts, and hygienic surfaces
+- Material/process compatibility and cleaning requirements
+
+#### Electrical products
+
+- Conductive, insulating, enclosure, contact, arc-resistant, thermal, and flame-related materials
+- Applicable insulation or flammability scope where verified
+
+#### Components
+
+- Base material, grade, hardness, finish, coating, seal/elastomer, lubricant, and mating materials
+- Corrosion, fatigue, wear, galling, creep, and chemical compatibility
+
+### Rules
+
+- Never use a generic material family when an exact grade claim is made.
+- Distinguish standard material from custom options.
+- Do not claim food-grade, medical, hazardous-area, fire, RoHS, REACH, or other compliance without applicable evidence.
+- Do not claim material compatibility from appearance or general reputation alone.
+- Link to material certificates or declarations only when approved and current.
+
+## 8. Manufacturing Proof
+
+### Objective
+
+Demonstrate that the supplier can manufacture, inspect, test, customize, document, and support the product consistently.
+
+### Proof types
+
+- Approved factory/process images
+- Production equipment and process stages
+- Engineering, design, tooling, prototyping, or OEM/ODM capability
+- Material control and supplier qualification
+- Process control, tolerance management, and traceability
+- Inspection and test equipment
+- Product-specific test records or approved sample evidence
+- Quality-system certification and product-certification scope
+- Packaging, preservation, logistics, and documentation
+- Verified case study or application evidence
+
+### Proof structure
+
+`Capability/process → evidence → product relevance → buyer-risk reduction`
+
+### Rules
+
+- Use real approved evidence; do not present stock images as company facilities.
+- Distinguish in-house, partner, and outsourced operations.
+- Distinguish company-system certification from product certification.
+- Do not publish confidential equipment, capacity, drawings, customers, or process details without approval.
+- Avoid statistics with no source, period, unit, or scope.
+- Link to quality, capability, certificate, test, and case pages when appropriate.
+
+## 9. Installation
+
+### Objective
+
+Provide enough verified information for planning and safe handoff while directing buyers to the current approved manual and qualified support.
+
+### Required content where applicable
+
+- Site, foundation, space, utility, environmental, and access requirements
+- Mounting, alignment, connection, wiring, piping, guarding, or integration needs
+- Pre-installation inspection
+- Commissioning and verification boundaries
+- Required tools, skills, PPE, permits, or qualified personnel
+- Maintenance access and documentation
+- Link to current manual or installation guide
+
+### Rules
+
+- Follow the approved product manual and applicable standards.
+- Do not publish dangerous shortcuts or bypass guards, interlocks, grounding, isolation, protection, or lockout/tagout procedures.
+- Electrical work must be assigned to qualified personnel and local-code review where required.
+- Heavy equipment, lifting, pressure, thermal, chemical, and stored-energy risks require appropriate warnings and technical review.
+- Do not replace the official manual with a short marketing summary.
+- State that final installation depends on the selected configuration and site conditions when applicable.
+
+## 10. FAQ
+
+### Suitable product FAQ topics
+
+- Which application or operating conditions suit this model?
+- How should the size/rating/configuration be selected?
+- Which materials, options, accessories, and interfaces are available?
+- Which standards or certifications apply to this exact product?
+- What information is required for compatibility or engineering confirmation?
+- Which documents, samples, testing, customization, installation, or support are available?
+- What information is required for quotation?
+
+### Rules
+
+- Answer model-specific questions; category-wide selection belongs on category pages.
+- Give a direct answer, then state conditions and limitations.
+- Use approved technical and commercial facts.
+- Do not guarantee compatibility, performance, service life, compliance, price, stock, lead time, MOQ, or warranty.
+- Link to the relevant section, document, Application, Solution, or support path.
+- Visible FAQ content must match any structured data.
+- Safety-sensitive answers require qualified review.
+
+## 11. Download
+
+### Download types
+
+- Product datasheet
+- Technical drawing
+- Installation/operation/maintenance manual
+- CAD/3D model
+- Product catalog
+- Certificate or declaration
+- Test report or technical note
+- Selection or configuration guide
+
+### Required download metadata
+
+- Document title
+- Product/model scope
+- Document type
+- Revision/date
+- Language
+- File type and size where useful
+- Access requirement when applicable
+
+### Rules
+
+- Link only current approved files.
+- Keep document data consistent with visible page specifications.
+- Do not expose confidential drawings, reports, or certificates.
+- Use descriptive file names and link text.
+- Ensure files return the intended status and remain accessible on mobile.
+- Track download clicks with product/model and document context.
+- Important product information must also exist in HTML; do not rely only on PDF indexing.
+- Define how superseded documents are replaced or archived.
+
+## 12. CTA
+
+### Buyer paths
+
+#### Direct RFQ
+
+`Product Detail → Verify Specifications → Submit Product-Specific RFQ`
+
+#### Assisted selection
+
+`Product Detail → Review Options/Limits → Submit Application Data → Engineering Confirmation`
+
+#### Technical validation
+
+`Product Detail → Download/Case/Solution → Contact Engineer`
+
+#### Alternative product path
+
+`Product Detail → Compare Related Models → Select Product → RFQ`
+
+### Primary CTA options
 
 - Request a Quote
-- Discuss This Product
 - Confirm Product Selection
+- Discuss This Product
+- Contact an Engineer
 
-Secondary CTA options:
+### Secondary CTA options
 
 - Download Datasheet
 - View Technical Drawing
-- Compare Related Models
+- Compare Models
 - View Application Solution
 
-CTA rules:
+### RFQ context requirements
 
-- Include product/model context in inquiry data
-- Ask for application-critical inputs, not unnecessary personal data
-- Place CTAs near product identity, after specifications, and at the final decision section
-- Make downloads identifiable and trackable
-- Never advertise instant pricing if configuration review is necessary
-- Provide an accessible error and confirmation state for forms
+Preserve automatically where possible:
 
-## 6. Common Errors
+- Product/model
+- Selected options or variant
+- Source URL
+- Application/Solution source
+- Relevant campaign/source parameters
+- Download or compare context
 
-- Product name with no clear product type or application
-- Marketing claims replacing specifications
-- Specifications copied from another model
-- Units, standards, options, or revisions inconsistent across the page
-- Images showing a configuration not actually offered
-- PDF-only product information with an empty HTML page
-- Specification tables unusable on mobile
-- No limitations, compatibility, or selection guidance
-- Certification logos not applicable to the product
-- Product schema containing data absent from visible content
-- Related products creating buyer confusion
-- RFQ form losing the product/model context
-- Duplicate pages for trivial keyword or parameter variants
+### Qualification fields
 
-## 7. Codex Checklist
+Ask only for relevant information, such as:
 
-### Product identity and intent
+- Application/process/system
+- Operating conditions
+- Required size, rating, material, interface, capacity, or standard
+- Quantity and project stage
+- Destination market
+- Drawing/specification upload
+- Contact and company information
 
-- [ ] Canonical product/model and parent category are confirmed
-- [ ] Page serves one clear product-detail intent
-- [ ] H1, title, URL, breadcrumb, and visible product name are consistent
+### CTA rules
 
-### Technical information
+- Place the primary CTA near the Hero, after technical validation, and at the final decision point.
+- Match CTA commitment to product complexity.
+- Do not promise instant price, delivery, compatibility, or engineering approval.
+- Provide secure uploads and accessible validation, error, consent, and confirmation states.
+- Track CTA clicks, form starts, errors, submissions, downloads, compare actions, calls, and emails.
+- Preserve tracking, consent, CRM, anti-spam, and product-context integrations during HTML changes.
 
-- [ ] Specifications match approved source documents
-- [ ] Units, standards, materials, ratings, and options are unambiguous
-- [ ] Standard, optional, and custom features are separated
-- [ ] Applications and limitations are stated
-- [ ] Missing data is flagged instead of invented
+## Product Page Validation Checklist
 
-### Evidence and support
+### Positioning and identity
 
-- [ ] Certifications and tests apply to the stated product/scope
-- [ ] Downloads are current, accessible, and correctly labeled
-- [ ] Company capability is not misrepresented as product certification
-- [ ] Technical and commercial support information is verified
+- [ ] Product/model, parent category, buyer, market, intent, and conversion are defined
+- [ ] H1, Title, canonical, breadcrumb, schema, and visible product name agree
+- [ ] Page scope distinguishes exact product, configurable family, category, Application, and Solution roles
+- [ ] Product status and variant strategy are intentional
 
-### Buyer journey and conversion
+### Hero and parameters
 
-- [ ] Buyer can determine fit and next selection step
-- [ ] Relevant category, solution, case, guide, and alternative links exist
-- [ ] RFQ retains product context and requests useful qualification data
-- [ ] CTA, download, form-start, and form-submit events are measurable
+- [ ] Hero identifies the product, function, verified differentiator, and next step
+- [ ] Product imagery represents the offered model/configuration accurately
+- [ ] Key Hero values match the technical table
+- [ ] Parameters use approved sources, revisions, units, definitions, and conditions
+- [ ] Standard, optional, custom, missing, and not-applicable values are distinguished
+- [ ] Tables are accessible and usable on mobile
 
-### Technical quality
+### Technical content
 
-- [ ] Primary content is rendered and accessible without a PDF
-- [ ] Specification tables work on mobile and with assistive technology
-- [ ] Images have accurate alternatives and suitable dimensions
-- [ ] Canonical, index directives, metadata, and structured data agree
-- [ ] Forms, downloads, links, tracking, and validation states work
+- [ ] Features connect evidence/mechanism to buyer value and scope
+- [ ] Working principle is accurate, useful, and technically reviewed
+- [ ] Applications include requirements, fit, limits, and relevant links
+- [ ] Materials, grades, treatments, and compatibility claims are verified
+- [ ] Safety, standards, calculations, and engineering boundaries are stated
+- [ ] No specification, rating, material, compatibility, certification, or result is invented
 
+### Proof, installation, and downloads
+
+- [ ] Manufacturing and quality proof is real, approved, and product-relevant
+- [ ] In-house, partner, and outsourced roles are accurate
+- [ ] Company certification is distinguished from product certification
+- [ ] Installation content follows approved manuals and safety requirements
+- [ ] Current downloads include product scope, revision, language, type, and status
+- [ ] Confidential or superseded files are not exposed
+
+### FAQ and conversion
+
+- [ ] FAQ answers model-specific recurring questions
+- [ ] CTA supports direct RFQ, assisted selection, validation, and alternative-product paths
+- [ ] RFQ retains product, option, source, and application context
+- [ ] Form fields match real qualification needs
+- [ ] CTA, forms, downloads, compare, call, and email events are measurable
+
+### Technical integrity
+
+- [ ] Intended status, robots, canonical, and sitemap state are correct
+- [ ] Primary content, specifications, links, and schema exist in rendered HTML
+- [ ] Mobile and desktop provide equivalent primary information and actions
+- [ ] Product schema matches visible verified data and contains no invented offers/reviews
+- [ ] Images, tables, diagrams, links, downloads, forms, and interactive states work
+- [ ] Tracking, consent, verification, CRM, uploads, and anti-spam integrations are preserved
+
+### Required Codex output
+
+For every product-page analysis or optimization, provide:
+
+1. Product identity, page scope, buyer, market, and conversion objective
+2. Source documents, revisions, evidence, and missing information
+3. Existing module and technical inventory
+4. Proposed module order and required content/data
+5. Critical, High, Medium, and Low findings
+6. Internal links to category, Application, Solution, Case, Blog, FAQ, resources, and related products
+7. RFQ/CTA path and tracking requirements
+8. Affected files, dependencies, risks, and approvals
+9. Validation plan for facts, desktop/mobile rendering, links, downloads, forms, metadata, schema, tracking, accessibility, and performance

@@ -1,177 +1,449 @@
 # Internal Linking Rules for Industrial B2B Websites
 
-## 1. Purpose
+> Internal execution rules for Codex. Apply to overseas independent websites operated by industrial manufacturers.
 
-Internal links must help buyers move from discovery to technical validation and inquiry while helping Google discover and understand the site. Links are part of information architecture, not a keyword-distribution exercise.
+## Operating Principle
 
-## 2. Required Link Architecture
+Internal links must help industrial buyers move from problem discovery to product or solution evaluation, technical validation, and inquiry. They must also help search engines discover pages and understand site hierarchy, entities, and topic relationships.
 
-Preferred relationship:
+Internal linking is not a method for distributing exact-match keywords mechanically. Every proposed link must have:
 
-`Homepage → Category/Solution Hub → Product/Solution/Application → Case/Guide/FAQ/Resource → Inquiry`
+- A buyer purpose
+- A clear source-page context
+- A relevant destination
+- A descriptive anchor or accessible name
+- A canonical, crawlable destination URL
+- A defined role in the topic or conversion path
 
-Every priority indexable page must have:
+XML sitemaps support discovery but do not replace internal links.
 
-- At least one crawlable internal link from an indexable page
-- A logical parent or hub relationship
-- Breadcrumb navigation when the hierarchy supports it
-- Contextual links to the next relevant buyer decision
-- A clear conversion or contact path
+## Required Inputs
 
-Sitemaps support discovery but do not replace internal links.
+Before auditing or designing internal links, Codex must identify:
 
-## 3. Crawlable Link Standard
+- Product taxonomy and priority product families
+- Priority industries, applications, problems, and solutions
+- Target countries, languages, and buyer roles
+- Current URL inventory by page type
+- Canonical, robots, status, redirect, and sitemap state
+- Existing navigation, breadcrumbs, contextual links, footer links, and anchor text
+- GSC query/page data and GA4 buyer paths when available
+- Conversion pages and primary inquiry routes
+- Pages with backlinks, conversions, or business importance
 
-Pass only when:
+Do not recommend large-scale link removal, URL change, redirect, canonical, or indexation action without impact review and approval.
 
-- The link uses an HTML `<a>` element with an `href`
-- The destination is a valid intended URL
-- Google can access the source and destination pages
-- The link is present in rendered HTML and not dependent on an unsupported user action
-- The anchor or accessible name describes the destination
-- Important links are not hidden, visually deceptive, or injected only after unnecessary interaction
+## 1. Website Topic Weight Model
 
-Buttons used only for UI actions should remain buttons; navigation to another URL should use a link.
+### 1.1 Model objective
 
-## 4. Page-Type Linking Rules
+The site must concentrate navigation, contextual links, supporting evidence, and buyer progression around the manufacturer’s real commercial priorities. “Topic weight” is an internal planning concept, not a measurable Google score.
 
-### Homepage
+Codex must not invent numeric authority values or claim that a fixed number of internal links guarantees ranking.
 
-Must link to priority product categories, solution/application hubs, company trust pages, and contact/inquiry paths. Do not link every SKU from the homepage unless the catalog and buyer journey justify it.
+### 1.2 Topic hierarchy
 
-### Product category
+Preferred structure:
 
-Must link to child products, useful selection guidance, relevant solutions/applications, and inquiry paths. Product listings require descriptive product names and stable destination URLs.
+`Homepage → Pillar/Commercial Hub → Cluster Pages → Supporting Evidence → Inquiry`
 
-### Product detail
+Industrial B2B hierarchy normally includes:
 
-Must link to its parent category, relevant sibling products only when useful, applicable solutions, verified case studies, technical downloads, FAQs, and an inquiry route.
+`Homepage → Product Category → Product Detail → Application/Solution/Case/Technical Resource`
 
-### Solution/application
+and:
 
-Must link to products used in the solution, related industries or applications, supporting cases/resources, and project consultation or RFQ paths.
+`Homepage → Solution Hub → Solution/Application → Relevant Products → Case/Guide/FAQ → Project Inquiry`
 
-### Case study
+### 1.3 Priority tiers
 
-Must link to the relevant solution, products, industry/application, and a suitable inquiry page. Links must not expose confidential or unverified customer information.
+| Tier | Typical pages | Link treatment |
+|---|---|---|
+| Tier 1 | Homepage, priority product-category pillars, priority solution pillars | Main navigation and strong contextual support |
+| Tier 2 | Product details, solution/application pages, capability pages | Linked from relevant Tier 1 pages and supporting content |
+| Tier 3 | Case studies, technical guides, comparison pages, FAQs, resources | Support the appropriate pillar/product/solution and buyer stage |
+| Utility | Contact, legal, account, search, filters, policies | Linked for function and trust; not treated as topical pillars |
 
-### Blog/guide/FAQ
+Tier assignment must reflect business priority, buyer demand, conversion role, and content completeness—not only existing traffic.
 
-Must link to the relevant pillar or hub, related supporting content, and the appropriate product/solution next step. Informational pages must not end without a buyer path.
+### 1.4 Weight signals Codex must inspect
 
-### Contact/RFQ
+- Presence in primary and secondary navigation
+- Breadcrumb hierarchy
+- Number and quality of relevant internal inlinks
+- Source-page relevance and business importance
+- Anchor diversity and clarity
+- Click depth from homepage or hub
+- Links from product, solution, case, blog, FAQ, and resource pages
+- Orphan, dead-end, or overlinked status
+- Canonical consistency and direct status resolution
+- Buyer progression and CTA paths
 
-Should be reachable from navigation and relevant commercial pages. Anchor and surrounding copy should explain the action, such as discussing an application or requesting a quote.
+### 1.5 Required allocation rules
 
-## 5. Anchor Text Rules
+- Priority pillars must receive links from their homepage route, child pages, and relevant supporting content.
+- Child pages must link back to their logical pillar.
+- Supporting pages must link to the commercial page that owns the buyer’s next decision.
+- Cross-cluster links are permitted only when products, applications, standards, or buyer tasks genuinely overlap.
+- Sitewide footer links must not be used to manufacture topic relevance.
+- Important pages should normally be reachable within three logical clicks, subject to catalog size and usability.
 
-Use anchor text that is concise, natural, and specific enough to predict the destination.
+## 2. Pillar Page Rules
 
-Preferred:
+### 2.1 Definition
 
-- Product or category name
-- Solution/application name
-- A buyer task such as “compare enclosure materials”
-- A resource description such as “download the technical datasheet”
+A Pillar Page is the primary hub for a commercially important product family, solution family, application domain, or technical decision area. It owns the broad intent and routes buyers to more specific pages.
 
-Avoid:
+Common Pillar Pages:
 
-- Repeated exact-match commercial anchors across large numbers of pages
-- Generic anchors such as “click here” when context is unclear
-- Keyword lists or unnatural sentence construction
-- Anchors that promise specifications, certifications, pricing, or cases absent from the destination
-- Different anchors that misleadingly imply different destinations
+- Product category
+- Solution hub
+- Application/industry hub
+- Comprehensive selection or technical guide when no commercial page can own the informational intent
 
-Image links require meaningful `alt` text when the image is the only accessible link name.
+### 2.2 Pillar acceptance criteria
 
-## 6. Link Placement and Relevance
+A page can be treated as a pillar only when it:
 
-- Place essential navigation and contextual links where buyers naturally need the next information
-- Prefer links in relevant explanatory content over unrelated footer blocks
-- Do not add a link solely because two pages share a keyword
-- Link from high-level pages to detailed pages and back to the hub
-- Link laterally only when the alternative genuinely supports comparison or the same application
-- Avoid excessive repeated sitewide links that do not serve navigation
-- Keep primary content links visible and usable on mobile
+- Has a distinct primary intent and canonical URL
+- Defines the topic and buyer need clearly
+- Links to all important child/cluster pages
+- Provides comparison, selection, or navigation value beyond a link list
+- Receives links back from child and supporting pages
+- Connects to a meaningful conversion path
+- Is crawlable, indexable, internally discoverable, and maintained
 
-There is no fixed internal-link count. Judge sufficiency by discovery, hierarchy, relevance, buyer progression, and usability.
+### 2.3 Required pillar links
 
-## 7. URL and Status Rules
+A pillar should link to, where relevant:
 
-- Link directly to the preferred canonical HTTPS URL
-- Do not intentionally link through redirects
-- Remove or repair internal links to 3xx chains, 4xx, 5xx, soft 404s, blocked pages, or unintended noindex pages
-- Keep host, case, trailing slash, locale, and URL parameters consistent
-- Do not link indexable navigation to staging, preview, internal search, or duplicate filter URLs
-- URL changes, redirects, canonical changes, and large-scale link removals require impact review and approval
+- Child categories or product details
+- Solution/application pages
+- Comparison and selection guides
+- Case studies and technical proof
+- FAQs and resources
+- Inquiry, quotation, or consultation route
 
-## 8. Multilingual and Regional Rules
+### 2.4 Prohibited pillar patterns
 
-- Link users to the equivalent language/region page when available
-- Do not send users automatically to a different language without a usable choice
-- Language switchers should use crawlable links
-- Hreflang targets must be canonical, indexable, and reciprocal
-- Do not link to a translated shell whose main content remains in another language
-- Use natural terminology for each market rather than mechanically translating anchors
+- Thin hub containing only cards or tags
+- Multiple pillars targeting the same broad intent
+- A blog pillar competing with the correct category/solution page
+- Links to every unrelated product or article
+- Child links generated only by JavaScript without crawlable `<a href>` markup
 
-## 9. Orphan and Depth Audit
+## 3. Supporting Page Rules
 
-For each crawl, report:
+### 3.1 Definition
 
-- Indexable pages with zero internal inlinks
-- Priority pages deeper than the intended hierarchy
-- Pages linked only from sitemap, search, JavaScript interaction, or pagination gaps
-- Pages with high internal links but low business value
-- Dead-end pages with no onward buyer path
-- Hubs missing child pages and child pages missing parents
-- Broken links, redirect chains, inconsistent canonical targets, and blocked destinations
+A Supporting Page answers a narrower buyer question, provides evidence, or completes a decision step within a pillar topic.
 
-Do not declare a page non-orphan based only on XML sitemap inclusion.
+Examples:
 
-## 10. Internal-Link Change Workflow
+- Selection or comparison guide
+- Technical explanation
+- Installation or maintenance guide
+- FAQ
+- Case study
+- Datasheet, drawing, manual, certificate, or test resource
+- Capability page relevant to the cluster
 
-1. Confirm page types, hierarchy, and priority conversion paths.
-2. Crawl or inventory current links and status codes.
-3. Identify orphans, dead ends, broken paths, and competing internal targets.
-4. Map each proposed link to a buyer need and destination intent.
-5. Specify source URL, anchor/context, destination URL, and placement.
-6. Check canonical, index, locale, and status alignment.
-7. Implement without removing navigation, tracking, or functional integrations.
-8. Re-crawl and test rendered desktop/mobile pages.
-9. Monitor affected pages in GSC and GA4.
+### 3.2 Required supporting-page links
 
-## 11. Codex Recommendation Format
+Every supporting page must normally link to:
 
-Use this table:
+1. Its primary pillar or hub
+2. The most relevant product, category, or solution page
+3. Closely related supporting content when it advances the buyer task
+4. A stage-appropriate CTA or contact path
 
-| Source URL | Source page type | Placement/context | Recommended anchor | Destination URL | Buyer purpose | Issue/priority |
-|---|---|---|---|---|---|---|
+### 3.3 Supporting-page rules
+
+- The link to the pillar must be contextually clear, not hidden only in breadcrumbs.
+- Narrow content must not target the same primary intent as the pillar.
+- Evidence pages must link to the product/solution whose claim they support.
+- PDFs and downloads should have an HTML context page when buyers need explanation and navigation.
+- A supporting page must not end with no onward path.
+- Do not force commercial links into safety instructions where they interrupt critical understanding.
+
+## 4. Product Cluster Rules
+
+### 4.1 Product cluster model
+
+`Product Category Pillar → Subcategory/Product Detail → Application/Solution → Case/Technical Support → RFQ`
+
+### 4.2 Category-to-product links
+
+Category pages must:
+
+- Link to every current priority child product through crawlable product names or cards
+- Group products by real buyer selection logic
+- Include distinguishing attributes in link context
+- Link to relevant selection guides and applications
+- Avoid linking to discontinued, redirected, blocked, or duplicate variants unintentionally
+
+### 4.3 Product-to-category links
+
+Product pages must:
+
+- Link to the canonical parent category through breadcrumb and/or contextual navigation
+- Use the same product taxonomy as navigation and schema
+- Avoid linking back to an unrelated high-level category solely for “authority”
+
+### 4.4 Product-to-product links
+
+Link products laterally only when the buyer may reasonably compare:
+
+- Alternative type or technology
+- Adjacent size/rating/model
+- Compatible accessory or component
+- Replacement/successor model
+- Required upstream/downstream equipment
+
+Explain the relationship. Avoid generic “Related Products” lists without selection context.
+
+### 4.5 Product-to-solution and evidence links
+
+- Product pages link to verified applications and solutions.
+- Solution pages link back to each product’s function in the solution.
+- Product claims link to applicable case, certificate, test, datasheet, drawing, or guide where available.
+- Company-level certification must not be presented as product certification through link context.
+
+### 4.6 Product cluster failure conditions
+
+- Product orphaned from its category
+- Category links through redirects or parameters instead of canonical URLs
+- All products use identical vague anchors
+- Product recommendations are unrelated or technically incompatible
+- Model pages compete because variants lack a canonical/content strategy
+- Product page has no RFQ or selection-support path
+
+## 5. Solution Cluster Rules
+
+### 5.1 Solution cluster model
+
+`Solution Hub → Industry/Application/Problem Solution → Products/Components → Case/Technical Guide/FAQ → Project Inquiry`
+
+### 5.2 Solution hub links
+
+The hub must link to solution pages based on:
+
+- Industry or process
+- Operating problem
+- System requirement
+- Application environment
+- Project or integration need
+
+Labels must describe buyer problems or applications, not internal department names.
+
+### 5.3 Solution-page links
+
+Every solution page should link to:
+
+- Parent solution/application hub
+- Products and components used, with the role of each explained
+- Relevant cases, diagrams, standards, guides, and FAQs
+- Related solution only when requirements overlap meaningfully
+- Project consultation or requirements-submission path
+
+### 5.4 Product-to-solution reciprocity
+
+Use reciprocal links when the relationship is verified:
+
+- Product page: where and why the product fits the application
+- Solution page: what function the product performs
+
+Do not link every product to every industry. Application claims must be supported by product capability and operating conditions.
+
+### 5.5 Solution cluster failure conditions
+
+- Solution page is only a product list
+- Many industry pages differ only by industry name
+- Products are linked without explaining selection or system role
+- Solution outcome is unsupported or guaranteed
+- No case, technical proof, implementation information, or consultation path
+- Solution and category pages compete for the same product-family intent
+
+## 6. Blog Linking Strategy
+
+### 6.1 Blog role
+
+Blog and guide content must support awareness, consideration, validation, specification, implementation, maintenance, or sourcing tasks. It must connect informational discovery to the correct commercial and technical next step.
+
+### 6.2 Required blog links
+
+Each article must normally include:
+
+- One link to its pillar/hub
+- One link to the most relevant product/category/solution page
+- Supporting links to related guides, FAQs, cases, or resources when useful
+- One stage-appropriate CTA
+
+There is no fixed link count. Use only links that improve understanding or buyer progression.
+
+### 6.3 Link placement
+
+- Add the first commercial/context link where the product or solution becomes relevant, not automatically in the opening sentence.
+- Place selection-guide links near criteria or comparison sections.
+- Place datasheet/manual/case links near the claim or task they support.
+- Provide a clear next step in the conclusion.
+- Avoid large unrelated “recommended article” blocks.
+
+### 6.4 Blog-to-blog links
+
+Link supporting articles when they represent the next or prerequisite buyer question. Do not form circular chains merely to increase link counts.
+
+### 6.5 Blog-to-commercial boundary
+
+- Awareness articles link to category, application, or solution context.
+- Consideration articles link to comparison, product options, evidence, and selection support.
+- Decision articles link to product details, technical resources, RFQ, or consultation.
+- A blog ranking for strong commercial intent should support the preferred commercial page; if the commercial page is weak, improve it rather than forcing the blog to replace it.
+
+## 7. Anchor Text Rules
+
+### 7.1 Anchor standard
+
+Anchor text must be concise, natural, and descriptive enough for a buyer to predict the destination.
+
+Preferred anchor types:
+
+- Product/category name: `industrial rotary screw compressors`
+- Application/solution: `compressed air solution for food processing`
+- Buyer task: `compare circuit breaker selection criteria`
+- Technical resource: `download the AC-90 technical datasheet`
+- Evidence: `review the washdown conveyor case study`
+- Action: `submit your application requirements`
+
+### 7.2 Anchor rules
+
+- Use terminology consistent with the destination Title, H1, and visible content.
+- Vary anchors naturally when context differs; do not manufacture synonyms.
+- Exact-match anchors are permitted when they are the natural product or page name, but must not be repeated mechanically at scale.
+- Generic anchors such as `click here`, `learn more`, or `read more` require enough surrounding context; prefer descriptive wording.
+- Image links need meaningful alt text when the image is the only accessible link name.
+- CTA anchors must describe the actual action and destination.
+
+### 7.3 Prohibited anchors
+
+- Keyword lists or hidden links
+- Unsupported claims such as `best certified machine supplier`
+- Product/standard/material anchors that do not match the destination
+- Identical commercial anchors inserted across unrelated pages
+- Misleading anchors that imply price, stock, download, certification, or compatibility absent from the destination
+
+## 8. Internal Competition Prevention Rules
+
+### 8.1 Competition indicators
+
+Flag internal competition when two or more indexable pages:
+
+- Target the same primary buyer intent
+- Receive impressions for the same valuable query cluster
+- Have similar Titles, H1s, introductions, and content structures
+- Receive competing internal anchors from similar source pages
+- Alternate in GSC performance without a clear page-role reason
+- Lack a distinct product, model, application, solution, market, standard, or buyer task
+
+### 8.2 Link-based prevention
+
+- Choose one preferred page for each primary intent.
+- Point relevant internal anchors consistently to that preferred page.
+- Use supporting pages for narrower questions and link them to the preferred page.
+- Keep category, product, solution, and blog roles distinct.
+- Do not link a broad category phrase primarily to a product model.
+- Do not link a solution phrase primarily to a generic product category when a complete solution page exists.
+- Do not create navigation or footer links to duplicate/filter/parameter variants.
+
+### 8.3 Resolution workflow
+
+1. Verify that the pages actually serve the same intent.
+2. Identify the preferred page using business role, content completeness, links, conversions, backlinks, and canonical suitability.
+3. Decide whether to differentiate, consolidate, redirect, canonicalize, noindex, or retire.
+4. Obtain approval for URL, redirect, canonical, indexation, or content-removal changes.
+5. Update navigation, breadcrumbs, contextual links, sitemap, schema, and metadata consistently.
+6. Re-crawl and monitor GSC/GA4 after implementation.
+
+Do not declare competition based only on keyword overlap. Related pages may rank for similar terms while satisfying different buyer tasks.
+
+## 9. Codex Checklist
+
+### Architecture and priority
+
+- [ ] Product taxonomy, solution hierarchy, buyer journey, and priority tiers are defined
+- [ ] Every priority topic has one Pillar Page or commercial hub
+- [ ] Pillars link to all relevant cluster pages and receive links back
+- [ ] Important pages are reachable through logical crawlable paths
+- [ ] XML sitemap is not treated as a substitute for internal links
+
+### Pillar and supporting pages
+
+- [ ] Pillar owns a broad distinct intent and provides selection/navigation value
+- [ ] Supporting pages answer narrower tasks and link to the pillar
+- [ ] Supporting evidence links to the product/solution it supports
+- [ ] No supporting page is an orphan or buyer dead end
+
+### Product cluster
+
+- [ ] Categories link to canonical child products with useful context
+- [ ] Products link to their correct parent category
+- [ ] Product-to-product links represent real alternatives, accessories, or system relationships
+- [ ] Product/application links are technically verified
+- [ ] Product pages connect to evidence and RFQ/selection support
+
+### Solution cluster
+
+- [ ] Solution hub organizes real industries, applications, problems, or systems
+- [ ] Every solution explains and links the role of relevant products
+- [ ] Product pages link back to verified solutions where useful
+- [ ] Solution pages connect to cases, guides, FAQs, resources, and project inquiry
+- [ ] Solution and category pages do not compete for the same primary intent
+
+### Blog strategy
+
+- [ ] Every article links to its pillar and relevant commercial next step
+- [ ] Blog links match Awareness, Consideration, or Decision stage
+- [ ] Blog-to-blog links follow real prerequisite or next questions
+- [ ] Link count is based on usefulness, not a fixed target
+
+### Anchors and technical integrity
+
+- [ ] Anchors are descriptive, natural, accurate, and accessible
+- [ ] Exact-match anchors are not repeated mechanically at scale
+- [ ] Links use crawlable `<a href>` markup
+- [ ] Destinations resolve directly to canonical HTTPS URLs
+- [ ] Broken, redirected, blocked, noindex, staging, and parameter destinations are repaired or flagged
+- [ ] Mobile users can see and use essential links
+
+### Competition and conversion
+
+- [ ] Competing Titles, H1s, GSC queries, anchors, and page roles were reviewed
+- [ ] One preferred page is assigned to each primary intent
+- [ ] Any merge, redirect, canonical, noindex, or removal action has approval
+- [ ] Every cluster provides a measurable buyer progression and conversion path
+
+### Required Codex output
+
+Use this implementation table:
+
+| Source URL | Source page type | Cluster | Placement/context | Recommended anchor | Destination URL | Destination role | Buyer purpose | Technical status | Priority/action |
+|---|---|---|---|---|---|---|---|---|---|
+|  |  | Product/Solution/Blog |  |  |  | Pillar/Supporting/Product/Solution/Evidence/CTA |  |  |  |
 
 Also report:
 
 - Orphan pages
-- Broken or redirected internal links
-- Canonical/index mismatches
-- Missing parent/child relationships
-- Cannibalization caused by competing anchors
-- Conversion dead ends
+- Dead-end pages
+- Missing parent/child and reciprocal relationships
+- Broken links, redirects, canonical/index mismatches, and parameter links
+- Overlinked low-value pages
+- Competing anchors and suspected cannibalization
+- Missing product, solution, evidence, and conversion paths
+- Approval requirements and post-change validation plan
 
-## 12. Acceptance Checklist
+## Official Google References
 
-- [ ] Every priority page has an indexable, crawlable inlink
-- [ ] Parent, child, breadcrumb, and contextual relationships are logical
-- [ ] Links move buyers toward useful technical or commercial decisions
-- [ ] Anchors describe destinations naturally
-- [ ] Links resolve directly to canonical HTTPS URLs
-- [ ] No priority link ends at broken, blocked, noindex, or unintended duplicate URLs
-- [ ] Product, solution, case, resource, and inquiry pages are connected appropriately
-- [ ] Mobile users can see and use essential links
-- [ ] Multilingual links and hreflang targets are consistent where applicable
-- [ ] Re-crawl and functional validation are completed after changes
-
-## 13. Official Google References
-
-- [Make links crawlable](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
+- [Crawlable links and link best practices](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
 - [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 - [Sitemaps overview](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview)
 - [Canonical URL guidance](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)

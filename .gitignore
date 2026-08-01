@@ -1,0 +1,16 @@
+# Temporary files
+
+*.tmp
+*.log
+
+# Backup
+
+Backup/
+
+# System files
+
+.DS_Store
+
+# Node
+
+node_modules/

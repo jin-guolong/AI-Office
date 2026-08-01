@@ -1,251 +1,285 @@
 # Industrial B2B Case Study Page Standard
 
-> Internal execution rules for Codex. Apply to overseas English-language case studies for machinery, electrical equipment, industrial systems, and industrial components.
+> Codex internal execution rules for overseas English-language Case Study pages involving machinery, electrical equipment, industrial systems, and industrial components.
 
-## Operating Principle
+## Scope and Approval Gate
 
-A Case Study must provide credible, approved evidence that the company addressed a defined industrial requirement. It must help engineers, procurement teams, project owners, OEMs, integrators, and distributors evaluate technical fit, implementation capability, supplier reliability, and realistic outcomes.
+Before drafting, analyzing, or publishing a Case Study, Codex must confirm:
 
-A case is not a promotional story built from unsupported claims. Every customer fact, product configuration, image, quotation, measurement, and result must be traceable to an approved source.
-
-## Required Inputs and Approval Gate
-
-Before drafting or publishing, Codex must obtain or identify:
-
-- Case/project name and internal owner
+- Internal project owner and source record
 - Customer publication approval and confidentiality limits
-- Approved customer name, logo, industry, location, and quotation scope
-- Project dates and status
-- Buyer requirements, technical constraints, and success criteria
-- Products, models, options, services, and document revisions
-- Engineering, manufacturing, testing, installation, and support records
+- Approved customer name, logo, industry, region, quotation, and attribution scope
+- Project period, status, supplier role, and delivery scope
+- Customer requirements, technical constraints, and acceptance criteria
+- Products, models, configurations, services, and document revisions
+- Engineering, production, testing, implementation, delivery, commissioning, and support evidence
 - Baseline and result data with units, method, period, and conditions
-- Approved images, videos, drawings, and captions
+- Approved photographs, videos, drawings, diagrams, and captions
 - Relevant Product, Solution, Application, resource, and inquiry URLs
 
-If approval or evidence is missing, Codex must:
+If approval or evidence is missing, Codex must mark it internally for validation, anonymize/generalize only with approval, or omit it. Never invent a customer, project, configuration, quotation, image, test, delivery event, or result.
 
-- Mark the item internally as requiring validation
-- Anonymize or generalize only with approval
-- Remove unsupported claims from the publication draft
-- Never invent a customer, quote, photograph, configuration, measurement, or outcome
+# Case Study Proof Objectives
 
-## 1. Project Background
+A Case Study must do more than display a project. It must prove three forms of capability.
 
-### Objective
+## Technical Capability
 
-Give buyers enough context to decide whether the case is relevant to their own project.
+The page must show that the supplier can:
 
-### Required fields
+- Understand technical requirements and operating constraints
+- Identify causes, risks, interfaces, and decision criteria
+- Select, configure, customize, engineer, or integrate suitable Products
+- Manufacture, inspect, test, document, install, commission, or support within the approved scope
+- Validate performance against agreed acceptance criteria
 
-- Industry and application
+Required proof may include drawings, calculations, selection rationale, configuration data, process controls, tests, inspection records, commissioning evidence, and technical review.
+
+## Industry Experience
+
+The page must show that the supplier understands:
+
+- Industry process and Application context
+- Materials, media, environment, load, electrical, safety, hygiene, maintenance, and regulatory factors
+- Buyer roles and project workflow
+- Common risks and site-specific differences
+- Relevant Product/Solution relationships and limitations
+
+Industry experience must be demonstrated through approved details—not by adding an industry name to generic copy.
+
+## Delivery Capability
+
+The page must show that the supplier can manage:
+
+- Requirement collection and communication
+- Engineering review and change control
+- Product/configuration approval
+- Production, integration, quality, and documentation
+- Testing, packaging, logistics, installation, commissioning, training, and support where included
+- Responsibilities, approval gates, and issue resolution
+
+Do not imply that all delivery stages were supplied if they were outside the project scope.
+
+## Proof matrix
+
+| Case module | Technical capability | Industry experience | Delivery capability |
+|---|---|---|---|
+| Project Background | Supplier role and scope | Industry/process context | Project stage and delivery boundary |
+| Customer Challenge | Technical constraints and risks | Industry-specific requirements | Schedule/site/stakeholder constraints |
+| Solution | Engineering logic and validation | Industry fit and limitations | Scope, responsibilities, and change control |
+| Equipment Configuration | Product/model/configuration accuracy | Application-specific choices | Approved BOM/configuration/documentation |
+| Implementation | Process, test, installation evidence | Site/process coordination | Production-to-acceptance execution |
+| Result | Verified criteria and method | Outcome in actual conditions | Acceptance/support status |
+| Images/Videos | Visible technical evidence | Real Application context | Production/delivery/commissioning evidence |
+| Customer Feedback | Perceived technical value | Industry relevance | Collaboration and delivery experience |
+| CTA | Relevant review inputs | Similar Application qualification | Clear project-start process |
+
+# Page Structure
+
+## Project Background
+
+### Purpose
+
+Give buyers enough context to judge whether the project is comparable to their own situation and understand the supplier’s role.
+
+### Required content
+
+- Industry and Application
 - Customer type and region, subject to approval
-- Plant, line, machine, system, or equipment context
+- Plant, line, machine, system, Product, or equipment context
 - Project stage: new build, expansion, retrofit, replacement, improvement, or custom development
-- Existing process or system situation
-- Project scope and supplier role
+- Existing process/system situation
+- Project objective
+- Supplier role and scope
 - Project period where approved
 
-### Background structure
+### Required structure
 
-`Customer/application context → existing situation → project objective → supplier scope`
+`Customer/Application context → existing situation → project objective → supplier role/scope`
+
+### Proof requirements
+
+- **Technical capability:** identify the technical domain and supplier responsibility.
+- **Industry experience:** include process, environment, and relevant operational context.
+- **Delivery capability:** define project stage, stakeholders, and included/excluded delivery scope.
 
 ### Rules
 
-- Use a specific title that identifies the application and solution/product.
+- Use a specific Case title identifying Application and Product/Solution.
 - State whether the company acted as manufacturer, integrator, component supplier, engineering partner, or service provider.
-- Distinguish one project/site from company-wide claims.
-- Explain anonymization when it materially affects interpretation.
-- Do not reveal confidential plant, process, volume, commercial, or operational information.
-- Avoid generic introductions about the entire industry unless directly relevant.
+- Distinguish one site/project from customer-wide claims.
+- Explain anonymization when it affects interpretation.
+- Do not reveal confidential plant, production, pricing, schedule, or commercial information.
 
-### Background examples
+## Customer Challenge
 
-- A packaging-line upgrade for a food producer
-- Electrical protection modernization for a chemical facility
-- Custom drive-component development for an OEM machine
-- Material-handling automation for a manufacturing plant
+### Purpose
 
-Examples are structural only and do not constitute approved case facts.
+Document what the customer needed, why the requirement was difficult, and how success would be judged.
 
-## 2. Customer Requirements
+### Required content
 
-### Objective
-
-Document what the customer needed the project to achieve and which inputs governed acceptance.
-
-### Requirement categories
-
-- Functional and process requirements
-- Capacity, output, speed, accuracy, quality, or control targets
-- Load, pressure, temperature, voltage, current, power, or duty
-- Material, medium, environment, corrosion, dust, moisture, washdown, or hazardous-area requirements
-- Size, footprint, mounting, interface, communication, utility, or integration requirements
-- Safety, standard, certification, testing, and documentation requirements
-- Customization, service, maintenance, spare parts, packaging, logistics, or support needs
-- Budget, timeline, or commercial constraints only when approved
+- Functional/process requirement
+- Capacity, output, accuracy, quality, control, or reliability target
+- Material, medium, environment, load, pressure, temperature, voltage, current, power, or duty
+- Size, footprint, interface, utility, communication, or integration constraint
+- Safety, standard, certification, testing, and documentation requirement
+- Maintenance, spare parts, service, packaging, logistics, or support need
+- Acceptance criteria and verification method
+- Time/budget constraints only when approved
 
 ### Requirement table
 
-| Requirement | Customer input/source | Acceptance criterion | Verification method | Status/notes |
+| Requirement/challenge | Customer input/source | Acceptance criterion | Verification method | Risk/dependency |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
-### Rules
-
-- Separate mandatory, preferred, optional, and later-added requirements.
-- Record units, standards, tolerances, and operating conditions.
-- Distinguish customer-provided values from supplier-calculated or assumed inputs.
-- Identify missing, conflicting, or changing requirements.
-- Do not replace original acceptance criteria with marketing language.
-
-## 3. Technical Challenges
-
-### Objective
-
-Explain why the project required technical judgment, customization, integration, validation, or risk control.
-
-### Challenge structure
+### Challenge logic
 
 `Constraint/problem → technical cause → project risk → decision required`
 
-### Common challenge areas
+### Proof requirements
 
-#### Machinery and industrial equipment
-
-- Material variability, process stability, capacity, accuracy, or cycle time
-- Upstream/downstream integration, controls, utilities, footprint, and commissioning
-- Safety, guarding, changeover, cleaning, maintenance, and spare parts
-
-#### Electrical equipment
-
-- System rating, fault level, protection, coordination, derating, and power quality
-- Enclosure, temperature, altitude, hazardous area, communication, and code requirements
-- Installation, testing, commissioning, and qualified-personnel boundaries
-
-#### Industrial components
-
-- Material, tolerance, load, speed, pressure, temperature, medium, or environment
-- Fit, interface, sealing, lubrication, wear, corrosion, fatigue, vibration, and compatibility
-- Custom drawing, manufacturability, inspection, traceability, and interchangeability
+- **Technical capability:** show understanding of variables, causes, and risk.
+- **Industry experience:** explain why the constraint matters in this industry/Application.
+- **Delivery capability:** identify stakeholder, site, schedule, document, or approval dependencies.
 
 ### Rules
 
-- State the evidence behind each challenge.
-- Explain business or operational consequences without unsupported loss figures.
-- Distinguish confirmed causes from hypotheses.
-- Avoid revealing confidential design weaknesses or customer-sensitive information.
-- Do not exaggerate the challenge to make the supplier appear more capable.
+- Separate mandatory, preferred, optional, and changed requirements.
+- Record units, standards, tolerances, operating conditions, and source.
+- Distinguish customer-provided values, supplier calculations, and assumptions.
+- Separate confirmed causes from hypotheses.
+- Do not exaggerate the challenge or invent cost/loss figures.
 
-## 4. Solution
+## Solution
 
-### Objective
+### Purpose
 
-Explain the technical approach and how it addressed each customer requirement and challenge.
+Explain the technical approach, selection rationale, Product/service roles, and validation plan used to address the Customer Challenge.
 
-### Required structure
+### Required content
 
 1. Solution concept
 2. Engineering/selection rationale
 3. Main functions and workflow
-4. Product and service roles
-5. Integration and interfaces
-6. Safety, quality, testing, and documentation
-7. Assumptions, limitations, and approved changes
+4. Product, component, software, and service roles
+5. Interfaces and integration
+6. Safety, quality, standards, and documentation
+7. Validation/test/approval plan
+8. Assumptions, exclusions, limitations, and approved changes
 
-### Requirement-to-solution matrix
+### Requirement-to-Solution matrix
 
 | Requirement/challenge | Technical response | Product/process | Evidence/validation | Limitation/dependency |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
+### Proof requirements
+
+- **Technical capability:** show decision logic, architecture, interfaces, and validation.
+- **Industry experience:** explain Product/material/standard choices for actual operating conditions.
+- **Delivery capability:** define scope, responsibility, approval gates, and changes.
+
 ### Rules
 
-- Explain why the approach was selected, not only what was delivered.
-- Use approved drawings, architecture, process flow, or engineering sources.
-- Describe alternatives or trade-offs only when verified and useful.
-- Distinguish standard product capability from project-specific engineering.
-- State exclusions, customer responsibilities, and site-specific dependencies.
-- Do not claim guaranteed compliance, safety, efficiency, lifespan, or ROI.
+- Explain why the approach was selected, not only what was supplied.
+- Use approved drawings, diagrams, process flows, and engineering sources.
+- Distinguish standard Product capability from project-specific engineering.
+- State alternatives/trade-offs only when verified and useful.
+- Do not disclose trade secrets or imply final engineering approval outside the documented scope.
+- Do not guarantee compliance, safety, performance, savings, service life, or ROI.
 
-## 5. Product Configuration
+## Equipment Configuration
 
-### Objective
+### Purpose
 
-Document the actual products, models, options, materials, accessories, controls, software, and services supplied for the case.
+Document the actual equipment, Products, models, options, materials, accessories, controls, software, services, and documentation used in the project.
 
 ### Configuration table
 
-| Product/component | Model/version | Quantity | Key configuration | Function in project | Source document/revision |
+| Equipment/Product | Model/version | Quantity | Key configuration | Function in project | Source document/revision |
 |---|---|---:|---|---|---|
 |  |  |  |  |  |  |
 
-### Required information where applicable
+### Required content
 
-- Product/model and parent category
-- Capacity, rating, dimensions, materials, standards, and options
-- Control, communication, protection, interface, and accessories
-- Custom parts, drawings, tooling, software, and documentation
-- Manufactured, integrated, partner-supplied, and customer-supplied components
+- Exact Product/equipment/model identity
+- Capacity, rating, dimensions, material, standard, and option
+- Control, communication, protection, interface, accessory, and software scope
+- Custom parts, drawings, tooling, and documentation
+- Manufactured, integrated, partner-supplied, third-party, and customer-supplied items
+- Links to canonical Product or Category pages
+
+### Proof requirements
+
+- **Technical capability:** configuration matches requirements and interfaces.
+- **Industry experience:** Product/material/options reflect Application conditions.
+- **Delivery capability:** approved BOM/configuration, document revision, and supply role are traceable.
 
 ### Rules
 
-- Use exact approved product and model names.
-- Match configuration data to the correct document revision.
+- Use exact approved Product/model names and source revisions.
 - Distinguish standard, optional, and custom elements.
-- Do not imply that every product page visitor will receive the same configuration.
-- Link products to canonical Product Detail or Category pages.
-- Do not expose confidential drawings, software, pricing, or customer-specific identifiers.
+- Do not imply every visitor will receive the same configuration.
+- Do not expose confidential drawings, software, pricing, or identifiers.
+- Link only to Products actually used or directly relevant.
 
-## 6. Implementation Process
+## Implementation
 
-### Objective
+### Purpose
 
-Show how requirements became a validated, delivered, and supported solution.
+Show how requirements were converted into an approved, manufactured, tested, delivered, and supported Solution.
 
 ### Recommended stages
 
 1. Requirement discovery and data collection
 2. Feasibility and risk review
-3. Product selection/design/configuration
+3. Product selection, design, or configuration
 4. Customer review and approval
 5. Prototype, sample, simulation, or trial where applicable
 6. Manufacturing, assembly, or integration
 7. Inspection and factory testing
-8. Packaging and delivery
+8. Packaging and logistics
 9. Site installation and commissioning where included
 10. Acceptance, training, documentation, and support
 
 ### Implementation table
 
-| Stage | Supplier action | Customer input/action | Evidence/output | Approval gate |
-|---|---|---|---|---|
-|  |  |  |  |  |
+| Stage | Supplier action | Customer/third-party action | Evidence/output | Approval gate | Issue/response |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+### Proof requirements
+
+- **Technical capability:** show design, manufacturing, test, and commissioning controls.
+- **Industry experience:** show coordination with actual process/site constraints.
+- **Delivery capability:** show responsibilities, milestones, approvals, documentation, and issue handling.
 
 ### Rules
 
 - Include only stages that occurred.
-- Identify customer, supplier, integrator, contractor, and third-party responsibilities.
-- State change-control, review, and approval points.
-- Use accurate dates/durations only when approved.
-- Do not imply installation, commissioning, or training was provided if outside scope.
-- Protect confidential process, logistics, and site information.
+- Identify supplier, customer, integrator, contractor, and third-party responsibilities.
+- State change-control and approval points.
+- Use dates and durations only when approved.
+- Do not imply installation, commissioning, training, or support was delivered when outside scope.
+- Protect confidential process, logistics, site, and stakeholder data.
 
-## 7. Project Results
+## Result
 
-### Objective
+### Purpose
 
-Report what was verified after implementation and how the result relates to the original requirements.
+Report what was verified and how the result relates to the original requirements and acceptance criteria.
 
 ### Result categories
 
 - Technical performance
-- Output, capacity, accuracy, quality, or process stability
-- Reliability, downtime, maintenance, or lifecycle observation
+- Capacity, output, cycle, accuracy, quality, or process stability
+- Reliability, downtime, maintenance, or field observation
 - Safety, protection, control, or compliance verification
 - Integration and commissioning status
-- Waste, energy, labor, material, or cost impact when measured and approved
-- Delivery, documentation, training, or support outcome
+- Waste, energy, labor, material, or cost impact when measured/approved
+- Delivery, documentation, training, acceptance, or support outcome
 - Customer acceptance or repeat business when approved
 
 ### Results table
@@ -257,38 +291,43 @@ Report what was verified after implementation and how the result relates to the 
 ### Evidence classification
 
 - **Measured:** recorded using an identified method and period
-- **Customer-reported:** supplied by the customer and labeled accordingly
+- **Customer-reported:** supplied by the customer and labeled
 - **Supplier-observed:** observed by the supplier without independent measurement
-- **Pending:** not yet validated; must not be presented as a result
+- **Pending:** not validated and must not be presented as a result
+
+### Proof requirements
+
+- **Technical capability:** result matches defined criteria and method.
+- **Industry experience:** result is interpreted within actual operating conditions.
+- **Delivery capability:** acceptance, documentation, training, support, and handover status are clear.
 
 ### Rules
 
 - Quantitative results require baseline, value, unit, method, period, and conditions.
 - Compare equivalent operating conditions.
 - Distinguish project acceptance from long-term field performance.
-- State sample size and configuration where material.
-- Explain limitations and project-specific variables.
-- Do not generalize one project result to all products, sites, materials, or customers.
+- State configuration, sample size, and limitations where material.
+- Do not generalize one result to other Products, sites, materials, or customers.
 - Do not calculate percentages from incomplete or incomparable data.
 
-## 8. Images and Video
+## Images/Videos
 
-### Objective
+### Purpose
 
-Use approved media as evidence of context, configuration, implementation, testing, and results—not as decoration or false proof.
+Use authentic approved media to demonstrate technical work, industry context, and delivery execution.
 
 ### Suitable media
 
-- Site or application context
-- Original equipment/system condition where approved
-- Product configuration and components
-- Manufacturing and assembly stages
+- Site/Application context
+- Original condition where approved
+- Equipment/Product configuration
+- Engineering, manufacturing, assembly, and integration
 - Inspection and testing
-- Packaging, installation, commissioning, or operation
-- Before/after views under comparable conditions
-- Diagrams, drawings, charts, and process animations
+- Packaging, logistics, installation, commissioning, and training
+- Before/after views under equivalent conditions
+- Approved diagrams, drawings, charts, and animations
 
-### Required media metadata
+### Required metadata
 
 - Source and owner
 - Publication permission
@@ -296,47 +335,71 @@ Use approved media as evidence of context, configuration, implementation, testin
 - Accurate caption
 - Confidentiality/redaction status
 - Product/configuration represented
-- Alternative text
+- Alternative text/captions where needed
+
+### Proof requirements
+
+- **Technical capability:** show real engineering, Product, process, test, or integration evidence.
+- **Industry experience:** show authentic Application environment without exposing sensitive information.
+- **Delivery capability:** show actual manufacturing, packaging, installation, commissioning, or handover stages.
 
 ### Rules
 
-- Never present stock imagery, renders, or another project as actual case evidence.
+- Never present stock media, another project, or an AI-generated image as actual Case evidence.
+- Label simulations, renderings, illustrations, and representative media.
 - Obtain approval for people, customer facilities, logos, screens, documents, drawings, and license plates.
-- Remove or redact confidential and personal information.
-- Label simulations, illustrations, renderings, and representative images.
-- Do not digitally alter media in a way that misrepresents the result.
-- Optimize images/video, reserve dimensions, provide controls/captions where needed, and maintain mobile performance.
-- Video claims must follow the same evidence standard as written claims.
+- Redact confidential and personal information.
+- Do not alter media in a way that misrepresents Product, process, site, or result.
+- Optimize media and maintain mobile performance/accessibility.
+- Video claims follow the same evidence rules as written claims.
 
-## 9. Customer Testimonial
+## Customer Feedback
 
-### Objective
+### Purpose
 
-Provide an authentic customer perspective on the requirement, collaboration, delivery, product, or outcome.
+Provide an authentic customer perspective on technical fit, industry relevance, collaboration, delivery, and support.
 
-### Required testimonial fields
+### Required content
 
-- Exact approved quotation
+- Exact approved quotation or approved feedback summary
 - Speaker name, title, and company only when authorized
-- Approval date/source
-- Context explaining what the quotation refers to
-- Any anonymity or editing disclosure required
+- Source and approval date
+- Context explaining what the feedback refers to
+- Anonymity, translation, or editing disclosure where needed
+
+### Proof requirements
+
+- **Technical capability:** feedback refers to verified Product/Solution behavior or technical support.
+- **Industry experience:** feedback reflects relevant process/Application understanding.
+- **Delivery capability:** feedback may cover communication, schedule, documentation, commissioning, or support if approved.
 
 ### Rules
 
-- Obtain explicit permission for quotation, attribution, name, title, company, photo, and logo.
-- Preserve meaning; do not fabricate, combine, or materially rewrite quotations.
-- Correct only approved grammar/punctuation changes and retain source evidence.
-- Do not translate a quotation without review and approval.
-- Do not use an employee or supplier quote as a customer testimonial.
-- Avoid unverifiable superlatives and guaranteed future results.
-- If no approved testimonial exists, omit the module rather than create one.
+- Obtain explicit permission for quote, attribution, name, title, company, photo, and logo.
+- Preserve meaning; do not fabricate, combine, or materially rewrite comments.
+- Approve grammar/punctuation edits and translations.
+- Do not use employee, agent, or supplier comments as customer feedback.
+- Avoid unverifiable superlatives and future guarantees.
+- If approved feedback does not exist, omit the module.
 
-## 10. CTA
+## CTA
 
-### Primary buyer path
+### Purpose
 
-`Project Background → Requirements → Challenges → Solution → Configuration → Implementation → Results/Proof → Discuss Similar Project`
+Connect verified Case evidence to a buyer’s own project without implying identical results.
+
+### Buyer path
+
+```text
+Project Background
+  → Customer Challenge
+  → Solution
+  → Equipment Configuration
+  → Implementation
+  → Result and Media
+  → Customer Feedback
+  → Discuss a Similar Project
+```
 
 ### Primary CTA options
 
@@ -348,90 +411,130 @@ Provide an authentic customer perspective on the requirement, collaboration, del
 ### Secondary CTA options
 
 - View the Related Solution
-- Review Products Used
+- Review Equipment Used
 - Download Technical Information
 - Explore Similar Cases
 
 ### Inquiry fields
 
-Capture only useful project information:
-
-- Industry, application, process, and project stage
+- Industry, Application, process, and project stage
 - Current challenge and target requirement
-- Material/product/medium/system and operating conditions
-- Capacity, ratings, dimensions, standards, interfaces, or utilities
-- Quantity, destination, expected schedule, and support need
+- Material/Product/medium/system and operating conditions
+- Capacity, ratings, dimensions, standards, interfaces, and utilities
+- Quantity, destination, expected schedule, and support needs
 - Drawing, specification, photo, or project-file upload
 - Company and contact information
 
-### CTA rules
+### Rules
 
-- Connect the case context to the buyer’s own project without promising identical results.
-- Place CTA after the summary, results, and final takeaway.
-- Preserve Case, Solution, Product, campaign, and source context in forms and CRM.
+- Explain what inputs are needed for a comparable project review.
+- Preserve Case, Solution, Product, Application, campaign, and source context through form/CRM.
 - Use secure uploads and accessible validation, error, consent, and confirmation states.
-- Do not promise instant pricing, feasibility, compliance, or final engineering approval.
-- Track product/solution links, media, downloads, CTA clicks, form starts, errors, submissions, calls, and emails.
+- Do not promise the same result, instant price, feasibility, compliance, or final engineering approval.
+- Track Product/Solution links, media, downloads, CTA, form, upload, call, and email actions.
 
-## Case Study Validation Checklist
+# Case Study SEO and Internal Linking Rules
 
-### Approval and confidentiality
+## Search intent and metadata
 
+- Target a specific project/Application/industry evidence intent—not broad Product Category intent.
+- Title and H1 should identify the Product/Solution plus Application or industry Case context.
+- Meta Description should summarize challenge, verified approach/evidence, and similar-project next step.
+- Do not expose confidential customer or result information in metadata.
+- Use Article/Case-relevant structured data only when it matches visible approved content; do not fabricate author, date, customer, review, or rating data.
+
+## Required incoming links
+
+- Related Solution and Application pages
+- Products/equipment used
+- Case hub or selected Homepage module
+- Relevant Knowledge content where the Case supports a technical point
+
+## Required outgoing links
+
+- Actual Products/equipment used
+- Related Solution and Application
+- Approved technical resources/evidence
+- Similar Case only when context is relevant
+- Similar-project CTA
+
+## Link rules
+
+- Use accurate Product/model and Solution/Application anchor text.
+- Do not link unrelated Products for promotion.
+- Do not use result anchors that imply guaranteed outcomes.
+- Link directly to canonical HTTPS URLs.
+- Avoid broken, redirected, blocked, noindex, staging, and unintended parameter destinations.
+
+# Codex Checklist
+
+## Approval and source control
+
+- [ ] Internal project owner and source record are identified
 - [ ] Customer identity, logo, quote, images, video, data, and project details have documented approval
 - [ ] Confidential, personal, commercial, and technical information is protected
-- [ ] Anonymous or generalized content is labeled accurately
+- [ ] Anonymous/generalized content is labeled accurately
 - [ ] Every material fact traces to an approved source
 
-### Background, requirements, and challenges
+## Three proof objectives
 
-- [ ] Industry, application, region, project stage, and supplier role are clear
-- [ ] Requirements include units, conditions, standards, and acceptance criteria
+- [ ] Technical Capability is demonstrated through requirements, engineering, configuration, testing, or validation
+- [ ] Industry Experience is demonstrated through real process, Application, environment, and requirement detail
+- [ ] Delivery Capability is demonstrated through responsibilities, stages, approvals, documentation, and support
+- [ ] Proof is specific and not based on generic claims
+
+## Project Background and Customer Challenge
+
+- [ ] Industry, Application, region, project stage, objective, and supplier role are clear
+- [ ] Requirements include units, conditions, standards, acceptance criteria, and sources
 - [ ] Mandatory, optional, assumed, and changed requirements are distinguished
-- [ ] Challenges state evidence, cause, risk, and decision needed
+- [ ] Challenge explains constraint, cause, risk, and decision needed
 - [ ] Confirmed causes and hypotheses are separated
 
-### Solution and configuration
+## Solution and Equipment Configuration
 
-- [ ] Solution maps directly to requirements and challenges
+- [ ] Solution maps directly to Customer Challenges and requirements
 - [ ] Selection rationale, interfaces, trade-offs, dependencies, and exclusions are explained
-- [ ] Product/model, quantity, configuration, options, and revisions are accurate
-- [ ] Manufactured, integrated, partner, and customer-supplied components are distinguished
-- [ ] Product and Solution links resolve directly to canonical URLs
+- [ ] Equipment/Product model, quantity, configuration, options, and revision are accurate
+- [ ] Manufactured, integrated, partner, third-party, and customer-supplied elements are distinguished
+- [ ] Product and Solution links match the actual Case
 
-### Implementation and results
+## Implementation and Result
 
-- [ ] Implementation stages reflect actual project scope
-- [ ] Buyer, supplier, contractor, and third-party responsibilities are accurate
-- [ ] Evidence and approval gates are documented
+- [ ] Implementation stages reflect the actual project scope
+- [ ] Supplier, customer, contractor, and third-party responsibilities are accurate
+- [ ] Evidence, issue response, change control, and approval gates are documented
 - [ ] Results include baseline, unit, method, period, conditions, and limitations
-- [ ] Measured, customer-reported, supplier-observed, and pending results are labeled correctly
-- [ ] No result is generalized or guaranteed beyond the case scope
+- [ ] Measured, customer-reported, supplier-observed, and pending results are labeled
+- [ ] No result is generalized or guaranteed beyond the Case scope
 
-### Media and testimonial
+## Media and Customer Feedback
 
-- [ ] Images/video are authentic, approved, accurately captioned, and accessible
-- [ ] Stock, rendering, simulation, and representative media are labeled
+- [ ] Images/videos are authentic, approved, captioned, optimized, and accessible
+- [ ] Stock, rendering, simulation, representative, and AI-generated media are not presented as actual Case evidence
 - [ ] Confidential/personal information is redacted
-- [ ] Testimonial is exact, authorized, contextualized, and traceable
+- [ ] Customer Feedback is exact or approved, contextualized, and traceable
 - [ ] No testimonial is fabricated or materially rewritten
 
-### CTA and technical integrity
+## CTA, SEO, and technical integrity
 
-- [ ] CTA invites project-specific discussion without promising the same outcome
+- [ ] CTA invites project-specific review without promising the same outcome
 - [ ] Inquiry fields capture useful technical/project inputs
-- [ ] Case/Solution/Product/source context persists through conversion
-- [ ] Title, H1, summary, canonical, breadcrumb, internal links, and visible case agree
-- [ ] Mobile/desktop layout, media, links, downloads, forms, consent, tracking, and performance are validated
+- [ ] Case/Solution/Product/Application/source context persists through conversion
+- [ ] Title, H1, summary, canonical, breadcrumb, internal links, and visible Case agree
+- [ ] Incoming/outgoing Product, Solution, Application, Knowledge, resource, and CTA links are logical
+- [ ] Mobile/desktop layout, media, links, downloads, forms, consent, tracking, accessibility, and performance are validated
 
-### Required Codex output
+## Required Codex output
 
 For every Case Study analysis or production task, provide:
 
-1. Case scope, audience, project status, and publication objective
+1. Case scope, audience, project status, supplier role, and publication objective
 2. Source/approval register and confidentiality limitations
-3. Requirement, challenge, solution, configuration, process, and result tables
-4. Missing facts, conflicting data, and required technical/customer approvals
-5. Product, Solution, Application, resource, and related-case link map
-6. Critical, High, Medium, and Low issues
-7. CTA, inquiry, and tracking requirements
-8. Validation plan for facts, permissions, desktop/mobile rendering, media, links, forms, metadata, schema, accessibility, and performance
+3. Technical Capability, Industry Experience, and Delivery Capability proof matrix
+4. Requirement, Solution, configuration, implementation, and result tables
+5. Missing facts, conflicts, and required technical/customer approvals
+6. Product, Solution, Application, resource, and related-Case link map
+7. Critical, High, Medium, and Low issues
+8. CTA, inquiry, form-context, and tracking requirements
+9. Validation plan for facts, permissions, desktop/mobile rendering, media, links, forms, metadata, schema, accessibility, and performance

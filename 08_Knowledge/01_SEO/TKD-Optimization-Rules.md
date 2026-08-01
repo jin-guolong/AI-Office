@@ -1,91 +1,110 @@
 # TKD Optimization Rules for Industrial B2B Websites
 
-> Internal execution rules for Codex. Apply to overseas English-language websites for machinery, electrical equipment, industrial equipment, and related components.
+> Codex internal execution rules for planning and auditing Title, Meta Description, and H1 on overseas English-language websites operated by industrial manufacturers.
 
-## Operating Definition
+## Scope and Definitions
 
-In this document:
+This file applies to industrial machinery, electrical equipment, industrial equipment, and industrial component websites.
 
-- **Title** means the HTML `<title>` element and the preferred search-result title signal.
-- **Description** means `<meta name="description">`, written as an accurate preview of the page.
-- **Keywords** means intent-led topic targeting, terminology, entities, attributes, and query variants used naturally across the page.
+- **Title**: the HTML `<title>` element and the website’s preferred title signal for search results.
+- **Meta Description**: `<meta name="description">`, written as an accurate preview of the page.
+- **H1**: the primary visible heading identifying the page subject.
+- **Keyword**: an intent-led topic, entity, attribute, application, standard, model, and natural query variant—not a density target.
 
 Google does not use the `meta keywords` tag for web ranking. Codex must not create or populate it as a Google SEO tactic.
 
-Google may generate title links and snippets from several page signals. The supplied Title and Description are preferences, not guaranteed search-result text.
+Google may generate title links and snippets from several page signals. Title and Meta Description are preferences, not guaranteed search-result text.
 
-## Required Inputs Before TKD Work
+## Required Inputs Before Planning
 
 Codex must confirm:
 
-- Canonical URL and page type
-- Target country, language variant, buyer role, and buyer stage
-- Primary search intent and preferred page for that intent
-- Product family, product/model, solution, application, industry, or article topic
-- Approved product data, standards, claims, and differentiators
-- Current Title, H1, Description, body opening, breadcrumbs, internal anchors, and schema
-- GSC query/page data and target-market SERP pattern when available
-- Other internal URLs with overlapping topics
+- Canonical URL, page type, and intended index state
+- Target country, English variant, buyer role, and buyer stage
+- Primary intent and preferred page for that intent
+- Approved product, model, application, solution, standard, and industry terminology
+- Verified specifications, differentiators, claims, and CTA
+- Current Title, Description, H1, opening copy, breadcrumbs, internal anchors, and schema
+- GSC query/page data and target-market SERP patterns when available
+- Other internal URLs with overlapping intent or terminology
 
-Do not finalize TKD when the page does not satisfy the intended buyer need. Recommend page-content or page-type correction first.
+Do not approve TKD when the visible page cannot fulfill its promise. Recommend content or page-role correction first.
 
-## 1. Homepage Title Rules
+# Title Rules
 
-### Objective
+## General Title Standard
 
-The homepage Title must identify the company/brand and its core industrial offer. It should support brand, company, manufacturer, and broad capability discovery without trying to target every product and industry.
+- Use one unique, descriptive Title for each priority canonical page.
+- Communicate the page-specific entity and buyer intent early and naturally.
+- Keep Title consistent with H1, visible content, canonical URL, breadcrumbs, internal anchors, and schema.
+- Use the approved brand once, normally at the end, when it adds recognition.
+- Use target-market terminology, spelling, units, and standards accurately.
+- Avoid keyword lists, repetition, boilerplate, clickbait, fake freshness, and unsupported claims.
+- Review likely desktop/mobile display, but do not treat a fixed character count as a Google rule.
+- A Title must remain understandable if the brand suffix is truncated.
 
-### Required elements
+## Homepage
 
-- Approved brand or company name
-- Core product family or manufacturing capability
-- Optional primary market/application qualifier only when central to the business
+### Page objective
 
-### Recommended patterns
+Identify the company/brand and its core industrial offer, then support company, manufacturer, and broad capability discovery.
 
-`[Brand] | [Core Product Family] Manufacturer`
+The Homepage must not target every product, industry, application, and location.
 
-`[Brand] | [Industrial Equipment and Verified Core Capability]`
+### Keyword selection
 
-`[Core Machinery/Equipment] Manufacturer | [Brand]`
+Choose:
 
-### Industry examples
+- One company-level core product or equipment field
+- Accurate business role: manufacturer, integrator, distributor, or supplier
+- Optional primary capability/application only when central to the company
+- Brand/company name
+
+Do not assign narrow product models or multiple category terms to the Homepage.
+
+### Title structure
+
+`[Brand] | [Core Product/Equipment] Manufacturer`
+
+`[Core Industrial Equipment] Manufacturer | [Brand]`
+
+`[Brand] | [Core Product Field and Verified Capability]`
+
+Structural examples:
 
 - `Industrial Packaging Machinery Manufacturer | Example Brand`
 - `Low-Voltage Electrical Equipment Manufacturer | Example Brand`
 - `Custom Power Transmission Components | Example Brand`
 
-These are structural examples only. Codex must replace every claim with verified company facts.
+Examples are not approved claims and must be replaced with verified facts.
 
-### Rules
+### Common errors
 
-- Use the company’s actual business role: manufacturer, supplier, integrator, distributor, or service provider.
-- Focus on one core commercial scope.
-- Keep the brand presentation consistent with visible homepage content and `WebSite`/`Organization` data.
-- Do not append a long list of products, markets, countries, or “best supplier” phrases.
-- Do not target a narrow product model on the homepage when a product page should serve it.
+- Listing every product family in the Title
+- Repeating manufacturer, supplier, factory, company, and exporter
+- Claiming “leading,” “best,” “No. 1,” or global coverage without evidence
+- Using a generic slogan with no product identity
+- Targeting one product model on the Homepage
+- Company role in Title contradicts visible company information
 
-### Homepage Title pass criteria
+## Category Page
 
-- [ ] Company identity and core offer are understandable without visiting the page
-- [ ] Business role is accurate
-- [ ] Title matches homepage H1 and visible positioning
-- [ ] Brand appears once and consistently
-- [ ] No keyword list or unsupported leadership claim
+### Page objective
 
-## 2. Product Category Title Rules
+Represent a product family and help buyers compare types, parameters, applications, or configurations.
 
-### Objective
+### Keyword selection
 
-A category Title must represent a complete product family and its main selection context. It should attract buyers comparing types or searching for a product class, not a specific model.
-
-### Required elements
+Choose:
 
 - Exact product category name
-- Useful differentiator such as application, technology, material, rating range, or manufacturing role
-- Brand when useful
+- Product-family commercial intent
+- One meaningful range-level qualifier: application, technology, material, rating class, or manufacturing role
+- Natural synonyms as secondary page terminology, not as a Title list
 
-### Recommended patterns
+Avoid product-model keywords that belong to Product pages.
+
+### Title structure
 
 `[Product Category] for [Primary Application] | [Brand]`
 
@@ -93,204 +112,276 @@ A category Title must represent a complete product family and its main selection
 
 `[Product Category] Manufacturer | [Brand]`
 
-### Industry examples
+Structural examples:
 
 - `CNC Tube Bending Machines for Industrial Production | Example Brand`
 - `Molded Case Circuit Breakers for Power Distribution | Example Brand`
-- `Industrial Gearboxes – Helical and Bevel Options | Example Brand`
+- `Stainless Steel Industrial Couplings | Example Brand`
 
-### Rules
+### Common errors
 
-- Use the same category terminology in navigation, H1, breadcrumbs, product taxonomy, and internal anchors.
-- Distinguish the category from its parent, subcategories, and product pages.
-- Use “manufacturer” only when the company manufactures the category.
-- Do not make product-specific specifications appear category-wide.
-- Do not create separate categories for singular/plural, word order, or close synonyms with the same intent.
+- Category and Product pages use identical Titles
+- Category Title lists every subtype or parameter
+- One product’s specification is presented as category-wide
+- Close synonyms are split into duplicate categories
+- “Manufacturer” is used when the company is a distributor
+- Category Title targets a Solution or Application intent not covered on the page
 
-### Category Title pass criteria
+## Product Page
 
-- [ ] Product-family intent is clear
-- [ ] Title is distinct from parent and child pages
-- [ ] Differentiator is visible and verified on the page
-- [ ] Category terminology matches the site taxonomy
-- [ ] Title does not compete with a specific product/model page
+### Page objective
 
-## 3. Product Detail Title Rules
+Identify an exact product/model and support technical validation, selection, document access, and RFQ.
 
-### Objective
+### Keyword selection
 
-A product-detail Title must identify the exact product or model and the most useful verified distinguishing attribute, application, or configuration context.
+Choose:
 
-### Required elements
-
-- Product/model name
+- Exact approved product/model name
 - Product type when the model is not self-explanatory
-- One useful verified attribute/application
-- Brand when appropriate
+- One verified distinguishing attribute, rating, material, configuration, or application
+- Decision modifiers only when the page supports them: datasheet, custom, supplier, quote, standard
 
-### Recommended patterns
+Preserve model punctuation, unit notation, and standard names accurately.
+
+### Title structure
 
 `[Model] [Product Type] – [Verified Attribute/Application] | [Brand]`
 
 `[Product Name] for [Application/Operating Need] | [Brand]`
 
-`[Product Type], [Rating/Material/Configuration] – [Model] | [Brand]`
+`[Product Type], [Verified Rating/Material] – [Model] | [Brand]`
 
-### Industry examples
+Structural examples:
 
 - `TB-80 Automatic Tube Bender for Production Lines | Example Brand`
-- `MCCB 250 A Circuit Breaker for Distribution Panels | Example Brand`
+- `250 A Molded Case Circuit Breaker – Model X | Example Brand`
 - `Stainless Steel Flexible Coupling for Pump Drives | Example Brand`
 
-Values in examples are placeholders. Codex must never infer ratings, materials, applications, or model properties.
+All example values are placeholders and require validation.
 
-### Rules
+### Common errors
 
-- Use the approved model code exactly.
-- Match specifications, units, and application claims to the correct model revision.
-- Separate standard, optional, and custom attributes.
-- Do not reuse the category Title on every product.
-- Do not create Title variants for duplicate parameter or filter URLs.
-- If several variants share one page, Title must represent the visible selection scope accurately.
+- Model code with no product type
+- Category Title copied to every Product page
+- Wrong model specification, material, rating, standard, or application
+- Price, stock, compatibility, certification, or performance claim not visible and verified
+- Separate indexable Titles for trivial parameter/URL variants
+- Variant page Title does not match the selected or visible configuration
 
-### Product Title pass criteria
+## Solution Page
 
-- [ ] Exact product/model and product type are identifiable
-- [ ] Differentiating attribute is verified and visible
-- [ ] Title is unique across indexable products
-- [ ] Title agrees with canonical, H1, schema, and product data
-- [ ] No unsupported price, stock, certification, compatibility, or performance claim
+### Page objective
 
-## 4. Solution Page Title Rules
+Address a defined industrial problem, process, system, or integrated project requirement and lead buyers to a technical consultation.
 
-### Objective
+### Keyword selection
 
-A Solution Title must target a defined industrial problem, process, application, system, or industry requirement. It must not simply restate a product category.
+Choose:
 
-### Required elements
+- Problem, process, system, or solution concept
+- Relevant industry or operating context
+- Technical outcome only when evidence and conditions are available
+- Products as supporting entities, not the sole primary keyword
 
-- Solution, application, or problem
-- Target industry/process/system when needed
-- Brand when useful
+Do not assign a generic Product Category keyword as the primary Solution term.
 
-### Recommended patterns
+### Title structure
 
 `[Solution] for [Industry/Process] | [Brand]`
 
-`[Industrial Problem] Solution Using [Product/System] | [Brand]`
+`[Industrial Problem] Solution Using [System/Product Type] | [Brand]`
 
-`[Application] [Equipment/System] Solution | [Brand]`
+`[Application] Equipment/System Solution | [Brand]`
 
-### Industry examples
+Structural examples:
 
 - `Automated End-of-Line Packaging Solution | Example Brand`
-- `Electrical Protection Solution for Industrial Control Panels | Example Brand`
-- `Corrosion-Resistant Drive Solution for Washdown Systems | Example Brand`
+- `Electrical Protection Solution for Chemical Plants | Example Brand`
+- `Energy Monitoring Solution for Manufacturing Facilities | Example Brand`
 
-### Rules
+### Common errors
 
-- Title must reflect the page’s challenge, requirements, approach, products, and evidence.
-- Use the target industry only when the page contains industry-specific requirements and value.
-- Avoid creating many industry pages by changing only the industry name.
-- Do not use a Solution Title to target the same primary intent as a category page.
-- Do not promise guaranteed savings, safety, efficiency, compliance, or outcomes.
+- Renaming a product list as a Solution
+- Changing only the industry name across many pages
+- Targeting the same primary intent as a Category page
+- Promise of guaranteed efficiency, safety, savings, compliance, or ROI
+- Industry modifier used without industry-specific requirements and proof
+- Title promises an integrated system but page contains one product only
 
-### Solution Title pass criteria
+## Application Page
 
-- [ ] Problem/application intent is specific
-- [ ] Page provides a genuine solution approach, not a product list
-- [ ] Industry or process qualifier is supported by dedicated content
-- [ ] Title is distinct from category and product Titles
-- [ ] Outcome language is evidence-based and appropriately qualified
+### Page objective
 
-## 5. Blog Title Rules
+Explain where and under what conditions a product family or product is used, and help buyers evaluate suitability.
 
-### Objective
+### Keyword selection
 
-A Blog Title must identify a real buyer question, decision, comparison, implementation task, maintenance need, or sourcing requirement. It must accurately represent the article and connect to the website’s industrial expertise.
+Choose:
 
-### Valid patterns
+- Product/equipment plus industry, process, machine, material, medium, environment, or operating condition
+- Application-specific requirements and terminology
+- Verified product fit and relevant limitations
+
+Use a Solution page instead when the buyer expects a multi-product technical approach or system architecture.
+
+### Title structure
+
+`[Product/Equipment] for [Application/Industry] | [Brand]`
+
+`[Application] Equipment and Product Selection | [Brand]`
+
+`[Product Type] for [Operating Environment/Medium] | [Brand]`
+
+Structural examples:
+
+- `Conveyor Systems for Food Packaging Lines | Example Brand`
+- `Circuit Protection for Industrial Control Panels | Example Brand`
+- `Corrosion-Resistant Couplings for Washdown Equipment | Example Brand`
+
+### Common errors
+
+- Application page repeats Product or Category content without operating context
+- Product-to-application fit is assumed rather than verified
+- Industry pages differ only by industry name
+- Title claims hazardous-area, food-grade, washdown, chemical, or high-temperature suitability without evidence
+- Solution intent is forced onto a basic Application page
+- Application Title is too broad for the products and information provided
+
+## Blog
+
+### Page objective
+
+Answer a defined industrial buyer question or task related to education, comparison, selection, specification, installation, maintenance, troubleshooting, or sourcing.
+
+### Keyword selection
+
+Choose:
+
+- One primary buyer question and stage
+- Product, technology, application, standard, failure, maintenance, or sourcing topic
+- Natural technical variants and related entities
+- A commercial connection to the appropriate Category, Product, Solution, or Application page
+
+Do not select a topic only because it has search volume.
+
+### Title structure
 
 `How to Select [Equipment/Component] for [Application]`
 
 `[Type A] vs. [Type B]: [Decision Criteria]`
 
-`[Number only when real] Factors to Check Before Specifying [Product]`
-
 `Why [Failure/Issue] Occurs in [Equipment/System]`
 
-`[Standard/Rating] Requirements for [Equipment/Application]`
+`[Standard/Rating] Requirements for [Product/Application]`
 
-### Industry examples
+Structural examples:
 
 - `How to Select a Conveyor for Heavy Industrial Loads`
 - `MCCB vs. MCB: Selection Criteria for Industrial Panels`
 - `Why Shaft Couplings Fail in High-Vibration Equipment`
 
-### Rules
+### Common errors
 
-- Answer one primary buyer task.
-- Use “how,” “why,” “vs.,” “guide,” or a number only when the article fulfills that format.
-- Avoid clickbait, artificial urgency, unsupported “ultimate,” “complete,” or “best” claims.
-- Do not insert the year unless freshness materially affects the topic and the content will be maintained.
-- Do not create separate articles for trivial query variations.
-- Safety-critical machinery or electrical Titles must not promise unsafe shortcuts.
+- Clickbait or exaggerated “ultimate,” “best,” “secret,” or “must know” language
+- Year inserted without a genuine freshness requirement or maintenance plan
+- Number in Title does not match the article
+- Separate articles created for trivial query variations
+- Blog targets the same primary commercial intent as Category or Product
+- Unsafe machinery/electrical instructions without qualified review
+- Title promises a complete answer but sources or technical depth are missing
 
-### Blog Title pass criteria
+# Meta Description Rules
 
-- [ ] Buyer question and article outcome are clear
-- [ ] Article has approved sources and enough content to fulfill the Title
-- [ ] Title is distinct from commercial and existing informational pages
-- [ ] No fake freshness, arbitrary number, or exaggerated promise
-- [ ] Topic connects to a real company product, solution, or expertise area
+## Purpose
 
-## 6. Keyword Cannibalization Prevention Rules
+Meta Description must summarize the specific page and provide a credible reason for the intended industrial buyer to visit. Google may use visible page content instead and may generate different snippets for different queries.
 
-### One-intent-one-page rule
+## Length recommendation
 
-Assign one preferred canonical URL to each primary intent. Closely related terms may map to one page when the buyer expects the same answer.
+Use length as an editorial control, not a Google rule:
 
-### Required keyword map
+- Practical starting range for English pages: approximately **140–160 characters including spaces**.
+- Shorter copy is acceptable when it communicates the page clearly.
+- Longer copy is acceptable when required for accurate page-specific detail, but likely truncation must be reviewed.
+- Check representative desktop and mobile previews.
+- Never shorten copy by removing essential qualifiers, units, or limitations.
 
-| Field | Required entry |
+Google does not publish a fixed Meta Description length limit for ranking or guaranteed display. Snippets are truncated as needed and may be generated from page content.
+
+## Information composition
+
+Recommended sequence:
+
+`What the page offers → verified technical/application value → useful next action`
+
+Include as appropriate:
+
+- Product/category/solution/application/article identity
+- One or two verified page-specific attributes
+- Target industry, application, process, or buyer task
+- Selection, specification, evidence, or support value
+- Stage-appropriate CTA
+
+### Page-type composition
+
+| Page type | Required emphasis |
 |---|---|
-| Primary topic | Intent-led concept, not forced exact-match phrase |
-| Secondary terms | Synonyms, specifications, applications, standards, and buyer terminology |
-| Buyer intent/stage | Product, solution, comparison, validation, implementation, or sourcing |
-| Page type | Homepage, category, product, solution, blog, FAQ, or resource |
-| Preferred URL | One canonical target |
-| Evidence | GSC, SERP, product taxonomy, sales/support questions |
+| Homepage | Company role, core product scope, primary capability, buyer route |
+| Category | Product range, selection dimensions, applications, compare/support path |
+| Product | Model/product, verified specification/material/application, document/RFQ path |
+| Solution | Industry problem, technical approach, relevant capability, consultation |
+| Application | Operating context, suitable product range, selection condition, detail path |
+| Blog | Question answered, criteria covered, decision value, relevant next step |
 
-### Cannibalization indicators
+## CTA design
 
-Flag two or more URLs when they have:
+Match CTA to buyer stage:
 
-- The same primary buyer intent
-- Similar Titles, H1s, introductions, and section structures
-- Overlapping GSC query sets and alternating landing pages
-- Competing internal anchor text
-- No meaningful difference in product, model, application, standard, market, or buyer task
+- Awareness: `Explore the product range`, `Review application options`
+- Consideration: `Compare available types`, `Review selection criteria`, `View the solution`
+- Decision: `Download the datasheet`, `Request selection support`, `Discuss your application`, `Request a quote`
 
-### Resolution workflow
+CTA rules:
 
-1. Confirm whether the intents are actually the same.
-2. Select the page with the best business role, content, links, conversions, and canonical suitability.
-3. Decide whether to differentiate, consolidate, redirect, canonicalize, or deindex based on evidence.
-4. Check backlinks, rankings, conversions, language/market purpose, and URL dependencies.
-5. Obtain approval before changing URLs, redirects, canonical targets, or indexation.
-6. Update internal links, sitemap, schema, metadata, and tracking consistently.
+- Use a real action available on the page.
+- Do not imply instant pricing, stock, delivery, compatibility, or engineering approval.
+- Avoid generic `Learn more` when a specific action is available.
+- Do not use false urgency.
 
-Do not solve cannibalization by changing Titles alone when the pages remain substantively duplicated.
+## Meta Description acceptance rules
 
-## 7. H1 and Title Relationship
+- Unique for every priority canonical page
+- Accurate and consistent with visible content
+- Natural professional English, not a keyword list
+- Includes useful verified detail
+- Does not merely repeat the Title
+- CTA matches page role and buyer stage
+- Contains no unsupported price, delivery, certification, performance, compliance, or leadership claim
+- Programmatic descriptions use accurate page-specific data and are tested across representative templates
 
-### Required relationship
+## Common Description errors
 
-- Title and H1 must represent the same primary entity and intent.
-- Title may include brand and concise SERP context.
-- H1 should identify the visible page subject naturally for buyers.
+**Generic sitewide copy:** `We provide high-quality products and the best service. Contact us today.`
+
+**Keyword list:** `CNC machine, CNC machinery, industrial machine, machine manufacturer, machine supplier.`
+
+**Unsupported promise:** `Get the lowest price and guaranteed delivery for the best circuit breakers.`
+
+**Page mismatch:** Description advertises custom stainless-steel options that are absent from the page.
+
+**Corrective rule:** use a unique factual summary with specific decision value and an appropriate next step.
+
+# H1 Rules
+
+## H1 and Title relationship
+
+- Title and H1 must represent the same primary entity and buyer intent.
+- Title may include brand, concise SERP context, and one qualifier.
+- H1 should identify the visible page subject naturally.
 - They may differ in wording but must not promise different content.
-- The page opening must immediately confirm both.
+- The opening paragraph must immediately confirm both.
+- Breadcrumbs, internal anchors, schema, canonical URL, and navigation must use consistent entity naming.
 
 ### Examples
 
@@ -299,223 +390,186 @@ Do not solve cannibalization by changing Titles alone when the pages remain subs
 | Category | `Industrial Air Compressors for Manufacturing | Brand` | `Industrial Air Compressors` |
 | Product | `AC-90 Rotary Screw Air Compressor – 90 kW | Brand` | `AC-90 Rotary Screw Air Compressor` |
 | Solution | `Compressed Air Solution for Food Processing | Brand` | `Compressed Air Systems for Food Processing Plants` |
+| Application | `Air Compressors for CNC Manufacturing | Brand` | `Compressed Air for CNC Manufacturing` |
 | Blog | `How to Size an Industrial Air Compressor` | `How to Size an Air Compressor for Industrial Use` |
 
-Example data is illustrative and must be verified before use.
+All example values require verification before use.
 
-### Failure conditions
+## H1 and page-positioning relationship
 
-- Title targets a category while H1 identifies one model.
-- Title promises a standard, material, rating, industry, or outcome absent from visible content.
-- H1 is a generic slogan such as “Welcome” or “Quality Products.”
-- Several competing H1s create an unclear primary subject.
-- Title and H1 repeat long keyword lists.
+| Page type | H1 must identify | H1 must avoid |
+|---|---|---|
+| Homepage | Company’s core industrial offer | Every product and industry keyword |
+| Category | Complete product family | One model or unrelated application |
+| Product | Exact product/model and product type | Category-wide scope |
+| Solution | Defined problem, system, process, or solution | Generic product list |
+| Application | Product/equipment use in a defined context | Unsupported suitability |
+| Blog | Exact buyer question or task | Clickbait or commercial page intent |
 
-## 8. Meta Description Writing Rules
+Use one clear primary H1. Additional headings must follow the page’s buyer decision logic, not repeat keyword variants.
 
-### Purpose
+## Model number in H1 decision
 
-The Description must summarize the specific page and provide a credible reason for the intended buyer to visit. Google may use page content instead and may generate different snippets for different queries.
+### Include the model in H1 when
 
-### Recommended sequence
+- The page represents one exact model.
+- The model is visible in approved product documentation.
+- Buyers use the model to validate, replace, specify, or source the product.
+- Specifications and schema on the page belong to that exact model.
 
-`What the page offers → verified fit/value → useful next step`
+Recommended structure:
 
-### Page-type guidance
+`[Model] [Product Type]`
 
-#### Homepage
+### Do not include the model in H1 when
 
-State the company’s real product/manufacturing scope, key market/application context, and primary buyer route.
+- The page represents a complete Category.
+- The page represents several models/variants with one selection interface.
+- The model is an internal code not used or meaningful to buyers.
+- The model is not stable or has not been approved.
+- The primary intent is a Solution, Application, or general technical task.
 
-#### Category
+### Configurable-family rule
 
-Summarize the product range, useful selection dimensions, applications, and path to compare products or request help.
+If one page represents a configurable family:
 
-#### Product detail
+- Use the approved family/product name in H1.
+- Present model/variant selection below the H1.
+- Ensure selected variant data, URL behavior, canonical, schema, and inquiry context remain consistent.
+- Do not place one model in H1 while showing several incompatible specifications as if they belong to it.
 
-Use verified page-specific information such as model, product type, material, rating, application, standard, configuration, or available technical resource.
+## H1 failure conditions
 
-#### Solution
+- H1 is `Welcome`, `Our Products`, `Solutions`, or another generic label.
+- H1 and Title target different page types or intents.
+- H1 contains a long synonym/keyword list.
+- Multiple prominent H1s create an unclear primary subject.
+- H1 claims a rating, material, standard, application, or result absent from visible evidence.
 
-State the industrial challenge/application, solution approach, relevant capability, and consultation next step.
+# Internal Competition Prevention Rules
 
-#### Blog
+## Same keyword on multiple pages
 
-State the question answered, main criteria covered, and expected decision value without revealing unsupported conclusions.
+Keyword overlap alone does not prove internal competition. Flag potential competition when multiple indexable pages:
 
-### Description rules
+- Serve the same primary buyer task
+- Have similar Titles, H1s, openings, and section structures
+- Receive impressions for the same high-value GSC query cluster
+- Alternate as landing pages without a clear page-role reason
+- Receive competing internal anchor text
+- Have no distinct product, model, application, solution, industry, standard, market, or buyer stage
 
-- Write a unique Description for every priority canonical page.
-- Match visible content and approved facts.
-- Use natural professional English, not a list of keywords.
-- Include one or two concrete page-specific details where available.
-- Use a CTA appropriate to the buyer stage.
-- Avoid simply repeating the Title.
-- Programmatic descriptions are acceptable for large catalogs only when page-specific data is accurate, human-readable, diverse, and validated.
-- Review a SERP preview for likely truncation, but do not treat a fixed character count as a Google rule.
+Record whether overlap is:
 
-### CTA examples
+- Legitimate secondary relevance
+- Page-role confusion
+- Thin duplication
+- Variant/parameter duplication
+- Language/market duplication
+- True cannibalization requiring action
 
-- Review specifications
-- Compare available options
-- Download the datasheet
-- Discuss your application
-- Request product selection support
-- Prepare your RFQ requirements
+## Product and Category keyword allocation
 
-### Description pass criteria
+### Category receives
 
-- [ ] Unique and specific to the canonical page
-- [ ] Accurate summary of visible content
-- [ ] Includes useful verified detail
-- [ ] Reads naturally and avoids keyword lists
-- [ ] CTA matches the buyer stage
-- [ ] No unsupported price, lead time, performance, compliance, or leadership claim
+- Broad product-family terms
+- Types, range, manufacturer/supplier, comparison, and selection intent
+- Category-level application and parameter concepts
 
-## 9. Common Error Cases
+### Product receives
 
-### Case 1 — Keyword-stuffed homepage Title
+- Exact product/model terms
+- Product-specific rating, material, standard, configuration, datasheet, drawing, and RFQ intent
 
-**Bad:** `Machine Manufacturer, Machinery Supplier, Best Machines, Industrial Equipment, Cheap Machine`
+### Allocation rules
 
-**Why it fails:** unclear scope, repeated concepts, unsupported claims, poor buyer readability.
+- Category Title/H1 must not identify one model.
+- Product Title/H1 must not claim the full category scope.
+- Category links to Product pages using exact product/model context.
+- Product links back to the canonical Category.
+- A Blog may explain selection but must link to the Category that owns commercial range intent.
+- A Solution/Application may mention the product but must retain problem/context intent.
 
-**Corrective rule:** use one verified core offer plus brand/company identity.
+## Avoiding keyword conflict
 
-### Case 2 — Identical category and product Titles
+1. Assign one preferred canonical page to each primary intent.
+2. Maintain a keyword-to-page map before creating new URLs.
+3. Consolidate close variants that require the same answer.
+4. Create a new page only when product, model, application, solution, standard, market, or buyer task is materially different.
+5. Align Title, H1, opening, internal anchors, canonical, schema, and CTA with the assigned role.
+6. Point relevant internal links consistently to the preferred page.
+7. Improve weak commercial pages rather than allowing Blog pages to replace them accidentally.
+8. Check GSC pages/queries, backlinks, conversions, traffic, and dependencies before structural action.
+9. Obtain approval before URL, redirect, canonical, noindex, merge, or removal changes.
+10. Revalidate internal links, sitemap, schema, metadata, tracking, and performance after implementation.
+
+Do not attempt to solve substantive duplication by changing Title alone.
+
+# Codex Checklist
+
+## Page and keyword assignment
+
+- [ ] Canonical URL, page type, target market, buyer, stage, and conversion are defined
+- [ ] One primary intent and preferred page are assigned
+- [ ] Keyword class and page-role fit are documented
+- [ ] GSC/SERP/internal overlap evidence was reviewed where available
+- [ ] Visible page content can fulfill the proposed Title, Description, and H1
+
+## Title
+
+- [ ] Correct Homepage, Category, Product, Solution, Application, or Blog rule is used
+- [ ] Title is unique, descriptive, natural, and page-specific
+- [ ] Primary entity and intent appear clearly
+- [ ] Product/model, rating, material, standard, industry, application, and business-role claims are verified
+- [ ] Brand is accurate, consistent, and used once where appropriate
+- [ ] No keyword list, repeated synonym, clickbait, fake freshness, or unsupported superlative appears
+- [ ] Desktop/mobile display was previewed without treating a fixed length as a Google rule
+
+## Meta Description
+
+- [ ] Description is unique and accurately summarizes visible content
+- [ ] Practical length and likely truncation were reviewed
+- [ ] Information follows identity → verified value → next action
+- [ ] CTA matches page role and buyer stage
+- [ ] Description is natural English and not a keyword list
+- [ ] No unsupported price, stock, delivery, certification, compatibility, performance, compliance, or leadership claim appears
+- [ ] Programmatic output was checked across representative pages when used
+
+## H1
 
-**Bad category:** `Industrial Circuit Breakers | Brand`
-
-**Bad product:** `Industrial Circuit Breakers | Brand`
-
-**Why it fails:** no model distinction and creates ambiguous page targeting.
-
-**Corrective rule:** category represents the family; product represents the exact model and verified differentiator.
-
-### Case 3 — Solution page targeting only a product term
-
-**Bad:** `Industrial Gearboxes | Brand`
-
-**Why it fails:** duplicates category intent and does not communicate a solution.
-
-**Corrective rule:** identify the real application/problem and support it with dedicated solution content.
-
-### Case 4 — Unsupported product claim
-
-**Bad:** `Best IP69K Motor – Zero Maintenance | Brand`
-
-**Why it fails:** superlative and maintenance claim are unsupported; rating may not apply.
-
-**Corrective rule:** use only verified ratings, configuration, and application facts.
-
-### Case 5 — Generic Description reused sitewide
-
-**Bad:** `We provide high-quality products with the best service. Contact us today.`
-
-**Why it fails:** no page-specific value, evidence, or buyer context.
-
-**Corrective rule:** summarize the page with concrete verified details and an appropriate next step.
-
-### Case 6 — Keyword-list Description
-
-**Bad:** `CNC machine, CNC machinery, CNC equipment, CNC supplier, CNC manufacturer.`
-
-**Why it fails:** not useful to buyers and unlikely to provide a strong snippet preference.
-
-**Corrective rule:** write a natural summary of range, application, selection value, and next step.
-
-### Case 7 — Blog clickbait or fake freshness
-
-**Bad:** `10 Shocking Electrical Panel Secrets You Must Know in 2026`
-
-**Why it fails:** exaggerated, potentially unsafe, and uses freshness without a justified need.
-
-**Corrective rule:** state the actual electrical selection or safety question and require qualified technical review.
-
-### Case 8 — H1 and Title mismatch
-
-**Title:** `Custom Hydraulic Cylinders for Mining | Brand`
-
-**H1:** `Welcome to Our Factory`
-
-**Why it fails:** the visible page does not confirm the search-result promise.
-
-**Corrective rule:** H1 must identify the custom hydraulic cylinder offering and mining scope if verified.
-
-### Case 9 — Meta keywords implementation
-
-**Bad:** `<meta name="keywords" content="machine, machinery, industrial machine, best machine">`
-
-**Why it fails:** Google does not use this tag for web ranking, and it encourages keyword stuffing.
-
-**Corrective rule:** maintain an internal intent/topic map and use terminology naturally in useful visible content.
-
-### Case 10 — Fixed-length compliance without clarity
-
-**Bad practice:** approving a Title or Description only because it meets a character count.
-
-**Why it fails:** Google display varies, and length does not ensure intent match, accuracy, or buyer value.
-
-**Corrective rule:** judge uniqueness, clarity, factual accuracy, page alignment, and likely display through preview testing.
-
-## 10. Codex Checklist
-
-### Page and intent
-
-- [ ] Canonical URL, page type, target market, buyer, and buyer stage are known
-- [ ] One primary intent and one preferred page are assigned
-- [ ] GSC/SERP evidence and internal page overlap were reviewed where available
-- [ ] Page content is sufficient to support the proposed TKD
-
-### Keywords and competition
-
-- [ ] Primary topic and secondary terminology are documented internally
-- [ ] `meta keywords` is not used as a Google SEO tactic
-- [ ] Terms reflect machinery, electrical, or industrial-equipment buyer language accurately
-- [ ] No other indexable URL serves the same primary intent without a clear distinction
-- [ ] Cannibalization cannot be solved only by superficial Title changes
-
-### Title
-
-- [ ] Title follows the correct homepage/category/product/solution/blog rule
-- [ ] Title is unique, descriptive, concise, and natural
-- [ ] Product/model, rating, material, standard, application, and business-role claims are verified
-- [ ] Title avoids keyword lists, repetition, clickbait, fake freshness, and unsupported superlatives
-- [ ] Brand is used consistently and not repeated
-- [ ] Likely desktop/mobile display was previewed without enforcing a false fixed-length rule
-
-### H1 and visible content
-
-- [ ] H1 and Title represent the same primary entity and intent
 - [ ] One clear H1 identifies the visible page subject
-- [ ] Opening content immediately confirms the Title and H1
-- [ ] Breadcrumbs, internal anchors, schema, and canonical URL use consistent entity naming
+- [ ] H1 and Title serve the same primary entity and intent
+- [ ] H1 matches Homepage, Category, Product, Solution, Application, or Blog positioning
+- [ ] Model appears only when the page represents that exact model
+- [ ] Configurable-family H1 does not misrepresent variant data
+- [ ] Opening copy, breadcrumbs, internal anchors, schema, and canonical naming agree
 
-### Description
+## Internal competition
 
-- [ ] Description is unique, page-specific, accurate, and written in professional English
-- [ ] It includes useful verified information rather than a keyword list
-- [ ] It does not merely repeat the Title
-- [ ] CTA matches the buyer stage and actual page capability
-- [ ] No unsupported price, stock, delivery, certification, compliance, performance, or result is included
-- [ ] Snippet preview was checked while acknowledging that Google may generate another snippet
+- [ ] Pages with overlapping keywords were compared by buyer task and page role
+- [ ] Category receives broad family intent and Product receives exact model intent
+- [ ] Solution, Application, and Blog roles remain distinct from Category/Product roles
+- [ ] One preferred canonical page receives consistent internal anchors
+- [ ] Duplicate/variant/market pages have an intentional canonical and index strategy
+- [ ] Structural changes are based on GSC, links, conversions, content, and dependencies
+- [ ] URL, redirect, canonical, noindex, merge, and removal actions have approval
 
-### Required Codex output
+## Required Codex output
 
-Codex must provide recommendations in this format:
+Use this table:
 
-| URL | Page type | Buyer intent | Current Title | Proposed Title | H1 | Proposed Description | Primary topic | Evidence | Risk/notes |
-|---|---|---|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |  |  |
+| URL | Page type | Buyer/stage | Primary intent | Current Title | Proposed Title | Proposed H1 | Proposed Meta Description | Keyword allocation | Evidence | Competition/risk | Action |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |  |  |  |  |  |
 
 Also report:
 
-- Duplicate Titles and Descriptions
-- Keyword cannibalization risks
-- Unsupported claims or missing facts
-- Page-type or intent mismatches
-- URLs requiring content correction before TKD approval
-- Any URL, canonical, redirect, or indexation change requiring approval
+- Duplicate Titles, Descriptions, and H1s
+- Keyword and page-role conflicts
+- Unsupported claims and missing information
+- Pages requiring content correction before TKD approval
+- Canonical/index/variant inconsistencies
+- Approval and post-change validation requirements
 
 ## Official Google References
 

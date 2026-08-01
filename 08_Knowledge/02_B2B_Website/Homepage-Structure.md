@@ -1,374 +1,469 @@
 # Industrial B2B Homepage Standard
 
-> Internal execution rules for Codex. Apply to overseas English-language websites for machinery, electrical equipment, industrial equipment, and related component manufacturers.
+> Codex internal execution rules for overseas English-language websites in machinery, electrical equipment, industrial manufacturing, and industrial components.
 
-## Operating Principle
+## Scope and Required Inputs
 
-The homepage is a company-level commercial hub. It must establish relevance, route buyers to the correct product or solution, reduce supplier risk, and create a clear path to inquiry.
+Before analyzing, writing, or modifying a Homepage, Codex must confirm:
 
-The homepage must not attempt to rank for every product, application, and industry term. Detailed selection, specifications, solution logic, and technical guidance belong on dedicated pages.
+- Company role: manufacturer, OEM/ODM producer, integrator, distributor, or service provider
+- Target countries, English variant, industries, and buyer roles
+- Priority Product Categories, Solutions, Applications, and conversion actions
+- Verified manufacturing, engineering, technology, quality, certification, and support capabilities
+- Approved Cases, customer references, media, statistics, and claims
+- Current URLs, navigation, internal links, metadata, schema, forms, tracking, consent, and integrations
 
-## Required Inputs
+Missing facts must be marked internally for confirmation. Codex must not invent products, capabilities, facilities, certifications, standards, customers, capacity, performance, savings, price, MOQ, lead time, or geographic coverage.
 
-Before analyzing or designing a homepage, Codex must confirm:
+# Homepage Objectives
 
-- Company role: manufacturer, OEM/ODM producer, system integrator, distributor, or service provider
-- Target countries, language variant, and priority industries
-- Priority product categories, solutions, and applications
-- Buyer roles: engineer, procurement manager, project owner, integrator, OEM, distributor, maintenance, or operations
-- Verified manufacturing capabilities, quality processes, certifications, standards, capacity, and support
-- Approved cases, customer references, images, data, and claims
-- Primary conversions and sales qualification requirements
-- Existing navigation, URLs, tracking, forms, consent, schema, and technical dependencies
+The Homepage is not primarily a corporate display page. It is the company-level commercial routing and trust hub.
 
-Missing facts must be marked for internal confirmation. Codex must not invent company capabilities, certifications, capacity, customers, performance, or commercial terms.
+It has three core objectives.
 
-## 1. Homepage Objective
+## Establish Trust
 
-The homepage must answer five questions quickly:
+The Homepage must show why an overseas industrial buyer can consider the company a credible supplier or project partner.
 
-1. Who is the company?
-2. What products or systems does it manufacture or supply?
-3. Which industries, applications, or problems does it serve?
-4. Why is it a credible industrial supplier?
-5. What should the buyer do next?
+Required trust dimensions:
 
-### Primary functions
+- Clear company identity and actual business role
+- Real Product, Solution, and Application scope
+- Manufacturing and engineering evidence
+- Quality systems, tests, standards, and certification scope
+- Approved Cases and technical resources
+- Contact, privacy, legal, and support information
 
-- Establish company and product relevance
-- Route buyers to Product, Solution, and Application paths
-- Demonstrate manufacturing, engineering, quality, and support credibility
-- Provide verified proof through certifications, cases, resources, and company information
-- Support product exploration, technical consultation, RFQ, and distributor/OEM inquiries
+Generic claims such as “high quality,” “professional,” or “leading manufacturer” do not count as evidence.
 
-### Success signals
+## Guide the Procurement Path
 
-- Visits to priority product categories
-- Visits to Solution and Application pages
-- Engagement with capability, quality, case, and technical resources
-- CTA clicks, form starts, qualified submissions, calls, emails, and downloads
-- Progression from homepage to commercial pages in target markets
+The Homepage must support different buyer paths:
 
-Traffic or time on page alone is not a sufficient success measure.
+```text
+Product-led:
+Homepage → Category → Product → Specifications/Downloads → RFQ
 
-## 2. First-Screen Structure
+Solution-led:
+Homepage → Solution/Application → Products/Case/Evidence → Project Consultation
 
-The first screen must establish relevance without scrolling on common desktop and mobile layouts.
+Knowledge-led:
+Homepage → Knowledge/FAQ → Category/Product/Solution → Technical Support or Inquiry
 
-### Required components
+Supplier-validation:
+Homepage → Capability/Quality/Case/About → Product/Solution → Contact
+```
 
-1. Brand identity and primary navigation
-2. One clear H1
-3. Concise supporting statement
-4. Primary CTA
-5. Secondary CTA
-6. Relevant industrial visual or proof element
+Different buyers require different routes:
 
-### First-screen content formula
+- Engineer → Products, parameters, Applications, documents, technical support
+- Procurement → Product range, manufacturing, quality, certification, Cases, RFQ
+- Project owner/integrator → Solutions, process, Products, Cases, consultation
+- OEM/distributor → Product portfolio, customization, capacity, documentation, partnership contact
 
-`What the company provides → for whom/where it is used → verified value/capability → next action`
+## Allocate Website Entry Points
 
-### Supporting statement requirements
+The Homepage must distribute buyers and crawlers to priority:
 
-The supporting copy should clarify, where verified:
+- Product Category Pillars
+- Solution and Application hubs
+- Manufacturing, Technology, and Quality pages
+- Case Studies
+- Knowledge Center and FAQ
+- RFQ, consultation, and contact routes
 
-- Product family or equipment scope
-- Primary industries or applications
-- Manufacturing, engineering, customization, quality, or support value
-- Geographic supply or standard capability when important
+The Homepage must not compete with every Category, Product, Solution, Application, and Blog keyword. Each entry must lead to the canonical page that owns the buyer’s next task.
 
-### Visual requirements
+## Homepage Success Signals
 
-- Use real products, production, engineering, application, or approved system imagery where possible.
-- Do not use a stock image that implies facilities, employees, customers, scale, or technology the company does not have.
-- Keep text legible and the primary CTA visible.
-- Optimize the likely LCP image and reserve dimensions to limit layout shift.
-- Provide meaningful alternative text when the image conveys information.
+- Clicks to priority Categories, Solutions, and Applications
+- Visits to manufacturing, quality, Case, and Knowledge evidence
+- Product/Solution progression
+- Downloads, CTA clicks, form starts, submissions, calls, and emails
+- Qualified target-market inquiries
 
-### First-screen failures
+Traffic and time on page alone are insufficient success measures.
 
-- Generic slogan such as “Innovation for a Better Future” with no product identity
-- Rotating hero carousel hiding the primary message
-- Long list of keywords or industries
-- Multiple equal CTAs with no primary action
-- Unsupported “leading,” “No. 1,” “best,” or global-scale claim
-- Product visual unrelated to the core offer
+# Homepage Module Standard
 
-## 3. H1 Strategy
+## 1. Hero
 
-### Objective
+### Purpose
 
-The H1 must identify the company’s core industrial offer for buyers. It is a visible page heading, not a keyword container.
+Confirm within the first screen what the company provides, for which buyers/applications, why it is relevant, and what the buyer should do next.
 
-### Recommended patterns
+### Content Requirements
 
-`[Core Product/Equipment] Manufacturer for [Primary Market/Application]`
+- Brand identity and usable primary navigation
+- One clear H1
+- Concise supporting statement
+- Primary CTA and lower-commitment secondary CTA
+- Accurate Product, production, Application, or approved system visual
+- Optional verified trust cue such as a relevant standard, capability, or service scope
 
-`[Core Industrial Equipment] and [Verified Capability]`
+Recommended content formula:
 
-`[Brand]: [Core Product/System Scope]`
+`Core Product/Equipment → target use/buyer → verified capability/value → next action`
 
-### Examples
+Rules:
 
-- `Industrial Packaging Machinery for Automated Production`
-- `Low-Voltage Electrical Equipment for Power Distribution`
-- `Custom Motion Components for Industrial Equipment`
+- Avoid generic slogans and keyword lists.
+- Do not use a carousel that hides or changes the primary positioning.
+- Use real approved imagery where possible; label representative visuals.
+- Do not imply facilities, customers, certifications, scale, or technology through stock media.
+- Keep H1, CTA, and primary content usable on mobile.
+- Optimize the likely LCP image and reserve dimensions.
 
-Examples are structural only. Every product, market, and capability statement must be verified.
+### SEO Value
 
-### H1 rules
+- Establishes the Homepage’s company-level core topic.
+- Aligns Title, H1, opening copy, Product scope, and brand identity.
+- Provides crawlable navigation to priority commercial hubs.
+- Helps prevent the Homepage from targeting unrelated Product/model terms.
 
-- Use one clear primary H1.
-- Match the homepage Title and visible company positioning.
-- Focus on the core offer, not every category.
-- Use “manufacturer” only when accurate.
-- Do not insert country lists, synonyms, superlatives, or slogans that obscure the offer.
-- Subheadings must organize Product, Solution, Application, Capability, Quality, Case, Knowledge, FAQ, and CTA modules logically.
+### Conversion Role
 
-## 4. Product Entry
+- Primary CTA routes high-intent buyers to Products, RFQ, or consultation.
+- Secondary CTA supports buyers who need Solution, Application, capability, or catalog information first.
+- CTA and navigation events must preserve source and campaign context.
 
-### Objective
+## 2. Company Value
 
-Help buyers identify the correct product family and move to the category page that supports comparison and selection.
+### Purpose
 
-### Required content
+Explain the company’s verified role and why that role reduces engineering, procurement, supply, integration, or lifecycle risk.
 
-- Priority product categories only
-- Clear category name using buyer terminology
-- Representative product image
-- One concise application or differentiating statement
-- Crawlable link to the canonical category URL
-- Optional link to a full product catalog or all-products hub
+### Content Requirements
 
-### Product-entry rules
+- Company type and actual role
+- Core Product and market scope
+- Relevant years, locations, team, export, support, or capacity only when approved
+- Engineering, customization, documentation, delivery, or after-sales value
+- Link to About/Company or capability detail
 
-- Follow the approved product taxonomy.
-- Do not mix product categories, individual models, and solutions in one unexplained grid.
-- Prioritize by business importance and buyer demand, not alphabetical order alone.
-- Link broad product-family intent to category pages, not arbitrary product models.
-- Product cards must communicate useful differences rather than only “Learn More.”
-- Do not display discontinued, unavailable, or unverified products.
+Use:
 
-### Industry considerations
+`Verified fact/capability → buyer consequence → evidence/detail link`
 
-- Machinery: process, output, material, automation, or machine type
-- Electrical equipment: function, voltage class, protection/control role, or system
-- Industrial equipment/components: function, load, material, interface, environment, or application
+Do not use an icon row of unsupported “quality,” “innovation,” “service,” or “global” claims.
 
-## 5. Solution Entry
+### SEO Value
 
-### Objective
+- Clarifies company/brand entity and core commercial field.
+- Supports manufacturer, OEM, supplier, and capability intent accurately.
+- Connects Homepage positioning to deeper trust pages.
 
-Route buyers who begin with an operational problem, system requirement, production goal, or integration need.
+### Conversion Role
 
-### Required content
+- Reduces supplier-validation friction.
+- Routes procurement, OEM, distributor, and project buyers to relevant company evidence or contact.
 
-- Specific problem, system, process, or outcome area
-- Short explanation of the solution approach
-- Relevant product/system relationship
-- Verified value or requirement addressed
-- Crawlable link to a complete Solution page
+## 3. Product Solutions
 
-### Solution-entry rules
+### Purpose
 
-- Distinguish solutions from product categories.
-- Use buyer problem language, not internal project names.
-- Do not present a product list as a solution.
-- Avoid guaranteed savings, efficiency, safety, compliance, or performance claims.
-- Prioritize solutions with real expertise, products, evidence, and inquiry support.
+Give buyers a clear entry to the Product families the company actually manufactures or supplies.
 
-### Examples of valid solution entry logic
+“Product Solutions” in this module means Product portfolio routes; integrated industry/problem Solutions remain a separate page type.
 
-- Automated packaging-line integration
-- Electrical protection for industrial control panels
-- Corrosion-resistant drive systems for washdown environments
-- Custom component development for OEM equipment
+### Content Requirements
 
-## 6. Application Entry
+Each Category entry should include:
 
-### Objective
+- Exact Category name
+- Representative approved image
+- One useful function, Application, or selection statement
+- Relevant range/type context
+- Crawlable link to canonical Category URL
 
-Help buyers explore products by industry, process, machine, environment, medium, or use condition.
+Rules:
 
-### Required content
+- Follow approved Product taxonomy.
+- Show priority Categories, not every model.
+- Do not mix Categories, models, Solutions, and Applications without labels.
+- Avoid identical generic card copy.
+- Link broad Product intent to Category, not an arbitrary model.
 
-- Application or industry name
-- Operating context and key requirement
-- Relevant product families
-- Link to the dedicated Application or Solution page
+### SEO Value
 
-### Application-entry rules
+- Distributes Homepage internal links to Category Pillars.
+- Reinforces Product taxonomy and entity relationships.
+- Improves discovery of priority Product clusters.
+- Prevents exact Product/model terms from being concentrated on Homepage.
 
-- Use an Application page when the core question is “Where/how is this used?”
-- Use a Solution page when the core question is “How is this problem/system requirement solved?”
-- Do not create near-duplicate industry pages by changing only the industry name.
-- Application claims must match verified product capabilities and limits.
-- Show priority applications; provide a separate hub for the complete list if needed.
+### Conversion Role
 
-### Required application factors
+- Moves Product-aware buyers into range comparison and model selection.
+- Provides optional “View All Products” or selection-support route.
+- Tracks Category card clicks by Product family.
 
-Include relevant factors such as:
+## 4. Industry Applications
 
-- Process and material
-- Load, speed, pressure, temperature, voltage, or current
-- Dust, moisture, corrosion, washdown, hazardous area, or outdoor exposure
-- Standards, interfaces, integration, maintenance, and safety needs
+### Purpose
 
-## 7. Manufacturing Capability
+Help buyers enter through industry, process, machine, environment, medium, or operating condition rather than a Product name.
 
-### Objective
+### Content Requirements
 
-Demonstrate how the company can produce, engineer, customize, control, and support the offered products.
+Each Application entry should include:
 
-### Possible capability evidence
+- Industry/process/Application name
+- Operating context or buyer requirement
+- Relevant Product families
+- Key condition or selection factor
+- Link to canonical Application or Solution page
 
-- Facility and production processes
-- Machinery, tooling, automation, and testing equipment
-- Engineering, design, prototyping, OEM/ODM, or customization
+Rules:
+
+- Application explains where/how Products are used.
+- Solution explains how a problem/system requirement is addressed.
+- Do not create generic industry tiles with no context.
+- Verify Product-to-Application fit.
+- Avoid duplicate industry pages that only change the industry name.
+
+### SEO Value
+
+- Supports Product + Application search behavior.
+- Connects commercial Product clusters with industry/process topics.
+- Establishes internal paths to Application and Solution hubs.
+- Expands topical coverage without duplicating Category/Product roles.
+
+### Conversion Role
+
+- Moves problem- or industry-led buyers to suitable Products and Solutions.
+- Provides an Application consultation route for complex conditions.
+
+## 5. Manufacturing Capability
+
+### Purpose
+
+Demonstrate the company’s ability to manufacture, customize, inspect, document, and support the offered Products consistently.
+
+### Content Requirements
+
+Use approved evidence such as:
+
+- Facility and production process
+- Equipment, tooling, automation, and assembly
 - Materials and manufacturing methods
+- Engineering, prototyping, OEM/ODM, and customization
 - Capacity, tolerance, size, rating, or process range
-- Traceability, inspection, packaging, logistics, and after-sales support
-- Export documentation and regional support
+- Traceability, inspection, packaging, logistics, and support
+- Real photographs and links to capability/factory pages
 
-### Rules
+Required structure:
 
-- Use specific verified facts rather than generic icons.
-- Explain why each capability matters to quality, consistency, customization, delivery, integration, or lifecycle support.
-- Link to a detailed capability/factory page when available.
-- Identify whether processes are in-house, partner-operated, or outsourced when the distinction matters.
-- Do not publish sensitive capacity, customer, equipment, or process data without approval.
-- Do not claim capabilities based only on stock imagery or supplier information.
+`Capability/process → evidence → Product relevance → buyer-risk reduction`
 
-### Recommended module format
+Rules:
 
-`Capability → Evidence → Buyer value → Detail link`
+- Distinguish in-house, partner-operated, and outsourced processes.
+- Protect confidential equipment, capacity, customer, drawing, and process data.
+- Do not use stock factory images as proof.
 
-## 8. Quality Certification
+### SEO Value
 
-### Objective
+- Supports manufacturer, custom, OEM/ODM, factory, and capability intent.
+- Adds company-specific evidence that generic Product copy cannot provide.
+- Connects Products to manufacturing processes and quality evidence.
 
-Reduce procurement and engineering risk by showing the company’s verified quality system, testing, standards, and applicable certifications.
+### Conversion Role
 
-### Required content
+- Helps procurement and OEM buyers validate supplier fit.
+- Routes buyers to factory/capability detail, technical review, sample, or OEM inquiry.
+
+## 6. Technology Advantage
+
+### Purpose
+
+Explain the verified design, engineering, process, control, material, integration, or service technology that differentiates the offer.
+
+### Content Requirements
+
+Possible areas:
+
+- Product design or working technology
+- Process control, automation, software, or communication
+- Material, treatment, sealing, protection, or thermal technology
+- Accuracy, performance, reliability, maintainability, or integration mechanism
+- Engineering, testing, simulation, or validation method
+- Patent or proprietary technology only when approved
+
+Required structure:
+
+`Technology/feature → mechanism/evidence → buyer value → scope/limitation`
+
+Rules:
+
+- Do not use “advanced technology” without explanation.
+- Separate Product technology from manufacturing capability.
+- State conditions behind quantitative results.
+- Do not imply universal superiority.
+
+### SEO Value
+
+- Builds technical entity and terminology coverage around the company’s real expertise.
+- Supports Technical and Comparison intent.
+- Creates links to Product, Solution, Blog/Knowledge, patent, test, or engineering pages.
+
+### Conversion Role
+
+- Helps engineers understand differentiation and fit.
+- Routes buyers to technical documents, Product comparison, engineering consultation, or Solution review.
+
+## 7. Quality Certification
+
+### Purpose
+
+Reduce supplier, product, compliance, and documentation risk through verified quality systems, inspection, testing, standards, and certification scope.
+
+### Content Requirements
 
 - Quality-management process
 - Incoming, in-process, and final inspection where applicable
-- Relevant tests and equipment
+- Test methods and equipment
 - Approved certifications and standards
 - Traceability and documentation capability
-- Link to quality/certification details or approved downloads
+- Certificate/quality detail link
 
-### Rules
+Rules:
 
-- Show exact certificate name, scope, issuing body, and current validity when appropriate.
-- Distinguish company-system certification from product certification.
-- Do not imply every product meets every listed standard.
-- Do not display expired, unrelated, copied, or unapproved certification logos.
-- Explain buyer relevance: compliance review, consistency, traceability, testing, or documentation.
-- Protect certificate numbers or sensitive data when required.
+- State exact certificate name, scope, issuing body, and validity where appropriate.
+- Distinguish company-system certification from Product certification.
+- Do not imply every Product meets every displayed standard.
+- Do not display expired, unrelated, copied, or unapproved logos.
+- Explain why the evidence matters to the buyer.
 
-### Failure condition
+### SEO Value
 
-A row of logos without scope, context, or verification does not satisfy this module.
+- Supports quality, certification, standard, testing, and supplier-validation queries.
+- Strengthens trust signals with visible, scoped evidence.
+- Connects Product and company claims to dedicated Quality/Certificate pages.
 
-## 9. Case Study
+### Conversion Role
 
-### Objective
+- Helps procurement and engineering teams progress through supplier approval.
+- Provides certificate/document review and quality-contact paths.
 
-Provide credible evidence that the company has addressed a relevant industrial challenge.
+## 8. Case Studies
 
-### Homepage case card requirements
+### Purpose
 
-- Approved industry/application context
+Show approved evidence of relevant Product, Solution, Application, manufacturing, or project capability.
+
+### Content Requirements
+
+Each Case entry should include:
+
+- Approved industry/Application context
 - Customer type or identity only when authorized
-- Clear challenge
-- Product/solution used
+- Project challenge
+- Product/Solution used
 - Verified result or evidence summary
-- Link to the complete case
+- Link to full Case Study
 
-### Rules
+Rules:
 
-- Prioritize cases relevant to strategic products, markets, and solutions.
-- Use actual project images only with approval; do not present stock images as evidence.
+- Prioritize Cases connected to strategic Products and markets.
 - Quantitative results require baseline, unit, method, period, and conditions.
-- Label anonymous or generalized cases appropriately.
-- Do not imply one case guarantees the same result for another project.
-- Link the case to relevant product and Solution pages.
+- Label anonymous/generalized Cases.
+- Do not use stock media as project evidence.
+- Do not imply one result is guaranteed for other projects.
 
-## 10. Blog and Knowledge
+### SEO Value
 
-### Objective
+- Connects Products and Solutions to real Application evidence.
+- Adds original, company-specific experience and proof.
+- Supports industry, Application, Product, and Solution topic clusters.
 
-Support buyer education, comparison, technical validation, specification, implementation, maintenance, and sourcing.
+### Conversion Role
 
-### Homepage content selection
+- Reduces project and supplier risk during Consideration/Decision.
+- Routes buyers to related Product/Solution pages and “Discuss a Similar Project” CTA.
 
-Feature content based on buyer usefulness and business relevance, not publication date alone:
+## 9. Knowledge Center
 
-- Selection or comparison guide
-- Standards or technical explanation
-- Application guide
-- Installation or maintenance resource
-- Troubleshooting article
-- Datasheet, catalog, manual, drawing, or FAQ hub
+### Purpose
 
-### Rules
+Help buyers understand, compare, select, specify, install, maintain, troubleshoot, or source industrial Products and Solutions.
 
-- Link to a Knowledge/Resource hub when a content library exists.
-- Feature content connected to priority products and solutions.
-- Use descriptive titles and content type labels.
-- Avoid turning the homepage into a news feed dominated by low-value articles.
-- Do not expose internal SEO terms or editorial strategy.
-- Ensure technical and safety-sensitive content has appropriate review.
+### Content Requirements
 
-## 11. FAQ
+Feature useful content such as:
 
-### Objective
+- Selection/comparison guides
+- Technical principles and standards
+- Application guides
+- Installation/maintenance resources
+- Troubleshooting articles
+- Datasheets, catalogs, manuals, drawings, and FAQ hub
 
-Resolve recurring company-level questions that affect supplier evaluation or the next buyer action.
+Rules:
 
-### Suitable homepage FAQ topics
+- Select content by buyer usefulness and business relevance, not publication date alone.
+- Link each resource to its Pillar and commercial next step.
+- Do not turn Homepage into a low-value news feed.
+- Technical and safety-sensitive content requires appropriate review.
+- Keep internal SEO language out of visible copy.
 
-- What product categories does the company manufacture?
-- Which industries or applications are supported?
+### SEO Value
+
+- Supports Awareness, Consideration, and Technical intent.
+- Builds Supporting Pages around Product, Solution, and Application Pillars.
+- Distributes internal links and captures long-tail buyer questions.
+- Adds original expertise when based on real sources and review.
+
+### Conversion Role
+
+- Moves early-stage visitors toward Categories, Products, Solutions, downloads, or technical support.
+- Tracks article/resource clicks, downloads, and assisted commercial progression.
+
+## 10. FAQ
+
+### Purpose
+
+Resolve recurring company-level questions that block Product exploration, supplier validation, or inquiry.
+
+### Content Requirements
+
+Suitable Homepage questions:
+
+- What Products does the company manufacture or supply?
+- Which industries and Applications are supported?
 - What customization or OEM/ODM services are available?
-- Which quality systems, tests, or certifications apply?
-- What information is needed for product selection or quotation?
-- Which markets, documentation, training, or after-sales services are supported?
+- Which quality systems, tests, and certifications apply?
+- What information is required for Product selection or quotation?
+- Which markets, documentation, installation, training, or after-sales services are supported?
 
-### FAQ rules
+Rules:
 
-- Keep product-specific questions on product pages.
-- Keep project-specific questions on Solution/Application pages.
-- Use approved commercial and technical facts.
-- Explain dependencies for MOQ, lead time, pricing, customization, and documentation.
-- Do not answer “Yes, we can customize anything.”
-- Visible FAQ content must match any structured data exactly when markup is used.
-- FAQ markup does not guarantee a Google rich result.
+- Product-specific questions belong on Product pages.
+- Project-specific questions belong on Solution/Application pages.
+- Explain dependencies for MOQ, lead time, price, customization, and documentation.
+- Do not claim “we can customize anything.”
+- Visible FAQ must match structured data when used.
+- FAQ markup does not guarantee a search-result feature.
 
-## 12. CTA Path
+### SEO Value
 
-### 12.1 Buyer paths
+- Covers narrow company and procurement questions naturally.
+- Clarifies entity, capability, quality, and process information.
+- Links buyers to the correct deeper page instead of duplicating it.
 
-#### Product-led path
+### Conversion Role
 
-`Homepage → Product Category → Product Detail → Datasheet/Selection → RFQ`
+- Removes common inquiry friction.
+- Routes buyers to Products, capability, certificates, selection support, RFQ, or contact.
 
-#### Solution-led path
+## 11. CTA
 
-`Homepage → Solution/Application → Products/Case/Evidence → Project Consultation`
+### Purpose
 
-#### Knowledge-led path
+Give every buyer stage a clear next action and connect Homepage traffic to measurable commercial outcomes.
 
-`Homepage → Guide/FAQ/Resource → Product/Solution → Technical Support or Inquiry`
+### Content Requirements
 
-#### Supplier-validation path
-
-`Homepage → Manufacturing/Quality/Case/About → Product/Solution → Contact`
-
-### 12.2 CTA hierarchy
-
-Select one primary homepage CTA based on the actual sales process:
+Select one primary Homepage CTA based on the real sales process:
 
 - Explore Products
 - Discuss Your Application
@@ -382,88 +477,145 @@ Secondary CTAs may include:
 - Download Product Catalog
 - View Case Studies
 
-### 12.3 CTA rules
+CTA system requirements:
 
-- Use specific action language.
-- Maintain a consistent primary CTA style.
-- Place CTAs after relevant decision modules, not only in the header.
-- Match CTA commitment to buyer stage.
-- Preserve product, solution, application, campaign, and source context in forms/events.
-- Ask only for qualification information required at that stage.
-- Provide drawing/specification upload when relevant and secure.
-- Show accessible validation, error, consent, and confirmation states.
-- Track CTA clicks, form starts, submission success/failure, calls, emails, and downloads.
-- Do not use false urgency or imply instant pricing when engineering review is required.
+- Specific action label
+- Consistent visual hierarchy
+- Placement after relevant decision modules
+- Only necessary form fields
+- Product/Solution/Application/source context preservation
+- Secure file upload where appropriate
+- Accessible validation, error, consent, and confirmation states
+- Tracking for clicks, starts, errors, submissions, calls, emails, and downloads
 
-## 13. Homepage Checklist
+### SEO Value
 
-### Objective and first screen
+- CTA itself is not a ranking tactic.
+- A clear next step completes the buyer journey supported by organic landing pages.
+- Contextual CTA links reinforce accurate relationships between Homepage, commercial hubs, and inquiry pages.
 
-- [ ] Company role, core offer, buyer, market, and primary conversion are defined
-- [ ] First screen identifies what the company provides and for whom
-- [ ] One clear H1 aligns with Title and visible positioning
-- [ ] Supporting copy contains verified value rather than generic slogans
-- [ ] Primary and secondary CTAs have distinct roles
-- [ ] Hero media is accurate, approved, responsive, and optimized
+### Conversion Role
 
-### Product, Solution, and Application routes
+- Product-aware buyer → Category/Product/RFQ
+- Problem-aware buyer → Solution/Application/consultation
+- Validation buyer → Capability/Quality/Case/contact
+- Early-stage buyer → Knowledge/download/commercial next step
 
-- [ ] Priority product categories use the approved taxonomy
-- [ ] Product cards communicate useful selection context
-- [ ] Product links resolve directly to canonical category URLs
-- [ ] Solution entries describe real problems or system requirements
-- [ ] Solution pages contain an approach, products, evidence, and consultation path
-- [ ] Application entries include specific operating context
-- [ ] Product, Solution, and Application routes are not mixed or duplicated
+Do not use false urgency or promise instant pricing, compatibility, delivery, compliance, or engineering approval.
 
-### Manufacturing and quality
+# Homepage H1 Rules
 
-- [ ] Manufacturing capabilities are specific and verified
-- [ ] In-house, partner, and outsourced roles are represented accurately
-- [ ] Capability evidence explains buyer value
-- [ ] Quality processes, tests, standards, and certification scope are accurate
-- [ ] Company certification is distinguished from product certification
-- [ ] Logos, facility images, statistics, capacity, and documentation are approved
+## H1 objective
 
-### Trust, cases, and knowledge
+H1 must identify the company’s core industrial offer for the target buyer. It is not a slogan or keyword container.
 
-- [ ] Case studies contain approved context, solution, evidence, and links
-- [ ] Customer names, logos, quotes, and results are authorized
-- [ ] Blog/Knowledge items support priority buyer decisions
-- [ ] Technical and safety-sensitive content has appropriate review
-- [ ] Company identity, contact, privacy, and legal information are accessible
+## Recommended structures
 
-### FAQ and CTA path
+`[Core Product/Equipment] Manufacturer for [Primary Market/Application]`
 
-- [ ] Homepage FAQs address company-level recurring questions
-- [ ] Product- and project-specific questions are assigned to the correct pages
-- [ ] CTA paths support product-led, solution-led, knowledge-led, and validation journeys
-- [ ] Forms request only required buyer information
-- [ ] Product/solution/source context persists through conversion
-- [ ] CTA, form, call, email, and download events are measurable
+`[Core Industrial Equipment] and [Verified Capability]`
 
-### SEO and technical integrity
+`[Brand]: [Core Product/System Scope]`
 
-- [ ] Navigation, breadcrumbs, internal links, and page hierarchy are logical
-- [ ] Priority links use crawlable `<a href>` markup
-- [ ] One valid Title, Description, canonical, and intended robots state are present
-- [ ] Hreflang and language data are correct where applicable
-- [ ] Organization/WebSite/Breadcrumb schema matches visible verified content
+Structural examples:
+
+- `Industrial Packaging Machinery for Automated Production`
+- `Low-Voltage Electrical Equipment for Power Distribution`
+- `Custom Motion Components for Industrial Equipment`
+
+Every claim in an example must be replaced with verified company facts.
+
+## H1 rules
+
+- Use one clear primary H1.
+- Align H1 with Homepage Title, opening copy, company role, and Product scope.
+- Focus on one core offer; do not list all Products, industries, countries, and synonyms.
+- Use “manufacturer” only when accurate.
+- Do not use generic H1s such as `Welcome`, `Our Company`, or `Quality Products`.
+- Do not place a Product model in Homepage H1.
+- Do not claim technology, certification, scale, or Application absent from visible evidence.
+- Organize module H2s around buyer decisions rather than keyword variants.
+
+# Homepage Checklist
+
+## Objectives and positioning
+
+- [ ] Homepage prioritizes trust, procurement path, and entry allocation rather than company display alone
+- [ ] Company role, target buyers, markets, core Products, and primary conversion are defined
+- [ ] Homepage does not compete with Category, Product, Solution, Application, or Blog for narrow intent
+- [ ] Company identity, Product scope, and claims are verified
+
+## Hero and H1
+
+- [ ] First screen explains what the company provides, for whom, and why it is relevant
+- [ ] One H1 aligns with Title, opening copy, and company role
+- [ ] Primary and secondary CTAs serve distinct buyer stages
+- [ ] Hero visual is accurate, approved, accessible, responsive, and optimized
+- [ ] No generic slogan, keyword list, carousel confusion, or unsupported superlative exists
+
+## Company and Product entry
+
+- [ ] Company Value uses evidence and explains buyer consequences
+- [ ] Priority Product Categories follow approved taxonomy
+- [ ] Product cards use accurate names, visuals, and selection context
+- [ ] Category links resolve directly to canonical URLs
+- [ ] Categories, models, Solutions, and Applications are clearly distinguished
+
+## Applications and Solutions
+
+- [ ] Industry/Application entries explain operating context and requirements
+- [ ] Product-to-Application fit is verified
+- [ ] Application and Solution roles are distinct
+- [ ] Industry pages are not duplicate templates with only names changed
+- [ ] Buyers can progress from Application/Solution to Products, evidence, and consultation
+
+## Manufacturing, technology, and quality
+
+- [ ] Manufacturing evidence is real, approved, and Product-relevant
+- [ ] In-house, partner, and outsourced roles are accurate
+- [ ] Technology Advantage explains mechanism, evidence, value, and scope
+- [ ] Quantitative claims state conditions and sources
+- [ ] Quality processes, tests, standards, and certifications are current and scoped
+- [ ] Company-system and Product certification are distinguished
+
+## Cases, knowledge, and FAQ
+
+- [ ] Cases contain approved context, Product/Solution, evidence, and links
+- [ ] Customer names, logos, media, quotations, and results are authorized
+- [ ] Knowledge items support priority buyer tasks and commercial Pillars
+- [ ] Technical/safety content has appropriate review
+- [ ] FAQ answers company-level recurring questions and routes deeper questions correctly
+- [ ] Visible FAQ and structured data agree where markup is used
+
+## CTA and conversion
+
+- [ ] Product-led, Solution-led, Knowledge-led, and supplier-validation paths exist
+- [ ] CTA labels describe actual next actions
+- [ ] Forms request only necessary information
+- [ ] Product/Solution/Application/source context persists through inquiry
+- [ ] CTA, form, call, email, download, and navigation events are measurable
+- [ ] No false urgency or unsupported commercial promise exists
+
+## SEO and technical integrity
+
+- [ ] Priority entries use crawlable `<a href>` links
+- [ ] Navigation, breadcrumbs, internal links, and module hierarchy are logical
+- [ ] One valid Title, unique Description, canonical, and intended robots state exist
+- [ ] Language, hreflang, Organization/WebSite/Breadcrumb schema are correct where applicable
 - [ ] Main content and links exist in rendered HTML
 - [ ] Mobile and desktop provide equivalent primary content and actions
-- [ ] Images, fonts, scripts, and layouts were checked for performance regressions
-- [ ] Tracking, consent, verification, forms, downloads, and integrations are preserved
-- [ ] Broken, redirected, blocked, noindex, parameter, and staging links are absent from priority paths
+- [ ] Broken, redirected, blocked, noindex, staging, and unintended parameter links are absent from priority paths
+- [ ] Images, fonts, scripts, forms, downloads, consent, tracking, verification, and integrations were validated
 
-### Codex output requirements
+## Required Codex output
 
-For every homepage analysis or optimization, provide:
+For every Homepage analysis or optimization, provide:
 
-1. Objective, target buyers, markets, and conversion paths
-2. Existing module inventory and identified problems
-3. Proposed module order and rationale
-4. Content/evidence requirements and missing inputs
-5. CTA and internal-link map
-6. Critical, High, Medium, and Low recommendations
-7. Affected files, dependencies, and approval requirements
-8. Validation plan covering desktop, mobile, links, forms, metadata, schema, tracking, and performance
+1. Target buyers, market, core offer, and conversion paths
+2. Existing module inventory and evidence gaps
+3. Module-level evaluation: Purpose, Content, SEO Value, Conversion Role
+4. Proposed module order and H1 direction
+5. Entry map for Categories, Solutions, Applications, trust, knowledge, and CTA
+6. Critical, High, Medium, and Low findings
+7. Affected URLs/files, dependencies, missing inputs, and approvals
+8. Validation plan for facts, desktop/mobile rendering, links, forms, metadata, schema, tracking, accessibility, and performance

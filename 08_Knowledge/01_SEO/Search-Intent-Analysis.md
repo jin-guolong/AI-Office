@@ -1,558 +1,602 @@
-# Industrial Buyer Search Intent Analysis Framework
+# Industrial B2B Search Intent Analysis Model
 
-> Internal execution rules for Codex. Use this framework to analyze keyword architecture and page targeting for overseas industrial B2B websites.
+> Codex internal execution rules. Use this model to classify industrial procurement keywords, select the correct page type, and define the content modules required to satisfy the buyer.
 
-## 1. Purpose and Operating Principle
+## Scope
 
-Search-intent analysis must determine what an industrial buyer is trying to understand, compare, validate, specify, or source—and then assign that need to the page type capable of answering it completely.
+Apply to overseas English-language websites for:
 
-Codex must not build keyword layouts from search volume alone. Every keyword cluster must connect to:
+- Industrial machinery and production equipment
+- Electrical equipment, protection, control, and power distribution
+- Industrial components, replacement parts, and custom/OEM parts
+- Industrial Solutions, Applications, technical resources, and supplier evaluation
 
-- A defined buyer role
-- A purchasing stage
-- A product, application, solution, technical task, or brand need
-- One preferred canonical page
-- A complete content requirement
-- A relevant next buyer action
+Search volume alone must not determine page strategy. Every keyword must connect to a real buyer, task, product/solution, preferred page, verified content requirement, and next action.
 
-One keyword may have mixed intent. Codex must assign one primary intent, optional secondary intent, and a confidence level based on evidence.
+## Required Evidence
 
-## 2. Required Inputs
+Use available evidence in this order:
 
-Before classifying keywords, collect or confirm:
+1. GSC query-to-page data for the target country/device
+2. Sales inquiries, RFQs, CRM categories, support questions, and distributor feedback
+3. Approved product taxonomy, technical documents, and Solution/Application scope
+4. Current target-market Google result types when research is authorized
+5. GA4 landing-page and buyer-path behavior
+6. Third-party keyword data as directional evidence only
 
-- Target countries, languages, and regional terminology
-- Product categories, product models, applications, solutions, and industries
-- Buyer roles: engineer, procurement manager, project owner, OEM, integrator, distributor, maintenance, or operations
-- Existing URL inventory by page type
-- Current Titles, H1s, canonicals, internal links, and index status
-- GSC queries, pages, countries, devices, clicks, impressions, CTR, and position
-- GA4 landing-page and conversion-path data
-- Sales inquiries, RFQ fields, CRM categories, support questions, and distributor feedback
-- Approved product documents, standards, certifications, and technical expertise
-- Target-market SERP result types when research is authorized
+Record market, language, device, and date. If evidence is incomplete, label the analysis as a hypothesis and assign Medium or Low confidence.
 
-If data is unavailable, label the result as a hypothesis and state what is required to validate it.
+# Buyer Journey
 
-## 3. Buyer Search Stages
+## Awareness
 
-### 3.1 Awareness
+### Buyer state
 
-#### Buyer objective
+The buyer recognizes a problem, process need, technology, equipment family, or component function but may not know the correct product or solution.
 
-Identify a problem, technology, equipment type, component family, or possible method. The buyer may not yet know the correct product name.
+### Typical purposes
 
-#### Typical query patterns
+- Understand a technology or component
+- Identify equipment for a process
+- Diagnose a general industrial problem
+- Learn why a failure or inefficiency occurs
+- Explore possible application methods
+
+### Query patterns
 
 - `what is [technology/component]`
-- `[industrial problem] causes`
 - `equipment for [process]`
+- `[industrial problem] causes`
 - `how to improve [process/result]`
 - `[application] methods`
-- `[system] basics`
+- `types of [equipment/component]`
 
-#### Suitable page types
+### Suitable page types
 
-- Educational blog or guide
+- Knowledge/Blog guide
 - Application overview
 - Solution hub
-- Product category when the query clearly requests equipment/product types
-- FAQ for narrow questions
+- Product Category when the query explicitly requests equipment/product types
+- FAQ for a narrow recurring question
 
-#### Required content
+### Required content modules
 
-- Clear definition and operating context
-- Problem causes, process requirements, or technology options
-- Relevant terminology and selection boundaries
-- Link to the appropriate product category or solution
-- Low-friction CTA such as viewing applications, exploring equipment types, or downloading a guide
+- Direct definition or problem statement
+- Industrial operating context
+- Relevant types, causes, methods, or product families
+- Decision boundaries and safety limitations
+- Link to the appropriate Category, Solution, or Application page
+- Low-friction CTA: explore products, view applications, or download a guide
 
-#### Do not
+### Failure conditions
 
-- Force an RFQ-first experience before explaining the topic
-- Target a broad problem query with a thin product page
-- Create generic awareness content unrelated to an actual company capability
+- Sending a broad problem query directly to an RFQ form
+- Using a specific Product page with no educational context
+- Publishing generic awareness content unrelated to company expertise
 
-### 3.2 Consideration
+## Consideration
 
-#### Buyer objective
+### Buyer state
 
-Compare product types, technologies, configurations, materials, suppliers, or solution approaches and reduce the available choices.
+The buyer understands the basic need and is comparing products, technologies, materials, applications, solution approaches, or suppliers.
 
-#### Typical query patterns
+### Typical purposes
+
+- Compare product types or technical methods
+- Select a product family for an application
+- Evaluate a Solution for an industry/process
+- Review supplier manufacturing, quality, and support capability
+- Understand standards, materials, and configuration trade-offs
+
+### Query patterns
 
 - `[type A] vs [type B]`
 - `how to choose [equipment/component]`
 - `[product] for [application]`
 - `[material/technology] advantages`
-- `[rating/standard] selection`
 - `[product category] manufacturer`
 - `[solution] for [industry/process]`
+- `[rating/standard] selection`
 
-#### Suitable page types
+### Suitable page types
 
-- Product category
-- Solution or application page
-- Comparison/selection guide
-- Capability or supplier-validation page
-- Case study
+- Product Category
+- Solution page
+- Application page
+- Comparison or selection guide
+- Manufacturing/quality/capability page
+- Case Study as evidence
 
-#### Required content
+### Required content modules
 
-- Selection criteria and buyer inputs
-- Meaningful options and trade-offs
-- Applications, limitations, compatibility, and standards
-- Product/solution relationships
-- Manufacturing, quality, customization, or support evidence
-- Links to specific products, cases, resources, and selection assistance
+- Selection inputs and evaluation criteria
+- Product, technology, material, or Solution options
+- Equivalent comparison data and trade-offs
+- Applications, limitations, compatibility, standards, and risks
+- Manufacturing, testing, quality, documentation, and case evidence
+- Links to Product details, Solution/Application pages, and technical resources
+- CTA: compare products, request selection support, or discuss application
 
-#### Do not
+### Failure conditions
 
-- Present every option as equally suitable
-- Use generic benefits instead of comparison criteria
-- Target comparison intent with a model page that cannot explain alternatives
+- Generic benefits with no selection criteria
+- Product page claims one option is always superior
+- Supplier page lacks proof of capability
+- Comparison uses inconsistent ratings, units, or test conditions
 
-### 3.3 Decision
+## Decision
 
-#### Buyer objective
+### Buyer state
 
-Validate a specific product, model, supplier, configuration, standard, or project fit and take a commercial or technical action.
+The buyer is validating an exact product, model, configuration, supplier, document, standard, compatibility requirement, or project fit before specification or inquiry.
 
-#### Typical query patterns
+### Typical purposes
 
-- `[model] specifications`
-- `[product] datasheet/drawing/manual`
-- `[product] supplier/manufacturer`
-- `[product] price/quote`
-- `[standard/material/rating] [product]`
-- `custom [component/equipment] manufacturer`
+- Confirm exact specifications, options, and documents
+- Validate compatibility, standards, ratings, and application fit
+- Request quote, sample, customization, engineering review, or distributor information
+- Verify supplier identity, certification, quality, and support
+- Prepare final project or RFQ inputs
+
+### Query patterns
+
+- `[model] specifications/datasheet/drawing/manual`
+- `[material/rating/standard] [product]`
+- `[product] supplier/manufacturer/quote`
+- `custom/OEM [component/equipment]`
 - `[brand/model] distributor`
 - `[solution] consultation`
+- `[product] compatibility/replacement`
 
-#### Suitable page types
+### Suitable page types
 
-- Product detail
-- Product category for multi-product sourcing intent
-- Solution/application page for project validation
-- Technical resource
+- Product Detail
+- Product Category for multi-product sourcing
+- Solution/Application page for project validation
+- Technical resource with HTML context
 - Company/capability/contact page
-- Case study as supporting evidence
+- Case Study as supporting proof
 
-#### Required content
+### Required content modules
 
-- Exact product/model identity
-- Verified specifications, options, standards, compatibility, and limitations
-- Technical and quality evidence
-- Supplier role, customization, documentation, and support capability
-- RFQ requirements, drawing upload, selection support, or contact path
-- Product/solution context preserved in the inquiry
+- Exact product/model or project identity
+- Verified specifications, options, materials, standards, interfaces, and limitations
+- Technical documents and revision information
+- Manufacturing, testing, quality, certification, and case proof
+- Product-specific or project-specific inquiry path
+- Required RFQ inputs, upload, and next steps
 
-#### Do not
+### Failure conditions
 
-- Send a specific model query to a generic homepage
-- Claim price, stock, certification, or compatibility without verified data
-- Hide all decision information inside a PDF
+- Exact model keyword mapped to Homepage
+- Decision data hidden only in a PDF with an empty HTML page
+- Price, stock, compatibility, certification, or delivery inferred without evidence
+- Inquiry loses product/model or Solution context
 
-## 4. Keyword Classification
+# Keyword Intent Classification
 
-Every keyword cluster must receive one primary keyword type. A secondary type may be recorded when the query genuinely crosses categories.
+Every keyword cluster must receive one primary intent. Add one secondary intent only when the query genuinely crosses two buyer tasks.
 
-### 4.1 Product Keyword
+## Product Intent
 
-#### Definition
+### Definition
 
-Names a product family, product type, model, configuration, material, rating, or sourcing role.
+The buyer seeks a product family, subtype, model, configuration, material, rating, manufacturer, supplier, document, or quote.
 
-#### Common patterns
+### Signals
 
-- `[product category]`
-- `[product/model]`
-- `[material/rating] [product]`
-- `[product] manufacturer/supplier`
-- `custom/OEM [product]`
-- `[product] price/quote/datasheet`
+- Product/category/model name
+- Material, size, rating, capacity, voltage, load, or configuration modifier
+- Manufacturer, supplier, custom, OEM, price, quote, datasheet, drawing, or catalog
 
-#### Default page match
+### Page mapping
 
 | Query scope | Preferred page |
 |---|---|
-| Broad product family | Product category |
-| Defined subtype | Subcategory or category section |
-| Exact model/product | Product detail |
-| Multi-product supplier sourcing | Category or capability page |
-| Quote for a configured item | Product detail/RFQ path |
+| Broad product family | Product Category |
+| Defined subtype | Subcategory or Category section |
+| Exact product/model | Product Detail |
+| Multi-product manufacturer/supplier | Category or capability-supported commercial page |
+| Exact document | Product Detail plus approved resource |
 
-#### Required analysis
+### Required decision
 
-- Is the query broad or model-specific?
-- Does the buyer need selection or exact specifications?
-- Is “manufacturer” factually correct for the company?
-- Are material, rating, standard, and compatibility claims verified?
-- Does another page already own this product intent?
+Determine whether the buyer expects range selection or exact product validation.
 
-### 4.2 Application Keyword
+## Application Intent
 
-#### Definition
+### Definition
 
-Connects equipment or components to an industry, process, machine, environment, medium, or operating condition.
+The buyer seeks product/equipment suitability for an industry, process, machine, material, medium, environment, or operating condition.
 
-#### Common patterns
+### Signals
 
 - `[product] for [application]`
 - `[equipment] for [industry/process]`
 - `[component] used in [machine/system]`
-- `[product] for high temperature/corrosive/washdown/hazardous environment`
+- `[product] for high temperature/corrosion/washdown/hazardous environment`
 
-#### Default page match
+### Page mapping
 
-- Application page when the main need is context and suitability
-- Solution page when several products/process steps form an approach
-- Category page when the buyer wants a range for one application
-- Product page when one specific product has a proven primary application
-- Blog when the query requests explanation or selection guidance
+- Application page for operating context and suitability
+- Solution page when products/process steps form an integrated approach
+- Category page when the buyer wants a range for one Application
+- Product page when one exact product has a verified primary Application
+- Knowledge/Blog when the query asks how to evaluate or select
 
-#### Required analysis
+### Required decision
 
-- Does the page contain application-specific requirements?
-- Are environment, load, medium, standards, interfaces, and limitations addressed?
-- Is the application verified for the product?
-- Would a separate page add unique buyer value or only duplicate another page?
+Determine whether the main task is “Where/how is this used?” or “How is the system/problem solved?”
 
-### 4.3 Solution Keyword
+## Solution Intent
 
-#### Definition
+### Definition
 
-Expresses a problem to solve, outcome to achieve, system/process need, or integrated industrial approach.
+The buyer seeks an approach to an industrial problem, system requirement, production process, integration need, or target outcome.
 
-#### Common patterns
+### Signals
 
 - `[problem] solution`
 - `[process] automation solution`
-- `[industry] production line solution`
+- `[industry] production line/system solution`
 - `reduce/prevent [industrial issue]`
-- `[system] protection/control solution`
+- `[system] protection/control/monitoring solution`
 
-#### Default page match
+### Page mapping
 
-- Solution page for a defined problem, architecture, workflow, or integrated approach
-- Application page when the focus is operating context rather than system design
-- Blog/guide for educational diagnosis or method comparison
+- Solution page for problem, architecture, workflow, product combination, and project approach
+- Application page when operating context is primary and no integrated approach is required
+- Knowledge/Blog for general diagnosis or method explanation
 - Product page only when one product directly and completely serves the intent
 
-#### Required analysis
+### Required decision
 
-- What problem or requirement is being solved?
-- What inputs, constraints, products, processes, and evidence are required?
-- Does the page explain an approach or merely list products?
-- Are outcome claims conditional and verified?
-- Is project consultation the correct next step?
+Identify the problem, technical inputs, constraints, products, interfaces, evidence, and project consultation need.
 
-### 4.4 Technical Keyword
+## Technical Intent
 
-#### Definition
+### Definition
 
-Requests specifications, standards, calculations, compatibility, installation, testing, maintenance, failure diagnosis, or engineering explanation.
+The buyer seeks specifications, standards, principles, calculations, compatibility, installation, testing, maintenance, troubleshooting, or engineering explanation.
 
-#### Common patterns
+### Signals
 
 - `[product] specifications/dimensions/rating`
-- `how to size/select/install/test [product]`
+- `how to size/install/test/maintain [product]`
 - `[standard] requirements`
-- `[type A] vs [type B]`
 - `[failure] causes/troubleshooting`
 - `[material] compatibility`
+- `[technology] working principle`
 
-#### Default page match
+### Page mapping
 
-- Product detail for model-specific specifications
-- Category/solution for selection criteria
-- Technical guide/blog for explanation, comparison, calculation, or procedure
+- Product Detail for model-specific specifications and documents
+- Category/Solution for selection criteria and system requirements
+- Knowledge/Blog for explanation, method, procedure, maintenance, or troubleshooting
 - FAQ for narrow recurring questions
-- Datasheet/manual/drawing as supporting resource, not the only indexable answer where HTML content is needed
+- Manual/drawing/certificate as a supporting resource
 
-#### Required analysis
+### Required decision
 
-- Is the query product-specific or general?
-- Does answering it require calculations, standards, safety review, or project inputs?
-- Can the company provide approved technical evidence?
-- What limitations and professional-review boundaries must be stated?
-- Could the query have dangerous consequences if answered incompletely?
+Determine whether the query is model-specific or general and whether it requires qualified engineering, electrical, machine-safety, pressure, thermal, chemical, or regulatory review.
 
-### 4.5 Brand Keyword
+## Comparison Intent
 
-#### Definition
+### Definition
 
-Includes the company, product brand, model family, competitor, or supplier identity.
+The buyer compares types, products, technologies, materials, configurations, standards, suppliers, or replacement alternatives.
 
-#### Common patterns
+### Signals
 
-- `[brand/company]`
-- `[brand] products/catalog/contact`
-- `[brand] [product/model]`
-- `[brand] distributor/supplier`
-- `[brand A] vs [brand B]`
+- `[A] vs [B]`
+- `[product] comparison`
+- `difference between [A] and [B]`
+- `best type for [application]`
+- `[material/technology] advantages and disadvantages`
+- `[model] alternative/replacement`
 
-#### Default page match
+### Page mapping
 
-- Homepage for company/brand navigation
-- Category or product detail for branded products/models
-- Contact, distributor, catalog, or capability page for the stated task
-- Comparison content only when accurate, fair, supportable, and legally appropriate
+- Product Category for structured comparison across the range
+- Comparison/selection guide for complex criteria and explanation
+- Product Detail for verified adjacent models or compatible alternatives
+- Solution page for comparing system approaches under defined requirements
+- Case Study only as supporting evidence, not a complete comparison
 
-#### Required analysis
+### Required decision
 
-- Is the brand owned, distributed, supplied, or merely mentioned?
-- Is the company authorized to make distributor/compatibility claims?
-- Does the query require company validation, product information, or contact?
-- Could competitor targeting create trademark, accuracy, or reputation risk?
+Confirm that compared items are equivalent enough to compare and that units, conditions, source revisions, trade-offs, and limitations are available.
 
-Do not create misleading pages implying affiliation with another brand.
+### Comparison rules
 
-## 5. Page Matching Rules
+- Do not declare a universal winner.
+- Do not compare specifications measured under different conditions without disclosure.
+- Mark missing, optional, custom, and not-applicable values accurately.
+- Competitor comparisons require factual, fair, approved, and legally appropriate treatment.
 
-### 5.1 Intent-to-page matrix
+# Page Matching Rules
 
-| Buyer need | Primary keyword type | Stage | Preferred page | Required next step |
-|---|---|---|---|---|
-| Understand an industrial problem | Solution/Technical | Awareness | Guide or solution hub | Explore solution/application |
-| Explore a product family | Product | Awareness/Consideration | Category | Compare types/products |
-| Find equipment for an application | Application/Product | Consideration | Application, solution, or category | Review fit/select product |
-| Compare technologies or types | Technical/Product | Consideration | Comparison guide/category | Use selection support |
-| Validate a specific model | Product/Technical | Decision | Product detail | Download data/request quote |
-| Solve a system/process requirement | Solution | Consideration/Decision | Solution page | Discuss project |
-| Verify a supplier | Brand/Product | Consideration/Decision | Homepage/capability/category | Contact/review capability |
-| Find installation/maintenance help | Technical | Decision/post-purchase | Guide/manual/FAQ | Technical support |
+## Primary mapping matrix
 
-### 5.2 Matching workflow
+| Keyword/intent | Preferred page | Supporting pages |
+|---|---|---|
+| Broad Product keyword | Product Category | Product Details, Applications, selection guide |
+| Exact Product/model keyword | Product Detail | Category, Solution, documents, FAQ |
+| Application keyword | Solution/Application Page | Products, Category, Case, technical guide |
+| Solution keyword | Solution Page | Products, Applications, Cases, Blog/FAQ |
+| Model-specific Technical keyword | Product Detail | Manual, datasheet, FAQ |
+| General Technical keyword | Knowledge/Blog | Category, Product, Solution, resource |
+| Comparison keyword | Category or comparison guide | Product Details, Solution, selection support |
+| Company/supplier validation keyword | Homepage/capability page | Category, quality, cases, contact |
 
-For every cluster:
+## Page-role rules
 
-1. Normalize obvious variants without losing model numbers, standards, or regional terminology.
-2. Identify entities and modifiers.
-3. Assign buyer role and Awareness, Consideration, or Decision stage.
-4. Assign Product, Application, Solution, Technical, or Brand as the primary keyword type.
-5. Review SERP result types and GSC page/query behavior when evidence is available.
-6. Define the complete buyer task.
-7. Select the page type able to complete that task.
-8. Map one preferred canonical URL or identify a genuine page gap.
-9. Check competing internal URLs.
-10. Define content requirements, internal links, CTA, and KPI.
+### Homepage
 
-### 5.3 Existing page, new page, or consolidation
+Use for company/brand and core commercial positioning. Do not use Homepage to compete for exact products, models, Applications, or technical questions.
 
-Use an existing page when its primary entity and intent match and it can answer the full need without changing its core purpose.
+### Product Category
+
+Use for broad product-family discovery, classification, filtering, comparison, and selection.
+
+### Product Detail
+
+Use for exact product/model specifications, options, Applications, documents, proof, and RFQ.
+
+### Solution/Application Page
+
+Use Solution for a problem/system approach and Application for operating context/product suitability. Do not merge these roles without a clear buyer reason.
+
+### Knowledge/Blog
+
+Use for technical, comparison, selection, implementation, maintenance, troubleshooting, and sourcing questions. Link to the preferred commercial page.
+
+### FAQ/Resource
+
+Use FAQ for narrow recurring questions and Resource for approved documents/evidence. They support, rather than replace, the primary HTML page.
+
+## Existing page, new page, or consolidation
+
+Use an existing page when it matches the entity and buyer task and can answer the need without changing its core role.
 
 Create a new page only when:
 
-- The intent, product entity, application, solution, standard, market, or buyer task is materially distinct.
-- Verified content and technical evidence are available.
-- The page has a defined place in the hierarchy.
-- Internal links and a conversion path are planned.
+- Product, model, Application, Solution, standard, market, or buyer task is materially different.
+- Verified source material and expertise are available.
+- The page has a defined hierarchy, internal links, and CTA.
+- No current page can fulfill the task without role conflict.
 
-Consolidate or reposition pages when several URLs serve the same intent, provide similar answers, or compete in GSC without a clear business distinction.
+Consolidate or reposition when multiple pages serve the same task, overlap heavily in GSC, receive competing anchors, and provide no distinct value.
 
-URL, redirect, canonical, or indexation changes require approval.
+URL, redirect, canonical, noindex, merge, or removal actions require approval.
 
-## 6. Content Coverage Rules
+## Content module recommendation matrix
 
-### 6.1 Coverage by buyer stage
-
-#### Awareness coverage
-
-- Problem or technology definition
-- Operating context and terminology
-- Common causes, approaches, or product families
-- Decision boundaries and links to commercial hubs
-
-#### Consideration coverage
-
-- Selection criteria
-- Type, technology, material, configuration, or supplier comparison
-- Applications, limitations, compatibility, and standards
-- Evidence, cases, and manufacturing/support capability
-
-#### Decision coverage
-
-- Exact product/model specifications
-- Options, drawings, standards, tests, documentation, and quality evidence
-- Customization, ordering inputs, selection support, and inquiry path
-- Project-specific validation requirements
-
-### 6.2 Coverage by keyword type
-
-| Keyword type | Mandatory coverage |
+| Intent | Required content modules |
 |---|---|
-| Product | Definition, range/model, specifications, options, applications, limitations, proof, CTA |
-| Application | Environment, process, requirements, suitable products, limitations, cases, next step |
-| Solution | Challenge, inputs, approach, products, implementation, evidence, assumptions, consultation |
-| Technical | Direct answer, variables, method, standards, units, safety boundaries, source, deeper resource |
-| Brand | Identity, role, product/capability scope, trust evidence, official navigation/contact |
+| Product | Identity, range/model, parameters, options, Applications, limits, proof, documents, CTA |
+| Application | Context, requirements, operating conditions, suitable products, limits, Solutions, cases, CTA |
+| Solution | Pain points, inputs, technical approach, products, interfaces, process, evidence, FAQ, consultation |
+| Technical | Direct answer, variables, method/principle, standards, units, safety boundary, source, links |
+| Comparison | Compared scope, criteria, equivalent data, trade-offs, limits, recommendation logic, next step |
 
-### 6.3 Industrial content requirements
+# Incorrect Matching Cases
 
-Address relevant factors:
+## Case 1 — Homepage competing for a specific Product keyword
 
-- Machinery: material/process, output, accuracy, capacity, utilities, integration, safety, commissioning, maintenance
-- Electrical equipment: voltage, current, power, frequency, protection, derating, enclosure, standards, installation, qualified safety review
-- Industrial components: material, dimensions, tolerances, load, speed, pressure, temperature, medium, fit, compatibility, wear, quality control
+**Keyword:** `250 A molded case circuit breaker`
 
-Do not invent missing specifications, compatibility, certification, performance, or project results.
+**Wrong page:** Homepage
 
-### 6.4 Cluster completeness rule
+**Why wrong:** Decision-stage Product intent requires exact ratings, standards, options, and documents.
 
-A keyword cluster is incomplete when:
+**Correct page:** Relevant Product Detail, supported by Category.
 
-- It attracts awareness traffic but has no category/solution path.
-- It has commercial pages but no selection or validation support for complex products.
-- Product pages lack applications and technical proof.
-- Solution pages lack products, implementation logic, and evidence.
-- Technical content lacks safety boundaries or review.
-- Pages do not connect to a measurable next action.
+## Case 2 — Product Detail receiving industry Solution intent
 
-## 7. Search Intent Error Cases
+**Keyword:** `electrical protection solution for chemical plants`
 
-### Case 1 — Broad category keyword assigned to a model page
+**Wrong page:** One circuit breaker Product page
+
+**Why wrong:** Buyer expects plant requirements, system architecture, protection coordination, products, standards, and project support.
+
+**Correct page:** Chemical-industry Solution page with linked Product details.
+
+## Case 3 — Category keyword mapped to one model
 
 **Keyword:** `industrial air compressors`
 
-**Wrong page:** One specific 90 kW model.
+**Wrong page:** A single 90 kW compressor model
 
-**Why wrong:** The buyer expects a product-family overview and selection options.
+**Why wrong:** Buyer expects range exploration and selection.
 
-**Correct match:** Product category; link to individual models.
+**Correct page:** Product Category.
 
-### Case 2 — Specific model keyword assigned to homepage
-
-**Keyword:** `[model] circuit breaker datasheet`
-
-**Wrong page:** Company homepage.
-
-**Why wrong:** Decision-stage technical intent requires exact model data.
-
-**Correct match:** Product detail plus current datasheet resource.
-
-### Case 3 — Application keyword treated as a generic product category
+## Case 4 — Application keyword mapped to generic Product grid
 
 **Keyword:** `gearbox for washdown conveyor`
 
-**Wrong page:** Generic gearbox grid with no environment information.
+**Wrong page:** Gearbox listing with no washdown requirements
 
-**Why wrong:** The buyer needs washdown, corrosion, sealing, material, and compatibility guidance.
+**Why wrong:** Buyer needs corrosion, sealing, material, load, cleaning, and compatibility guidance.
 
-**Correct match:** Application/solution or a category section with verified washdown selection content.
+**Correct page:** Application/Solution page or verified Application section linked to suitable Products.
 
-### Case 4 — Solution keyword assigned to a product list
+## Case 5 — Technical keyword mapped to sales copy
 
-**Keyword:** `packaging line automation solution`
+**Keyword:** `how to size a hydraulic cylinder`
 
-**Wrong page:** Cards for unrelated packaging machines.
+**Wrong page:** Product page with “Contact us for the best cylinder” and no method
 
-**Why wrong:** The query expects system requirements, workflow, integration, controls, products, and implementation.
+**Why wrong:** Buyer expects variables, calculation boundaries, units, assumptions, and engineering review.
 
-**Correct match:** Solution page with linked product details.
+**Correct page:** Knowledge/Blog guide linked to Category/Product selection support.
 
-### Case 5 — Technical selection query assigned to a sales page
+## Case 6 — Comparison intent split across duplicate Blogs
 
-**Keyword:** `MCCB vs MCB for industrial panel`
+**Keywords:** `MCCB vs MCB`, `difference between MCB and MCCB`, `MCCB and MCB comparison`
 
-**Wrong page:** MCCB product page claiming it is always better.
+**Wrong layout:** Three near-duplicate articles
 
-**Why wrong:** The buyer expects an objective comparison with ratings, protection needs, standards, and limitations.
+**Why wrong:** Same buyer task and content requirement cause internal competition.
 
-**Correct match:** Qualified comparison guide linking to relevant categories/products.
+**Correct page:** One complete comparison guide with natural variants and links to Categories.
 
-### Case 6 — Brand keyword used misleadingly
+## Case 7 — Solution keyword mapped to Product Category
 
-**Keyword:** `[competitor brand] distributor`
+**Keyword:** `automated end-of-line packaging solution`
 
-**Wrong page:** Page implying authorization that does not exist.
+**Wrong page:** Category containing packaging machine cards only
 
-**Why wrong:** Misleading affiliation and trust risk.
+**Why wrong:** Buyer expects line flow, integration, controls, equipment roles, implementation, and case evidence.
 
-**Correct action:** Do not target unless the relationship is verified and approved.
+**Correct page:** Solution page.
 
-### Case 7 — Awareness query forced directly to RFQ
-
-**Keyword:** `why conveyor belts mistrack`
-
-**Wrong page:** Contact form with no explanation.
-
-**Why wrong:** The buyer needs causes, inspection boundaries, and corrective options before inquiry.
-
-**Correct match:** Technical guide with appropriate support CTA.
-
-### Case 8 — Same intent split across multiple blogs
-
-**Keywords:** `how to choose an industrial motor`, `industrial motor selection guide`, `selecting motors for industry`
-
-**Wrong layout:** Three near-duplicate articles.
-
-**Why wrong:** Same buyer task and content requirement; creates internal competition.
-
-**Correct match:** One comprehensive preferred guide with natural variants.
-
-### Case 9 — Product keyword assigned to a Blog despite strong commercial intent
+## Case 8 — Product keyword mapped to general Blog
 
 **Keyword:** `stainless steel flexible coupling manufacturer`
 
-**Wrong page:** Generic “What Is a Flexible Coupling?” blog.
+**Wrong page:** “What Is a Flexible Coupling?” article
 
-**Why wrong:** Buyer is evaluating a product/supplier, not seeking a basic definition.
+**Why wrong:** Commercial supplier-selection intent requires range, material, manufacturing, quality, and inquiry information.
 
-**Correct match:** Category or capability-supported product page.
+**Correct page:** Category or Product/capability-supported commercial page.
 
-### Case 10 — Unsafe technical intent answered without qualification
+## Case 9 — Specific document intent mapped to PDF only
+
+**Keyword:** `[model] installation manual`
+
+**Wrong page:** Uncontextualized file with no product/version page
+
+**Why wrong:** Buyer cannot confirm model scope, revision, status, or related support.
+
+**Correct page:** Product Detail or resource context page linking to the approved manual.
+
+## Case 10 — Unsafe technical query answered without qualification
 
 **Keyword:** `how to test live switchgear`
 
-**Wrong page:** Simplified step-by-step instructions for unqualified users.
+**Wrong page:** Simplified steps for unqualified readers
 
-**Why wrong:** Electrical safety and legal risk; context and qualifications are missing.
+**Why wrong:** Electrical safety, legal, and project-context risk.
 
-**Correct action:** Provide safe high-level boundaries, applicable standards, and qualified-professional guidance after technical review.
+**Correct action:** Provide approved high-level boundaries and qualified-professional guidance after technical review.
 
-## 8. Codex Keyword Layout Output
+# Codex Analysis Workflow
 
-Codex must use this table:
+When Codex receives one keyword or a keyword list, execute the following sequence.
 
-| Keyword cluster | Representative queries | Buyer role | Stage | Primary type | Secondary type | Intent/task | Preferred page type | Existing/proposed URL | Required coverage | Internal links | CTA | Evidence | Confidence | Risk/action |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|  |  |  | Awareness/Consideration/Decision | Product/Application/Solution/Technical/Brand |  |  |  |  |  |  |  |  | High/Medium/Low |  |
+## Step 1 — Determine search stage
 
-### Confidence definitions
+Assign:
 
-- **High:** supported by consistent GSC, SERP, product taxonomy, and buyer evidence
-- **Medium:** supported by some evidence but needs page/query validation
-- **Low:** preliminary hypothesis with limited or conflicting evidence
+- Awareness
+- Consideration
+- Decision
 
-### Priority scoring
+Record the evidence and confidence level.
 
-Score 0–3 for:
+Questions:
+
+- Does the buyer know the product/model?
+- Is the buyer learning, comparing, validating, specifying, or sourcing?
+- Does the query include quote, supplier, model, datasheet, standard, or compatibility signals?
+
+## Step 2 — Determine user purpose
+
+Assign one primary intent:
+
+- Product Intent
+- Application Intent
+- Solution Intent
+- Technical Intent
+- Comparison Intent
+
+Record secondary intent only when necessary.
+
+Extract:
+
+- Product/model entity
+- Application/industry/process/environment
+- Standard/rating/material/technical modifier
+- Supplier/custom/quote/document modifier
+- Required buyer outcome
+
+## Step 3 — Recommend page type
+
+Choose one:
+
+- Homepage
+- Product Category
+- Product Detail
+- Solution
+- Application
+- Knowledge/Blog
+- FAQ/Resource
+- Capability/Contact/Case as supporting page
+
+Then:
+
+- Map one existing canonical URL, or
+- Recommend a new page with justification, or
+- Recommend consolidation/repositioning after impact review
+
+Do not recommend a new URL for singular/plural, word order, or close variants with the same task.
+
+## Step 4 — Recommend content modules
+
+Define:
+
+- Required page opening and H1 direction
+- Main decision questions
+- Product/specification/application/solution information
+- Standards, evidence, cases, and sources needed
+- Assumptions, limits, compatibility, and safety boundaries
+- Internal links to parent, child, supporting, evidence, and conversion pages
+- CTA appropriate to stage
+- Missing inputs and technical review requirements
+
+## Step 5 — Check competition and feasibility
+
+- Compare existing Titles, H1s, content, canonicals, GSC queries, internal anchors, and page roles.
+- Confirm that the company can produce verified differentiated content.
+- Check product and business relevance.
+- Flag URL/index changes for approval.
+
+## Step 6 — Assign priority and measurement
+
+Score 0–3 on:
 
 - Business relevance
 - Buyer intent strength
-- Product/solution fit
+- Product/Solution fit
 - Demand evidence
 - Current performance gap
-- Ability to provide verified differentiated content
+- Verified content capability
 - Conversion-path readiness
 
-Search volume alone cannot make a keyword high priority.
+Define baseline and KPI: visibility, target landing behavior, product/Solution progression, download, selection support, RFQ, or qualified inquiry.
 
-## 9. Codex Final Checklist
+## Required Codex output
 
-- [ ] Target market, language, buyer role, and terminology are defined
-- [ ] Every cluster is assigned to Awareness, Consideration, or Decision
-- [ ] Every cluster has one primary Product, Application, Solution, Technical, or Brand type
-- [ ] Primary and secondary intent are separated
-- [ ] GSC, SERP, sales/support, or product-taxonomy evidence is recorded
-- [ ] One preferred canonical page is assigned to each primary intent
-- [ ] Page type can complete the buyer’s task
-- [ ] Existing pages and cannibalization were checked
-- [ ] New page recommendations have verified content, hierarchy, links, and conversion plans
-- [ ] Content requirements cover the correct stage and keyword type
-- [ ] Machinery, electrical, or component-specific factors are included where relevant
-- [ ] Technical claims, standards, compatibility, and safety boundaries are verified
+| Keyword cluster | Representative queries | Buyer role | Stage | Primary intent | Secondary intent | User purpose | Recommended page type | Existing/proposed URL | Required modules | Internal links | CTA | Evidence | Confidence | Priority/risk |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|  |  |  | Awareness/Consideration/Decision | Product/Application/Solution/Technical/Comparison |  |  |  |  |  |  |  |  | High/Medium/Low |  |
+
+## Codex final checklist
+
+- [ ] Target market, language, buyer role, device, and date are recorded where relevant
+- [ ] Keyword is assigned to Awareness, Consideration, or Decision
+- [ ] One primary Product, Application, Solution, Technical, or Comparison intent is assigned
+- [ ] User purpose is stated as a concrete task
+- [ ] Recommended page type can complete that task
+- [ ] One preferred canonical URL is assigned
+- [ ] GSC, SERP, sales/support, taxonomy, or technical evidence is recorded
+- [ ] Existing page overlap and internal competition are checked
+- [ ] Content modules match the stage and intent
+- [ ] Required facts, standards, evidence, and technical review are identified
+- [ ] Internal links connect the buyer to the appropriate commercial next step
 - [ ] CTA matches the buyer stage
-- [ ] Confidence, risk, and validation requirement are stated
-- [ ] URL, redirect, canonical, or index changes are flagged for approval
+- [ ] New page recommendation has unique value and hierarchy
+- [ ] Confidence, priority, risk, KPI, and validation method are stated
+- [ ] URL, redirect, canonical, noindex, merge, or removal actions are flagged for approval

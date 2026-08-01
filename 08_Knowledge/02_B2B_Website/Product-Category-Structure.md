@@ -1,370 +1,356 @@
 # Industrial B2B Product Category Page Standard
 
-> Internal execution rules for Codex. Apply to overseas English-language product category pages for machinery, electrical equipment, industrial equipment, and related components.
+> Codex internal execution rules for overseas English-language Product Category pages in machinery, electrical equipment, industrial equipment, and industrial components.
 
-## Operating Principle
+## Scope and Required Inputs
 
-A product category page is a commercial selection hub. It must help an industrial buyer understand the product family, distinguish available types, narrow options using real technical criteria, and reach a suitable product or assisted-selection path.
+Before analyzing, creating, or modifying a Category page, Codex must confirm:
 
-A category page must provide more value than a product grid. It owns broad product-family intent; individual product/model specifications belong on product detail pages.
+- Approved Category name, parent/child taxonomy, and canonical URL
+- Included Products, models, variants, lifecycle status, and canonical Product URLs
+- Target countries, English variant, buyer roles, industries, and Applications
+- Buyer selection criteria and priority Product attributes
+- Verified specifications, ranges, units, standards, options, and limitations
+- Filter, comparison, download, and inquiry requirements
+- Related Solution, Application, Case, Knowledge, FAQ, and capability pages
+- Existing Title, H1, URL, metadata, schema, navigation, tracking, forms, and technical dependencies
 
-## Required Inputs
+Do not infer Category-wide specifications, certification, compatibility, Product availability, or manufacturing capability from incomplete data.
 
-Before analyzing, creating, or optimizing a category page, Codex must confirm:
+# Page Positioning
 
-- Approved category name and parent/child taxonomy
-- Products, models, variants, status, and canonical URLs included in the category
-- Target countries, English variant, industries, applications, and buyer roles
-- Selection criteria used by engineering, procurement, and sales teams
-- Verified product attributes, parameter ranges, standards, and compatibility
-- Available filters, comparison data, downloads, and inquiry requirements
-- Relevant Solution, Application, Case, Blog, FAQ, and resource pages
-- Existing metadata, schema, navigation, tracking, forms, and technical dependencies
+The Product Category page has three primary roles.
 
-Do not infer specifications, range-wide capability, certification, compatibility, or product availability from incomplete source data.
+## Product Collection
 
-## 1. Category Positioning
+The page must present a coherent Product family and help buyers understand which Products, types, or models belong together.
 
-### Objective
+Required outcomes:
 
-The page must define:
+- Define the Product family
+- Show available types/models
+- Explain meaningful differences
+- Link to canonical Product Detail pages
+- Preserve an understandable parent/child taxonomy
 
-- What product family it covers
-- Which products/types are included
-- Which buyer needs and applications it serves
-- How buyers should distinguish and select options
-- What technical or commercial next step is available
+The page must provide more than an unexplained Product grid.
 
-### Buyer roles
+## Keyword Entry
 
-- Engineers: compare types, specifications, standards, interfaces, and operating fit
-- Procurement teams: review range, supplier capability, quality evidence, documentation, and sourcing path
-- Project owners/integrators: connect products to systems, applications, and solutions
-- Distributors/OEMs: understand portfolio, variants, customization, supply, and support
+The Category page owns broad Product-family commercial intent, including:
 
-### Search and page role
+- Product category and type terms
+- Product range and manufacturer/supplier intent where accurate
+- Category-level technology, material, rating, and Application concepts
+- Comparison and selection terms that apply across the range
 
-- Own broad product-family and category-level commercial intent.
-- Route exact model intent to product detail pages.
-- Route problem/system intent to Solution pages.
-- Route environment/process intent to Application pages where dedicated context is required.
-- Route detailed comparisons or procedures to guides when they exceed category scope.
+Exact model/specification/document intent belongs to Product Detail pages. Problem/system intent belongs to Solution pages. Distinct operating-context intent may belong to Application pages.
 
-### Positioning pass criteria
+## Selection Entry
 
-- [ ] Category is distinct from its parent, children, products, and solutions
-- [ ] Included product scope is clear
-- [ ] Buyer and primary selection task are defined
-- [ ] Page has a measurable product-selection or inquiry objective
-- [ ] Category name matches navigation, taxonomy, breadcrumb, and internal links
+The page must help engineers, procurement teams, OEMs, integrators, distributors, and project buyers narrow the range.
 
-## 2. H1 Rules
+Selection support may include:
 
-### Objective
+- Classification
+- Decision-relevant parameters
+- Filters
+- Product comparison
+- Technical advantages and limitations
+- Application mapping
+- Selection Guide and FAQ
+- Direct Product route or assisted-selection CTA
 
-The H1 must identify the complete product family in terminology used by target industrial buyers.
+## Positioning acceptance criteria
 
-### Recommended patterns
+- [ ] Category owns one distinct broad Product-family intent
+- [ ] Included Product scope and taxonomy are clear
+- [ ] Page is distinct from parent, child, Product, Solution, Application, and Knowledge pages
+- [ ] Buyer, selection task, target market, and conversion path are defined
+- [ ] Page contains enough selection value beyond Product cards
 
-`[Product Category]`
+# Standard Structure
 
-`[Product Category] for [Primary Application]`
+## Hero
 
-`[Verified Technology/Material] [Product Category]`
+### Purpose
 
-### Examples
-
-- `Industrial Tube Bending Machines`
-- `Molded Case Circuit Breakers for Power Distribution`
-- `Stainless Steel Flexible Couplings`
-
-Examples are structural only; all product and application claims require verification.
-
-### Rules
-
-- Use one clear H1.
-- Match the primary category intent and remain consistent with Title and breadcrumb.
-- Do not include every product subtype, rating, industry, country, or synonym.
-- Do not use “manufacturer” unless it accurately describes the company and supports the intended query.
-- Do not make a product-specific rating or certification appear category-wide.
-- Supporting H2/H3 headings must organize selection, products, applications, advantages, FAQ, and CTA logically.
-
-## 3. Hero Area
-
-### Required components
-
-- Breadcrumb
-- H1
-- Concise category definition
-- Primary buyer value or selection context
-- Primary CTA
-- Optional secondary CTA
-- Accurate category/product visual
-
-### Hero content formula
-
-`Product family → suitable needs/applications → meaningful range or capability → next selection action`
-
-### Hero rules
-
-- Explain the category in two or three useful sentences, not a generic company introduction.
-- State verified category-level value such as available types, application scope, or selection support.
-- Do not repeat homepage slogans.
-- Use a visual representing the category rather than one misleading model unless labeled.
-- Keep the product-list route and selection-support CTA visible.
-- Optimize image loading and mobile layout.
-
-### CTA examples
-
-- View Product Range
-- Compare Product Types
-- Request Selection Support
-- Discuss Your Requirements
-
-## 4. Product List
-
-### Product-card requirements
-
-Each card should include, where applicable:
-
-- Exact product/model name
-- Product type or subtype
-- Representative approved image
-- Two to four distinguishing attributes
-- Primary application or selection context
-- Availability/status when maintained accurately
-- Crawlable link to the canonical product URL
-- Optional compare or shortlist action
-
-### Product-list rules
-
-- Include only products that belong to the category.
-- Use consistent attribute labels and units.
-- Explain differences; do not repeat identical generic copy.
-- Link directly to canonical HTTPS product pages without redirects or tracking parameters.
-- Preserve product context through compare, inquiry, and analytics actions.
-- Product cards must remain usable by keyboard and on mobile.
-- Pagination or load-more behavior must not prevent crawlable discovery of priority products.
-- Handle discontinued and unavailable products intentionally; do not silently remove valuable URLs.
-
-### Ordering options
-
-Choose an ordering logic based on buyer needs:
-
-- Product type
-- Application
-- Capacity/rating/size
-- Technology
-- Material or environment
-- Standard/default versus custom
-- Popularity or priority only when not misleading
-
-Do not use arbitrary ordering that hides the selection logic.
-
-## 5. Classification Logic
-
-### Objective
-
-Classification must reflect how buyers distinguish products, not the company’s internal department structure.
-
-### Valid classification dimensions
-
-#### Machinery
-
-- Process or machine function
-- Material/product handled
-- Output/capacity
-- Automation level
-- Configuration or production-line position
-
-#### Electrical equipment
-
-- Protection, control, switching, distribution, or connection function
-- Voltage/current/power class
-- Pole, phase, breaking capacity, duty, or enclosure
-- Standard or system compatibility
-
-#### Industrial equipment/components
-
-- Function and interface
-- Material and manufacturing method
-- Size, load, speed, pressure, or temperature range
-- Environment, medium, sealing, or protection
-- Standard, custom, replacement, or accessory role
-
-### Classification rules
-
-- Use one primary hierarchy and secondary facets where needed.
-- Keep parent, child, and sibling categories mutually understandable.
-- Avoid categories containing only one product unless a distinct intent and roadmap justify them.
-- Avoid the same product appearing in unrelated categories without clear application logic.
-- Do not create separate indexable categories for close synonyms or trivial attribute combinations.
-- Document which category owns the canonical product-family intent.
-
-## 6. Parameter Filtering
-
-### Objective
-
-Filters must help buyers narrow a large catalog using verified, decision-relevant parameters without creating uncontrolled duplicate URLs.
-
-### Filter selection rules
-
-Use only attributes that materially affect fit, such as:
-
-- Product type/model family
-- Capacity, output, size, rating, power, voltage, current, speed, load, pressure, or temperature
-- Material, finish, sealing, protection, environment, or medium
-- Standard, connection, interface, pole/phase, mounting, or configuration
-- Application or industry when technically verified
-
-### UX requirements
-
-- Use consistent labels, units, ranges, and option names.
-- Show active filters and provide a clear reset action.
-- Display result count when reliable.
-- Do not allow impossible or incompatible combinations without explanation.
-- Preserve accessibility, keyboard use, focus, and mobile operation.
-- Retain useful buyer context when a filtered product is opened.
-
-### Technical SEO requirements
-
-- Define whether filtered URLs are crawlable, indexable, canonicalized, or blocked based on real demand and unique value.
-- Do not allow every parameter combination to become an indexable page.
-- Use stable crawlable links for strategic subcategories; use controlled UI filters for the remaining facets.
-- Keep canonical, robots, sitemap, internal links, and parameter handling consistent.
-- Do not canonicalize a valuable distinct subcategory to a generic page without review.
-- Test empty, single-result, multi-filter, reset, pagination, and no-JavaScript/failure states.
-
-## 7. Comparison Function
-
-### Objective
-
-Comparison must enable buyers to evaluate equivalent products using consistent criteria.
-
-### Required comparison fields
-
-Depending on the category:
-
-- Product/model identity
-- Primary function/application
-- Key specifications and units
-- Materials and options
-- Standards and ratings
-- Dimensions/interfaces
-- Operating environment and limitations
-- Downloads and inquiry action
-
-### Comparison rules
-
-- Compare only products that buyers can reasonably evaluate together.
-- Use equivalent attribute definitions, units, and conditions.
-- Mark unavailable, optional, custom, and not-applicable values clearly.
-- Do not convert missing data into zero, “No,” or a guessed value.
-- Explain trade-offs rather than declaring a universal winner.
-- Limit default comparison columns to a usable number and support mobile presentation.
-- Provide links to full product details and selection support.
-- Preserve selected products during inquiry when possible.
-
-### Comparison failure conditions
-
-- Specifications come from different revisions or test conditions
-- Product attributes are misaligned across rows
-- Missing values are concealed
-- Comparison table is an image or unusable on mobile
-- “Best” labels are unsupported
-- Compare tool has no product-detail or assisted-selection path
-
-## 8. Application Scenarios
-
-### Objective
-
-Explain where the category is used and which factors determine product suitability.
+Identify the Product family, its main use or selection context, and the buyer’s next action.
 
 ### Required content
 
-- Industry, process, machine, system, environment, or medium
-- Application requirements and risks
-- Relevant product types
-- Selection considerations and limitations
-- Link to the dedicated Application or Solution page
+- Breadcrumb
+- One H1 naming the Category
+- Concise Category definition
+- Primary Application or selection context
+- Primary CTA and optional secondary CTA
+- Accurate Category/Product visual
+
+Recommended formula:
+
+`Product family → suitable needs/Applications → verified range/capability → selection action`
 
 ### Rules
 
-- Do not list industries without explaining product fit.
-- Use verified product-to-application relationships.
-- Distinguish Application from Solution:
-  - Application explains operating context and suitability.
-  - Solution explains a problem/system approach and how products work together.
-- Include environmental and regulatory factors where relevant.
-- Avoid claiming the entire category suits every listed scenario.
-- Provide an engineering-review CTA for complex or safety-critical applications.
+- Do not use generic company slogans.
+- Do not list every Product subtype or keyword.
+- Use a visual that represents the range or label a specific model clearly.
+- Do not make one Product’s rating or certification appear Category-wide.
+- Optimize the primary image and preserve mobile readability.
 
-## 9. Technical Advantages
+### Conversion role
 
-### Objective
+- Direct Product-aware buyers to the Product List.
+- Route complex buyers to Compare Products or Request Selection Support.
 
-Explain category-level technical and manufacturing strengths using evidence and buyer consequences.
+## Introduction
 
-### Recommended structure
+### Purpose
 
-`Verified feature/capability → evidence → buyer value → applicable scope/condition`
+Explain what the Category includes, how Products differ, where they are used, and what determines selection.
 
-### Suitable advantage areas
+### Required content
+
+- Product-family definition
+- Main types or classification logic
+- Core functions and Applications
+- Important selection factors
+- Range-wide capability and limitations
+- Link/anchor to Product List or Selection Guide
+
+### Rules
+
+- Use buyer terminology and approved Product taxonomy.
+- Keep Category-wide facts separate from model-specific data.
+- Avoid copying Homepage or Product introductions.
+- Explain unfamiliar technical terms.
+- State when engineering review is required.
+
+### SEO and conversion role
+
+- Confirms broad Product intent after H1.
+- Provides natural coverage of types, Applications, parameters, and buyer language.
+- Helps buyers choose the correct navigation or selection path.
+
+## Product List
+
+### Purpose
+
+Present current Products in a consistent format so buyers can identify suitable candidates and reach exact Product pages.
+
+### Required functions
+
+- Logical Product grouping/order
+- Product cards using standardized data
+- Crawlable links to canonical Product Detail pages
+- Optional filters, shortlist, or compare action
+- Pagination/load-more implementation that preserves discovery
+- Empty, unavailable, and discontinued states handled intentionally
+
+### Ordering logic
+
+Use one or more buyer-relevant dimensions:
+
+- Product type
+- Capacity, rating, size, power, voltage, load, speed, pressure, or temperature
+- Material, environment, medium, or protection
+- Technology or configuration
+- Application
+- Standard/default versus custom
+
+Do not hide selection logic behind arbitrary ordering.
+
+### Technical rules
+
+- Include only Products belonging to the Category.
+- Use consistent attribute labels, units, and data revisions.
+- Link directly to canonical HTTPS Product URLs.
+- Avoid tracking/parameter variants as Product-card destinations.
+- Maintain keyboard, mobile, and assistive-technology usability.
+- Do not silently remove valuable discontinued pages without impact review.
+
+## Comparison
+
+### Purpose
+
+Enable buyers to compare equivalent Products using consistent attributes and conditions.
+
+### Required fields where applicable
+
+- Product/model identity
+- Product type and function
+- Core specifications and units
+- Materials, ratings, standards, and options
+- Dimensions, interfaces, and mounting
+- Applications, environment, and limitations
+- Documents and inquiry actions
+
+### Rules
+
+- Compare only Products a buyer can reasonably evaluate together.
+- Use equivalent definitions, units, document revisions, and test conditions.
+- Label missing, optional, custom, and not-applicable values accurately.
+- Do not convert missing values to zero, `No`, or guesses.
+- Explain trade-offs rather than declaring a universal winner.
+- Make tables usable on mobile and accessible.
+- Preserve selected Products in the inquiry context where possible.
+
+### Conversion role
+
+- Move buyers from range exploration to Product Detail or assisted selection.
+- Track compare starts, Product additions/removals, detail visits, and inquiry actions.
+
+## Technical Advantage
+
+### Purpose
+
+Explain verified Category-level engineering, Product, manufacturing, quality, or support strengths.
+
+### Required structure
+
+`Feature/capability → mechanism/evidence → buyer value → scope/condition`
+
+### Suitable topics
 
 - Design or technology
 - Material and manufacturing process
 - Performance range
-- Accuracy, consistency, reliability, protection, or maintainability
+- Accuracy, protection, reliability, maintainability, or integration
 - Customization and engineering
 - Testing, quality control, traceability, and documentation
-- Integration, accessories, compatibility, and support
+- Accessories, compatibility, and support
 
 ### Rules
 
-- Separate category-wide advantages from model-specific attributes.
-- Support claims with product data, tests, standards, quality processes, or verified cases.
-- Use “high quality,” “reliable,” and “cost-effective” only when replaced or supported by concrete evidence.
-- State conditions behind performance data.
-- Do not imply company-system certification applies to every product.
-- Link to detailed capability, quality, case, and technical-resource pages.
+- Separate Category-wide advantages from Product-specific attributes.
+- Replace “high quality,” “advanced,” “reliable,” and “cost-effective” with concrete evidence.
+- State conditions behind quantitative performance.
+- Distinguish company-system certification from Product certification.
+- Link to capability, Quality, Case, test, and technical-resource pages.
 
-## 10. FAQ
+### Conversion role
 
-### Suitable category FAQ topics
+- Reduce engineering and supplier risk.
+- Route buyers to technical proof, Product pages, selection support, or RFQ.
 
-- How do the main product types differ?
+## Applications
+
+### Purpose
+
+Show where the Product family is used and which conditions determine Product suitability.
+
+### Required content
+
+- Industry, process, machine, system, environment, material, or medium
+- Application requirements and risks
+- Suitable Product types
+- Selection conditions and limitations
+- Link to dedicated Application or Solution page
+
+### Rules
+
+- Do not list industries without explaining fit.
+- Verify Product-to-Application relationships.
+- Application explains operating context; Solution explains problem/system approach.
+- Avoid claiming every Product supports every Application.
+- Flag hazardous, safety-critical, high-load, pressure, thermal, electrical, chemical, or regulatory Applications for qualified review.
+
+### SEO and conversion role
+
+- Supports Product + Application search behavior.
+- Connects Category to Application/Solution clusters.
+- Routes complex buyers to Application consultation.
+
+## Selection Guide
+
+### Purpose
+
+Translate Product data into a repeatable selection process for engineers and procurement teams.
+
+### Required content
+
+1. Buyer inputs required
+2. Product-type decision logic
+3. Core parameters and ranges
+4. Material, rating, standard, environment, and interface criteria
+5. Options and incompatible combinations
+6. Trade-offs and limitations
+7. When engineering review is required
+8. Next Product or inquiry action
+
+### Industry-specific criteria
+
+#### Machinery
+
+- Process/material, capacity, output, accuracy, automation, utilities, footprint, integration, safety, maintenance
+
+#### Electrical equipment
+
+- Voltage, current, power, frequency, phase, fault level, protection, coordination, derating, enclosure, standard, installation
+
+#### Industrial components
+
+- Material, dimension, tolerance, load, speed, pressure, temperature, medium, fit, interface, sealing, wear, compatibility
+
+### Rules
+
+- Use verified data and consistent units.
+- Do not provide unsafe or incomplete calculations.
+- Distinguish general guidance from project-specific engineering approval.
+- Provide a comparison table, flow, or checklist only when it improves the decision.
+- Link selection steps to relevant Product pages.
+
+### Conversion role
+
+- Converts uncertain buyers into qualified Product candidates or a structured selection-support inquiry.
+
+## FAQ
+
+### Purpose
+
+Resolve recurring Category-level selection, range, Application, documentation, customization, and sourcing questions.
+
+### Suitable questions
+
+- How do Product types differ?
 - Which parameters determine selection?
-- Which applications or environments are supported?
-- What standards, ratings, materials, or options are available?
+- Which Applications and environments are supported?
+- Which materials, ratings, standards, and options are available?
 - When is a custom configuration required?
 - What information is needed for selection or quotation?
-- Which technical documents and support services are available?
+- Which documents and support services are available?
 
 ### Rules
 
-- Answer category-level selection questions; keep model-specific questions on product pages.
-- Use approved technical and commercial facts.
-- Explain dependent variables immediately.
-- Do not confirm compatibility, compliance, price, MOQ, or lead time without verified conditions.
-- Link to deeper guides, products, solutions, and selection support.
-- Visible questions and answers must match structured data when markup is used.
-- FAQ markup does not guarantee a search-result feature.
+- Product/model-specific questions belong on Product pages.
+- Give a direct answer, followed by conditions and limitations.
+- Do not confirm compatibility, compliance, price, MOQ, lead time, or warranty without approved conditions.
+- Link to Product, Solution, Application, guide, document, or selection support.
+- Visible FAQ must match structured data when used.
 
-## 11. CTA
+### Conversion role
+
+- Removes final selection and sourcing friction.
+- Routes buyers to Products, documents, comparison, RFQ, or engineering support.
+
+## CTA
+
+### Purpose
+
+Move buyers from Category exploration to Product Detail, comparison, assisted selection, or quotation.
 
 ### Buyer paths
 
-#### Direct product path
+```text
+Direct Product:
+Category → Product Detail → Specifications/Download → RFQ
 
-`Category → Product Detail → Datasheet/Specifications → RFQ`
+Assisted Selection:
+Category → Comparison/Selection Guide → Submit Requirements → Recommendation
 
-#### Assisted selection path
-
-`Category → Selection Criteria/Compare → Submit Requirements → Product Recommendation`
-
-#### Application path
-
-`Category → Application/Solution → Products/Case/Evidence → Project Inquiry`
+Application:
+Category → Application/Solution → Product/Case/Evidence → Consultation
+```
 
 ### Primary CTA options
 
@@ -375,97 +361,257 @@ Explain category-level technical and manufacturing strengths using evidence and 
 
 ### Secondary CTA options
 
+- View Product Details
 - Download Category Catalog
 - View Applications
 - Review Technical Resources
-- Contact an Engineer
 
-### CTA rules
+### Rules
 
-- Match CTA to category complexity and buyer stage.
-- Place product-detail links on every valid product card.
-- Place assisted-selection CTAs near comparison and technical criteria.
-- Repeat a clear final CTA after FAQ or evidence.
-- Preserve category, filtered criteria, compared products, and source URL in inquiry context.
-- Ask for parameters required for qualification, not unnecessary personal data.
-- Track product clicks, filters, compare actions, downloads, CTA clicks, form starts, errors, and submissions.
-- Do not promise instant price or selection when engineering review is required.
+- Match CTA to Category complexity and buyer stage.
+- Place Product-detail CTA on every Product card.
+- Put assisted-selection CTA near Comparison and Selection Guide.
+- Preserve Category, filter, compared Products, and source context through forms/CRM.
+- Ask only for qualification inputs required at that stage.
+- Track Product clicks, filters, comparison, downloads, CTA, form starts, errors, and submissions.
+- Do not promise instant price, compatibility, delivery, or engineering approval.
 
-## 12. SEO Checklist
+# Product Card Rules
 
-### Positioning and intent
+Every Product card must help the buyer identify the Product, understand one or more meaningful differences, and reach the canonical Product page.
 
-- [ ] Category has one clear product-family intent and canonical URL
-- [ ] Buyer, market, application scope, and conversion path are defined
-- [ ] Category is distinct from parent, child, product, Solution, Application, and Blog pages
-- [ ] GSC/SERP evidence and internal keyword competition were checked where available
+## Image
 
-### H1 and Hero
+Requirements:
 
-- [ ] H1 names the complete category accurately
-- [ ] Title, H1, breadcrumb, taxonomy, and opening use consistent terminology
-- [ ] Hero defines the category, selection context, and next step
-- [ ] Visual represents the category accurately and is optimized
-- [ ] No unsupported manufacturer, leadership, certification, or performance claim appears
+- Approved image of the actual Product/model or a clearly labeled representative configuration
+- Consistent aspect ratio and sufficient resolution
+- Optimized file size and reserved dimensions
+- Meaningful alternative text when the image conveys Product information
+- No stock/competitor/unavailable configuration presented as actual Product
 
-### Product list and classification
+Checks:
 
-- [ ] Every listed product belongs to the category and has verified current data
-- [ ] Product cards contain useful distinguishing attributes
-- [ ] Product links resolve directly to canonical URLs
-- [ ] Classification follows buyer selection logic
-- [ ] Parent, child, sibling, and product relationships are understandable
-- [ ] Pagination/load-more behavior preserves discovery
-- [ ] Discontinued and unavailable products are handled intentionally
+- Image matches Product name/model.
+- Variants are not visually misrepresented.
+- Image link and Product-name link share the correct canonical destination.
 
-### Filters and comparison
+## Model
 
-- [ ] Filters use verified decision-relevant parameters and consistent units
-- [ ] Active, reset, empty, incompatible, mobile, keyboard, and failure states work
-- [ ] Strategic subcategory URLs and nonstrategic parameter URLs have intentional index rules
-- [ ] Canonical, robots, sitemap, internal links, and parameter behavior agree
-- [ ] Comparison uses equivalent attributes, units, revisions, and conditions
-- [ ] Missing, optional, custom, and not-applicable data are labeled accurately
-- [ ] Compare selections can progress to product details or assisted inquiry
+Requirements:
 
-### Applications and advantages
+- Exact approved Product/model name
+- Product type when model code alone is unclear
+- Consistent spelling, punctuation, capitalization, and taxonomy
+- Product lifecycle/status handled accurately
 
-- [ ] Application entries explain requirements and product fit
-- [ ] Product-to-application relationships are verified
+Rules:
+
+- Do not abbreviate in a way buyers cannot understand.
+- Do not change model codes for keyword placement.
+- Do not show one family name as several Products without real differences.
+
+## Core Parameters
+
+Requirements:
+
+- Two to four selection-critical attributes
+- Consistent labels and units across cards
+- Correct source and document revision
+- Optional/custom/range data labeled clearly
+
+Examples:
+
+- Machinery: capacity, process, automation, accuracy, power
+- Electrical: voltage, current, breaking/protection rating, poles, enclosure
+- Components: material, size, load, speed, pressure, temperature, interface
+
+Rules:
+
+- Do not choose attributes only because they contain keywords.
+- Do not mix incomparable attributes across cards.
+- Do not guess missing values.
+
+## Application
+
+Requirements:
+
+- One concise verified use case or operating context
+- Important environmental/selection qualifier where necessary
+- Link to Application/Solution only when a deeper page exists
+
+Rules:
+
+- Avoid generic `widely used in many industries` copy.
+- Do not claim food-grade, hazardous-area, washdown, chemical, high-temperature, or other suitability without evidence.
+- Avoid implying all configurations support the stated Application.
+
+## CTA
+
+Required primary card CTA:
+
+- View Product Details
+- View Specifications
+- Configure/Compare where the function truly exists
+
+Optional secondary action:
+
+- Add to Compare
+- Request Quote
+- Ask About This Model
+
+Rules:
+
+- Use a crawlable `<a href>` for Product navigation.
+- Preserve Product/model context in RFQ/compare actions.
+- Use accessible labels; avoid repeated ambiguous `Learn More` links without card context.
+- Test keyboard, mobile, error, and analytics behavior.
+
+# SEO Rules
+
+## H1
+
+- Use one H1 naming the complete Product Category.
+- Align with Title, Category definition, breadcrumb, taxonomy, and internal anchors.
+- Do not place one Product model in Category H1.
+- Do not list every subtype, parameter, industry, country, or synonym.
+- Use `manufacturer` only when the company actually manufactures the Category.
+- Do not imply a Category-wide rating, material, standard, or certification based on one Product.
+
+Recommended patterns:
+
+`[Product Category]`
+
+`[Product Category] for [Primary Application]`
+
+`[Verified Technology/Material] [Product Category]`
+
+## URL
+
+- Use one stable, readable canonical URL for the Category.
+- Follow approved site taxonomy and language structure.
+- Avoid dates, session IDs, tracking parameters, and unnecessary keyword repetition.
+- Do not change an existing URL without approval and a migration plan.
+- Control Product filters, sort, pagination, and parameter combinations intentionally.
+- Strategic subcategories may have indexable URLs when they provide distinct buyer value; ordinary filter combinations should not create unlimited indexable pages.
+- Keep canonical, redirects, internal links, sitemap, hreflang, schema, and navigation consistent.
+
+## Title
+
+Title must represent Product-family commercial intent and one useful verified qualifier.
+
+Recommended patterns:
+
+`[Product Category] for [Primary Application] | [Brand]`
+
+`[Product Category] – [Verified Range/Technology] | [Brand]`
+
+`[Product Category] Manufacturer | [Brand]`
+
+Rules:
+
+- Keep Title unique from parent, child, and Product pages.
+- Do not list every subtype or keyword variant.
+- Do not use Product-specific specifications as Category-wide claims.
+- Do not treat fixed character count as a Google rule; preview likely desktop/mobile display.
+
+## Internal Link
+
+Required incoming links:
+
+- Homepage or parent Category
+- Child Product pages through breadcrumb/context
+- Relevant Application, Solution, Blog, Case, and capability pages
+
+Required outgoing links:
+
+- Child Categories and canonical Product pages
+- Comparison and Selection Guide
+- Applications and Solutions
+- Cases, FAQ, documents, and technical resources
+- Category-level selection/RFQ path
+
+Rules:
+
+- Use crawlable `<a href>` links.
+- Link directly to canonical HTTPS URLs.
+- Use precise or natural partial-match anchors describing the destination.
+- Do not point broad Category anchors mainly to one Product model.
+- Avoid broken, redirected, blocked, noindex, staging, and unintended parameter destinations.
+- Ensure Category is neither orphaned nor a buyer dead end.
+
+# Checklist
+
+## Positioning and structure
+
+- [ ] Category has one distinct broad Product-family intent and canonical URL
+- [ ] Product collection, keyword entry, and selection entry roles are fulfilled
+- [ ] Buyer, target market, Applications, and conversion path are defined
+- [ ] Category is distinct from parent, child, Product, Solution, Application, and Knowledge pages
+- [ ] Hero, Introduction, Product List, Comparison, Technical Advantage, Applications, Selection Guide, FAQ, and CTA exist as needed
+
+## Product List and cards
+
+- [ ] Every listed Product belongs to the Category and is current
+- [ ] Product grouping/order follows buyer selection logic
+- [ ] Product card contains approved image, exact model/name, core parameters, Application, and CTA
+- [ ] Card attributes use consistent labels, units, sources, and revisions
+- [ ] Product links resolve directly to canonical Product URLs
+- [ ] Card image, name, parameters, and Application describe the same Product/configuration
+- [ ] Pagination/load-more exposes priority Product links
+- [ ] Discontinued/unavailable Products have an intentional strategy
+
+## Comparison and selection
+
+- [ ] Compared Products are meaningfully comparable
+- [ ] Attributes, units, revisions, and conditions are equivalent
+- [ ] Missing, optional, custom, and not-applicable values are accurate
+- [ ] Trade-offs and limitations are explained
+- [ ] Selection Guide states required buyer inputs and decision logic
+- [ ] Safety-critical or project-specific selection boundaries are clear
+- [ ] Compare/selection context persists through Product visits and inquiry
+
+## Technical, Application, and trust content
+
+- [ ] Technical advantages include mechanism/evidence, buyer value, and scope
+- [ ] Category-wide facts are separated from Product-specific claims
+- [ ] Product-to-Application relationships are verified
 - [ ] Application and Solution roles are distinct
-- [ ] Category-wide advantages are separated from model-specific claims
-- [ ] Technical advantages include evidence, buyer value, and scope/conditions
-- [ ] Capability, quality, case, and resource links support claims
+- [ ] Capability, quality, standard, certification, Case, and document evidence is approved
+- [ ] No specification, compatibility, certification, performance, or availability is invented
 
-### FAQ and CTA
+## SEO
 
-- [ ] FAQ answers recurring category-level selection questions
-- [ ] Product-specific questions remain on product pages
-- [ ] CTA supports direct selection, assisted selection, and application journeys
-- [ ] Category/filter/compare context is preserved through inquiry
-- [ ] Key interactions and conversion events are measurable
+- [ ] One H1 accurately names the Category
+- [ ] URL is stable, canonical, readable, and aligned with taxonomy/language
+- [ ] Title is unique and aligned with Category intent
+- [ ] Meta Description accurately summarizes range, selection value, and next step
+- [ ] Parent, child, Product, Solution, Application, Blog, Case, resource, and CTA links are logical
+- [ ] Filter, sort, pagination, and parameter URLs have an intentional crawl/index strategy
+- [ ] Canonical, redirects, internal links, sitemap, hreflang, schema, and navigation agree
+- [ ] No internal keyword competition or duplicate Category role remains unresolved
 
-### Technical integrity
+## UX, conversion, and technical integrity
 
-- [ ] Intended status, robots, canonical, and sitemap state are correct
-- [ ] Primary content, products, and links exist in rendered HTML
-- [ ] Mobile and desktop provide equivalent product access and content
-- [ ] One valid Title and unique Description accurately represent the category
-- [ ] Breadcrumb and applicable ItemList/Product schema match visible content
-- [ ] Images, tables, cards, filters, compare, forms, and downloads are accessible
-- [ ] Broken, redirected, blocked, noindex, staging, and duplicate parameter links are absent from priority paths
-- [ ] Tracking, consent, verification, forms, and integrations are preserved
+- [ ] Product cards, filters, comparison, tables, FAQ, and forms work on mobile and keyboard
+- [ ] Primary content and Product links exist in rendered HTML
+- [ ] CTA supports direct Product, assisted selection, and Application paths
+- [ ] Forms ask only for useful qualification data
+- [ ] Category/filter/compare/Product/source context persists through inquiry
+- [ ] Product click, filter, comparison, download, CTA, form, call, and email events are measurable
+- [ ] Tracking, consent, verification, uploads, CRM, and integrations are preserved
+- [ ] Broken, redirected, blocked, noindex, staging, duplicate, and unintended parameter links are absent from priority paths
 
-### Required Codex output
+## Required Codex output
 
-For every category-page analysis or optimization, provide:
+For every Category analysis or optimization, provide:
 
-1. Category objective, buyer, scope, and preferred intent
-2. Existing taxonomy, products, filters, comparison, content, and CTA inventory
-3. Identified problems and affected URLs/templates
-4. Proposed module order and classification logic
-5. Required product data, filters, comparison fields, evidence, and missing inputs
-6. Internal-link and conversion-path map
-7. Critical, High, Medium, and Low recommendations
-8. Indexation/parameter strategy and approval requirements
-9. Validation plan for desktop, mobile, crawlability, links, filters, comparison, forms, schema, tracking, and performance
+1. Page positioning, buyer, intent, Product scope, and conversion objective
+2. Existing structure, Product inventory, cards, comparison, and selection functions
+3. H1, URL, Title, metadata, canonical, schema, and internal-link findings
+4. Proposed module order and Product-card field standard
+5. Product classification, comparison, and selection criteria
+6. Filter/parameter crawl and index strategy
+7. Critical, High, Medium, and Low findings
+8. Missing Product data, evidence, dependencies, and approval requirements
+9. Validation plan for facts, desktop/mobile rendering, Product links, filters, comparison, forms, metadata, schema, tracking, accessibility, and performance

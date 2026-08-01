@@ -1,352 +1,356 @@
-# Industrial B2B Solution Page Standard
+# Industrial Industry Solution Page Standard
 
-> Internal execution rules for Codex. Apply to overseas English-language solution pages for Chemical, Packaging, Energy, Manufacturing, and other industrial markets.
+> Codex internal execution rules for overseas English-language industry Solution pages in Chemical, Packaging, Energy, Food, Manufacturing, and related industrial markets.
 
-## Operating Principle
+## Scope and Required Inputs
 
-A Solution page must explain how the company addresses a defined industrial problem, process requirement, operating environment, or system need. It must connect buyer requirements to an explainable technical approach, relevant products, implementation support, evidence, and project inquiry.
+Before analyzing, creating, or modifying a Solution page, Codex must confirm:
 
-A Solution page is not a product category renamed for an industry. It must provide industry-specific decision value that cannot be delivered by a generic product list.
-
-## Required Inputs
-
-Before analyzing, creating, or optimizing a Solution page, Codex must confirm:
-
-- Target industry, process, application, market, and English variant
+- Target industry, process, Application, country, and English variant
 - Buyer roles and project stage
-- Verified operational pain points and technical requirements
-- Products, components, services, and capabilities used in the solution
+- Verified industry challenges, technical requirements, and operating conditions
+- Products, components, services, and capabilities used in the Solution
 - Applicable standards, regulations, certifications, tests, and safety boundaries
-- System architecture, workflow, interfaces, assumptions, and limitations
-- Approved cases, diagrams, images, data, and customer permissions
-- Project discovery, engineering, quotation, delivery, commissioning, and support process
-- Required inquiry fields, forms, uploads, tracking, and integrations
+- Approved Solution architecture, workflow, interfaces, assumptions, and limitations
+- Approved Cases, diagrams, images, data, and customer permissions
+- Project discovery, engineering, quotation, validation, delivery, commissioning, and support process
+- Inquiry fields, forms, uploads, tracking, consent, CRM, and integrations
 
-Missing technical or commercial facts must be marked internally for validation. Codex must not invent industry requirements, compliance, performance, savings, safety outcomes, project results, capacity, lead time, or customer evidence.
+Missing facts must be marked internally for validation. Codex must not invent industry requirements, compliance, Product fit, system performance, savings, safety outcomes, capacity, lead time, customer evidence, or project results.
 
-## 1. Solution Positioning
+# Solution Page Objectives
 
-### Objective
+The Solution page must upgrade the website from Product selling to problem solving.
 
-The page must define:
+## From Product selling to problem solving
 
-- Which industry, process, application, system, or operational problem it addresses
-- Which buyers and project stages it supports
-- Which requirements and constraints determine the solution
-- What technical approach and product combination are proposed
-- What evidence and implementation support are available
-- What information is required to evaluate a project
+A Product-selling page says:
 
-### Valid Solution positioning patterns
+- What Products are available
+- What specifications and features they have
 
-- Industry solution: `Electrical Protection Solutions for Chemical Processing Plants`
-- Process solution: `Automated End-of-Line Packaging Solution`
-- Application solution: `Corrosion-Resistant Drive Solution for Washdown Systems`
-- System solution: `Energy Monitoring and Distribution Solution for Manufacturing Facilities`
-- Problem solution: `Dust-Controlled Material Handling Solution`
+A Solution page must additionally explain:
 
-Examples are structural only. Every industry, product, standard, and outcome claim requires verification.
+- What industry/process problem exists
+- What operating requirements and risks determine the decision
+- What technical approach addresses the problem
+- How Products and services work together
+- Which interfaces, standards, assumptions, and limitations apply
+- How the project is evaluated, implemented, validated, and supported
+- What evidence reduces buyer risk
+- What information the buyer must provide for consultation
 
-### Page-boundary rules
+## Primary buyer questions
 
-- Product-family selection belongs to a Product Category page.
-- Exact model specifications belong to Product Detail pages.
-- Operating-context explanation may belong to an Application page.
-- An integrated problem-solving approach belongs to a Solution page.
-- Narrow technical questions belong to Blog, Guide, or FAQ pages.
+The page must answer:
 
-### Solution acceptance criteria
+1. Does the supplier understand this industry and operating environment?
+2. Which pain points and project requirements are addressed?
+3. How does the proposed Solution work?
+4. Which Products are recommended, and what role does each Product perform?
+5. What technical advantages are relevant under defined conditions?
+6. What project evidence and implementation capability exist?
+7. What inputs are required for technical review and quotation?
 
-- [ ] Target industry/process/problem and buyer are specific
-- [ ] Page has a distinct primary intent and canonical URL
-- [ ] Solution provides an approach, not only products or generic benefits
-- [ ] Required evidence and project consultation path exist
-- [ ] Page is materially different from other industry/solution pages
+## Page-role boundaries
 
-## 2. Industry Pain Points
+- Product Category owns broad Product-family selection.
+- Product Detail owns exact Product/model specifications.
+- Application explains where and under what conditions a Product is used.
+- Solution explains how an industry/process/system problem is addressed.
+- Case Study provides project evidence.
+- Knowledge/Blog answers narrow technical and comparison questions.
 
-### Objective
+A Solution page must not be a Category page with an industry name added.
 
-Demonstrate an accurate understanding of the buyer’s operating, engineering, compliance, maintenance, procurement, and project risks.
+## Success signals
 
-### Pain-point structure
+- Product and technical-resource engagement from Solution visitors
+- Visits to relevant Applications and Cases
+- Project-consultation CTA clicks and form starts
+- Complete, qualified project requirement submissions
+- Assisted RFQs and opportunities where CRM data exists
 
-`Operating context → problem/risk → consequence → requirement → solution response`
+# Page Structure
 
-### Chemical industry considerations
+## Industry Challenge
 
-- Corrosion, chemical compatibility, temperature, pressure, leakage, and containment
-- Hazardous areas, ignition risk, grounding, and applicable protection requirements
-- Process continuity, contamination, sealing, cleaning, and maintenance access
-- Material traceability, documentation, and regulatory/project standards
+### Purpose
 
-Do not claim chemical compatibility, explosion protection, or regulatory compliance without exact product and application evidence.
-
-### Packaging industry considerations
-
-- Throughput, product variation, changeover, accuracy, waste, and line balance
-- Material handling, product protection, coding/inspection, and traceability
-- Hygiene, washdown, food-contact boundaries, operator safety, and maintenance
-- Upstream/downstream integration, controls, and production data
-
-Do not guarantee throughput, yield, savings, or compatibility without product, material, format, and test conditions.
-
-### Energy industry considerations
-
-- Reliability, availability, safety, protection, monitoring, and system coordination
-- Voltage, current, frequency, power quality, fault level, environment, and duty
-- Grid, generation, storage, distribution, or facility interfaces
-- Standards, documentation, testing, commissioning, maintenance, and lifecycle support
-
-Electrical and energy content requires qualified review and project-specific code/standard validation.
-
-### Manufacturing industry considerations
-
-- Output, cycle time, quality consistency, downtime, changeover, and labor dependency
-- Machine integration, automation, controls, data, material flow, and bottlenecks
-- Safety, utilities, footprint, commissioning, maintenance, and spare parts
-- Flexibility, customization, scalability, traceability, and total lifecycle requirements
-
-### Pain-point rules
-
-- Use evidence from actual buyers, sales, engineering, support, cases, or industry requirements.
-- Avoid dramatized or universal problems.
-- Distinguish common industry issues from this project’s confirmed condition.
-- Explain technical and business consequences without unsupported cost figures.
-- Link each priority pain point to a later solution element.
-
-## 3. Application Scenarios
-
-### Objective
-
-Show where the solution applies, under what conditions, and which variables determine suitability.
-
-### Required scenario fields
-
-- Industry and process
-- Plant, machine, line, system, or equipment context
-- Input material, product, energy, signal, or medium
-- Operating conditions and environmental factors
-- Required output, function, or control result
-- Standards, interfaces, and project constraints
-- Relevant product configuration
-- Limitations and validation requirements
-
-### Scenario examples
-
-#### Chemical
-
-- Corrosive-fluid handling
-- Chemical dosing and process control
-- Hazardous-area electrical distribution
-- Washdown or contamination-controlled production
-
-#### Packaging
-
-- Primary, secondary, or end-of-line packaging
-- Multi-format product handling
-- Inspection, coding, sorting, conveying, and palletizing
-- Hygienic or washdown packaging environments
-
-#### Energy
-
-- Industrial power distribution and protection
-- Renewable generation or storage integration
-- Energy monitoring and power-quality management
-- Remote or harsh-environment equipment
-
-#### Manufacturing
-
-- Automated assembly or processing
-- Material handling and production-line integration
-- Machine retrofit and control modernization
-- Custom component or subsystem integration
-
-### Rules
-
-- Do not list scenarios without explaining requirements and fit.
-- Use dedicated scenario sections only when verified products and expertise exist.
-- Distinguish standard solution patterns from custom project engineering.
-- State excluded, hazardous, incompatible, or engineering-review conditions.
-- Link to deeper Application pages when the operating context requires more detail.
-
-## 4. Technical Solution
-
-### Objective
-
-Explain the solution architecture, engineering logic, workflow, control method, and interfaces in enough detail for a buyer to evaluate credibility and project fit.
+Demonstrate accurate understanding of the industry’s operating, engineering, quality, safety, compliance, maintenance, procurement, and project risks.
 
 ### Required structure
 
-1. Project inputs and requirements
-2. Solution architecture or process flow
+`Operating context → challenge/cause → consequence/risk → requirement → Solution response`
+
+### Content requirements
+
+- Industry/process context
+- Buyer roles affected
+- Common operational and technical challenges
+- Safety, quality, standard, maintenance, supply, or integration risks
+- Requirements used to evaluate a Solution
+- Clear distinction between common industry patterns and a specific project condition
+
+### Rules
+
+- Base challenges on approved engineering, sales, support, Case, or industry evidence.
+- Do not exaggerate pain points or invent loss/cost values.
+- Distinguish confirmed causes from hypotheses.
+- Connect each priority challenge to a later Solution element.
+- Do not state regulatory/compliance conclusions without qualified review.
+
+### SEO and conversion role
+
+- Establishes industry/problem intent and target terminology.
+- Confirms the page is a Solution rather than a Product list.
+- Helps the buyer recognize relevance and progress to Application Scenario or consultation.
+
+## Application Scenario
+
+### Purpose
+
+Show where the Solution applies, under what operating conditions, and which variables determine suitability.
+
+### Required content
+
+- Industry, process, plant, line, machine, system, or equipment context
+- Input material, Product, medium, energy, or signal
+- Operating conditions and environment
+- Required output, control, protection, or process result
+- Standards, interfaces, utilities, and project constraints
+- Suitable Product configuration
+- Limitations and required validation
+
+### Scenario template
+
+| Scenario | Operating conditions | Buyer requirements | Suitable Solution element | Limitation/review need |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+### Rules
+
+- Do not list Applications without requirements and Product/Solution fit.
+- Use verified Product-to-Application relationships.
+- Distinguish standard Solution patterns from custom project engineering.
+- State incompatible, hazardous, excluded, or engineering-review conditions.
+- Link to deeper Application pages when the operating context requires more detail.
+
+### SEO and conversion role
+
+- Supports industry + Application and Product + Application searches.
+- Connects the Solution cluster to Application and Product pages.
+- Helps buyers identify whether they should review Products or submit project requirements.
+
+## Solution Approach
+
+### Purpose
+
+Explain the technical architecture, engineering logic, process flow, control method, interfaces, and validation approach.
+
+### Required structure
+
+1. Project inputs and success criteria
+2. Solution architecture/process flow
 3. Main functions and control points
-4. Product/component roles
-5. Interfaces and integration
+4. Product/component/service roles
+5. Upstream/downstream and system interfaces
 6. Safety, quality, standards, and validation
 7. Expected output or decision criteria
 8. Assumptions, limitations, and customization needs
 
-### Suitable formats
+### Requirement-to-Solution matrix
 
-- Process flow diagram
-- System architecture diagram
-- Electrical single-line or functional block diagram when approved
-- Equipment-layout concept
-- Input–process–output table
-- Requirement-to-solution matrix
-
-### Requirement-to-solution matrix
-
-| Buyer requirement | Technical response | Product/component | Evidence | Condition/limitation |
+| Requirement/challenge | Technical response | Product/process | Evidence/validation | Assumption/limitation |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
+### Suitable visuals
+
+- Process flow diagram
+- System architecture or functional block diagram
+- Approved electrical single-line concept
+- Equipment-layout concept
+- Input–process–output chart
+- Requirement-to-Solution matrix
+
 ### Rules
 
-- Explain how the solution works before promoting products.
+- Explain how the Solution works before presenting Products.
 - Use approved engineering sources and diagrams.
 - Distinguish concept-level guidance from final project design.
-- Define required calculations, tests, samples, site data, and approvals.
-- Address integration with upstream/downstream equipment, utilities, controls, communications, and documentation.
-- State safety and regulatory boundaries.
-- Do not disclose confidential designs or imply engineering approval before project review.
-- Do not guarantee savings, performance, safety, compliance, or ROI.
+- Identify calculations, tests, samples, site data, approvals, and professional review needed.
+- Address utilities, control, communication, mechanical/electrical interfaces, documentation, and support.
+- Do not disclose confidential designs or imply final engineering approval.
+- Do not guarantee compliance, performance, savings, safety, or ROI.
 
-## 5. Product Portfolio
+### SEO and conversion role
 
-### Objective
+- Provides original technical depth for Solution intent.
+- Covers relevant system, process, technology, and interface entities naturally.
+- Gives buyers enough confidence to progress to Recommended Products and project review.
 
-Show which products, components, and services form the solution and the specific role of each.
+## Recommended Products
+
+### Purpose
+
+Show which Products, components, accessories, software, and services form the Solution and why each is recommended.
 
 ### Product-role table
 
-| Product/component | Function in solution | Key selection inputs | Options/limits | Detail page |
+| Product/component | Function in Solution | Key selection inputs | Options/limits | Product page |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
-### Product portfolio rules
+### Content requirements
 
-- Include only products with a verified role in the solution.
-- Link directly to canonical Product Detail or Category pages.
-- Explain why each product is selected; do not display an unexplained grid.
-- Identify alternative products or configurations only when useful.
-- State interfaces, compatibility, accessories, upstream/downstream relationships, and project dependencies.
-- Do not imply every listed product is included in every project.
-- Do not repeat complete product specifications; link to Product Detail pages.
-- Separate manufactured, integrated, partner-supplied, and third-party components accurately.
-
-### Cross-link requirements
-
-- Solution page links to relevant products.
-- Product pages link back to verified Solution pages.
-- Cases link to both the Solution and products used.
-- Supporting Blog/FAQ/resources link to the Solution pillar.
-
-## 6. Project Process
-
-### Objective
-
-Explain how the supplier and buyer move from requirements to a validated and supported solution.
-
-### Recommended stages
-
-1. **Discovery:** industry, process, goals, constraints, standards, and project stage
-2. **Data collection:** drawings, specifications, samples, site data, utilities, interfaces, and quantities
-3. **Technical review:** feasibility, risks, selection, calculations, architecture, and required tests
-4. **Proposal:** defined scope, products, options, exclusions, documentation, and commercial quotation
-5. **Validation:** sample, prototype, simulation, factory test, customer review, or approval where applicable
-6. **Production/integration:** manufacturing, assembly, inspection, traceability, and change control
-7. **Delivery/installation:** packaging, logistics, site preparation, installation, and commissioning responsibilities
-8. **Acceptance/support:** training, documentation, maintenance, spare parts, warranty, and after-sales support
-
-### Responsibility matrix
-
-| Stage | Buyer inputs | Supplier outputs | Approval gate | Risk/dependency |
-|---|---|---|---|---|
-|  |  |  |  |  |
+- Approved Product/category/model name
+- Function in the Solution
+- Selection inputs and relevant configuration
+- Interfaces and compatibility
+- Alternatives or dependencies when useful
+- Link to canonical Product Detail or Category page
 
 ### Rules
 
-- Adapt stages to the actual business and project complexity.
-- Identify buyer and supplier responsibilities.
-- State what is included, excluded, optional, and subject to confirmation.
-- Do not promise a fixed timeline, approval, certification, or result without verified conditions.
-- Explain change-control and technical-approval gates where relevant.
-- Address confidentiality and secure document exchange for project files.
+- Include only Products with a verified role.
+- Explain role and selection logic; do not use an unexplained Product grid.
+- Do not imply every Product is included in every project.
+- Separate manufactured, integrated, partner-supplied, third-party, and customer-supplied elements accurately.
+- Link to Product pages rather than duplicating full specifications.
+- Product pages should link back to verified Solutions where useful.
 
-## 7. Case Proof
+### SEO and conversion role
 
-### Objective
+- Connects Solution intent to Product entities and commercial pages.
+- Builds reciprocal Product–Solution relationships.
+- Moves buyers from approach evaluation to exact Product validation or project consultation.
 
-Demonstrate relevant experience and reduce project risk through approved evidence.
+## Technology Advantages
 
-### Required case elements
+### Purpose
 
-- Industry, application, region, and customer type where approved
-- Operating context and challenge
-- Requirements and success criteria
-- Products and technical approach
-- Implementation and responsibilities
-- Verified quantitative or qualitative results
-- Conditions, limits, and transferability
+Explain how verified technology, engineering, Product design, integration, manufacturing, control, or support capabilities address the industry challenge.
+
+### Required structure
+
+`Technology/capability → mechanism/evidence → industry value → scope/condition`
+
+### Suitable topics
+
+- Product/system design
+- Automation, control, monitoring, and communication
+- Material, sealing, protection, hygiene, corrosion, thermal, or electrical technology
+- Accuracy, reliability, maintainability, energy, or process control
+- Integration, modularity, customization, documentation, and service
+- Testing, simulation, inspection, and validation
+
+### Rules
+
+- Do not use `advanced technology` without mechanism/evidence.
+- Separate Solution-level advantage from individual Product features.
+- State conditions behind performance values.
+- Explain trade-offs and limitations.
+- Do not claim universal superiority or guaranteed outcomes.
+- Link to supporting Product, test, Case, patent, or Knowledge pages when approved.
+
+### SEO and conversion role
+
+- Supports Technical and Comparison intent within the Solution cluster.
+- Adds evidence-based differentiation.
+- Helps engineers and project owners determine whether a technical review is justified.
+
+## Project Experience
+
+### Purpose
+
+Reduce project risk by proving relevant engineering, manufacturing, integration, validation, delivery, and support experience.
+
+### Required content
+
+- Relevant Case summary
+- Industry/Application context
+- Customer type or identity when authorized
+- Challenge and requirements
+- Solution/Product configuration
+- Implementation process
+- Verified result/evidence
 - Link to complete Case Study
 
-### Evidence types
+### Project-process evidence
 
-- Approved project photographs
-- Drawings or diagrams cleared for publication
-- Test/inspection/commissioning records
-- Verified performance data
-- Customer quotation with authorization
-- Standards, certification, or documentation delivered
-- Repeat order, field use, or maintenance evidence when approved
+- Requirement discovery and data collection
+- Feasibility/risk review
+- Engineering/selection/configuration
+- Sample/prototype/simulation/test where applicable
+- Manufacturing/integration and quality control
+- Delivery, installation, commissioning, acceptance, training, and support where in scope
 
 ### Rules
 
 - Obtain approval for customer name, logo, quote, image, data, and project detail.
-- Label anonymous or generalized cases.
+- Label anonymous/generalized Cases.
 - Quantitative results require baseline, unit, method, period, and conditions.
-- Distinguish measured results, customer-reported results, and supplier observations.
-- Do not present stock imagery as project evidence.
-- Do not imply one case guarantees another project’s outcome.
-- If no publishable case exists, use verified process/test evidence rather than inventing one.
+- Distinguish measured, customer-reported, and supplier-observed results.
+- Do not use stock media as project evidence.
+- Do not imply one project guarantees another outcome.
+- If no publishable Case exists, use verified process/test evidence rather than inventing one.
 
-## 8. FAQ
+### SEO and conversion role
 
-### Suitable Solution FAQ topics
+- Demonstrates real Experience and supports industry/Application topics.
+- Links Solution, Product, Application, and Case clusters.
+- Moves buyers from evaluation to a similar-project consultation.
 
-- Which project types or applications are suitable?
+## FAQ
+
+### Purpose
+
+Resolve recurring project-level questions that block technical evaluation or inquiry.
+
+### Suitable questions
+
+- Which project types and Applications are suitable?
 - What technical information is required for evaluation?
-- How are products selected and integrated?
-- Which standards, materials, environments, or interfaces can be supported?
-- What customization, testing, documentation, installation, or commissioning is available?
-- Which project factors affect scope, timeline, quotation, and validation?
-- How are safety, quality, maintenance, spare parts, and after-sales support handled?
+- How are Products selected and integrated?
+- Which standards, materials, environments, interfaces, and utilities can be supported?
+- What customization, testing, documentation, installation, commissioning, and training are available?
+- Which factors affect scope, quotation, validation, and schedule?
+- How are safety, quality, maintenance, spare parts, and support handled?
 
 ### Rules
 
-- Answer project-level questions; keep model specifications on Product pages.
-- State dependencies and required inputs immediately.
-- Use approved technical, safety, quality, and commercial facts.
-- Do not guarantee compatibility, compliance, performance, savings, lead time, or price.
-- Refer hazardous, electrical, pressure, chemical, thermal, machine-safety, and regulatory questions to qualified review.
-- Link to relevant products, cases, guides, documents, and project consultation.
-- Visible FAQ content must match structured data when markup is used.
+- Keep exact model specifications on Product pages.
+- Give a direct answer, then state dependencies and limitations.
+- Do not guarantee compatibility, compliance, performance, savings, price, or lead time.
+- Refer safety, chemical, electrical, pressure, thermal, machine, food, and regulatory questions to qualified review.
+- Link to Products, Cases, Applications, guides, documents, and consultation.
+- Visible FAQ must match structured data when used.
 
-## 9. CTA
+### SEO and conversion role
+
+- Covers narrow project and industry questions without creating duplicate pages.
+- Removes final inquiry friction.
+- Routes buyers to evidence, Products, and project consultation.
+
+## CTA
+
+### Purpose
+
+Convert a Solution-aware buyer into a qualified project discussion without implying that feasibility or outcome is already confirmed.
 
 ### Primary buyer path
 
-`Industry Pain Point → Application Scenario → Technical Solution → Product Portfolio → Project Process → Case Proof → Consultation`
-
-### Secondary paths
-
-`Solution → Product Detail/Technical Resource → Return to Solution → Inquiry`
-
-`Solution → Case Study → Project Consultation`
-
-`Blog/FAQ → Solution → Submit Requirements`
+```text
+Industry Challenge
+  → Application Scenario
+  → Solution Approach
+  → Recommended Products
+  → Technology Advantages
+  → Project Experience
+  → FAQ
+  → Project Consultation
+```
 
 ### Primary CTA options
 
@@ -357,98 +361,231 @@ Demonstrate relevant experience and reduce project risk through approved evidenc
 
 ### Secondary CTA options
 
-- View Related Products
-- Review Case Study
+- View Recommended Products
+- Review a Case Study
 - Download Solution Guide
 - Prepare Project Information
 
 ### Inquiry fields
 
-Collect only useful project inputs, such as:
+Collect only useful project inputs:
 
-- Industry, process, application, and project stage
-- Problem or target requirement
-- Material/product/medium/energy/system information
+- Industry, process, Application, and project stage
+- Current challenge and target requirement
+- Material/Product/medium/energy/system information
 - Operating conditions and environment
-- Capacity, dimensions, ratings, standards, interfaces, or utilities
-- Quantity, destination, timeline expectation, and support needs
+- Capacity, dimensions, ratings, standards, interfaces, and utilities
+- Quantity, destination, expected schedule, and support need
 - Drawing, specification, photo, sample, or project-file upload
 - Company and contact information
 
-### CTA rules
+### Rules
 
-- Use consultation language appropriate to complex B2B projects.
-- Place CTA after the Hero/overview, technical solution, proof, and final summary.
-- Preserve Solution, Application, Product, Case, and campaign context through forms and CRM.
-- Ask only for information required at that stage.
-- Do not promise instant price, guaranteed feasibility, or final engineering approval.
-- Provide secure uploads and accessible validation, error, consent, and confirmation states.
-- Track CTA clicks, form starts, errors, submissions, downloads, product/case visits, calls, and emails.
+- Place CTA after overview, technical approach, proof, and final summary.
+- Preserve Solution, Application, Product, Case, campaign, and source context through form/CRM.
+- Use secure uploads and accessible validation, error, consent, and confirmation states.
+- Do not promise instant price, feasibility, compliance, or final engineering approval.
+- Track CTA, form, upload, Product/Case visits, downloads, calls, and emails.
 
-## Solution Page Validation Checklist
+# Industry Adaptation
 
-### Positioning and pain points
+Each industry page must contain distinct requirements, Product/Solution configuration, standards, evidence, and terminology. Do not duplicate a template and replace only the industry name.
 
+## Chemical
+
+### Required challenges and conditions
+
+- Corrosion and exact chemical/material compatibility
+- Temperature, pressure, leakage, sealing, and containment
+- Hazardous areas, ignition risk, grounding, ventilation, and protection
+- Process continuity, contamination control, cleaning, and maintenance access
+- Material traceability, documentation, and project/regulatory standards
+
+### Required Solution evidence
+
+- Material/grade and compatibility source
+- Enclosure/sealing/protection and environmental conditions
+- Product/system rating and hazardous-area scope where applicable
+- Test, inspection, certification, and documentation
+- Approved Chemical Application/Case evidence
+
+### Prohibited claims
+
+- Universal chemical compatibility
+- Explosion protection or hazardous-area suitability without exact certification scope
+- Guaranteed leak-free, corrosion-free, safe, or compliant operation
+
+## Packaging
+
+### Required challenges and conditions
+
+- Throughput, Product variation, format, changeover, accuracy, and line balance
+- Material handling, Product protection, inspection, coding, and traceability
+- Waste, energy, operator interaction, safety, and maintenance
+- Upstream/downstream equipment, controls, communication, and production data
+- Hygiene, cleaning, and washdown where relevant
+
+### Required Solution evidence
+
+- Product/material/format and test conditions
+- Equipment role and line architecture
+- Capacity/accuracy assumptions
+- Integration, changeover, cleaning, maintenance, and support approach
+- Approved Packaging Case/test evidence
+
+### Prohibited claims
+
+- Guaranteed throughput, yield, waste reduction, savings, or compatibility without equivalent operating conditions
+
+## Energy
+
+### Required challenges and conditions
+
+- Reliability, availability, safety, monitoring, and protection
+- Voltage, current, frequency, power, fault level, duty, and power quality
+- Generation, storage, distribution, grid/facility, and communication interfaces
+- Environment, enclosure, temperature, altitude, and derating
+- Standards, documentation, testing, commissioning, maintenance, and lifecycle support
+
+### Required Solution evidence
+
+- System inputs and ratings
+- Protection/coordination or control logic
+- Product standards/certification scope
+- Test/commissioning/documentation process
+- Qualified electrical and local-code review boundary
+
+### Prohibited claims
+
+- Guaranteed safety, uptime, energy savings, grid compliance, or coordination without project validation
+
+## Food
+
+### Required challenges and conditions
+
+- Product-contact versus noncontact scope
+- Hygiene, contamination, allergen, cleaning, washdown, drainage, and maintenance access
+- Material, surface finish, seal, lubricant, corrosion, and temperature
+- Packaging/processing output, accuracy, changeover, traceability, and inspection
+- Applicable food, machine, electrical, and regional requirements
+
+### Required Solution evidence
+
+- Exact material/finish and Product-contact scope
+- Cleaning/washdown conditions
+- Approved declarations/certification where applicable
+- Hygienic design and contamination-control evidence
+- Food Application test/Case evidence
+
+### Prohibited claims
+
+- `Food grade`, hygienic, sanitary, compliant, allergen-free, or safe without applicable scope and evidence
+
+## Manufacturing
+
+### Required challenges and conditions
+
+- Output, cycle, quality consistency, downtime, changeover, and labor dependency
+- Product/material flow, bottlenecks, line integration, controls, and data
+- Safety, utilities, footprint, installation, commissioning, and maintenance
+- Flexibility, customization, scalability, traceability, documentation, and lifecycle support
+
+### Required Solution evidence
+
+- Process inputs/outputs and assumptions
+- Equipment/system architecture
+- Integration and control interfaces
+- Capacity/accuracy/quality test conditions
+- Production, commissioning, training, and support process
+- Approved Manufacturing Case evidence
+
+### Prohibited claims
+
+- Guaranteed productivity, quality, labor savings, uptime, payback, or ROI without verified baseline and conditions
+
+## Industry adaptation acceptance criteria
+
+- [ ] Industry terminology and buyer roles are accurate
+- [ ] Challenges and scenarios are materially industry-specific
+- [ ] Recommended Products fit the stated operating conditions
+- [ ] Standards, safety, quality, and regulatory boundaries are defined
+- [ ] Evidence and Case content are relevant to the industry
+- [ ] Prohibited/unsupported outcome claims are absent
+
+# Checklist
+
+## Objective and page role
+
+- [ ] Page upgrades Product selling to a verified problem-solving approach
 - [ ] Industry, process, problem, buyer, market, and project stage are defined
-- [ ] Page has one distinct Solution intent and canonical URL
-- [ ] Solution differs materially from Product Category and Application pages
-- [ ] Pain points are evidenced, specific, and linked to requirements
-- [ ] Chemical, Packaging, Energy, or Manufacturing claims are appropriate to the page scope
+- [ ] One distinct Solution intent and canonical URL are assigned
+- [ ] Solution is distinct from Category, Product, Application, Case, and Blog pages
+- [ ] Required project consultation path is defined
 
-### Scenarios and technical solution
+## Industry Challenge and Application Scenario
 
-- [ ] Application scenarios state operating context, requirements, fit, and limitations
-- [ ] Technical approach explains inputs, architecture, functions, interfaces, and outputs
-- [ ] Requirement-to-solution relationships are explicit
-- [ ] Assumptions, exclusions, dependencies, and engineering boundaries are stated
-- [ ] Diagrams and technical content are approved and accurate
-- [ ] Safety, standards, compliance, and project-specific review requirements are clear
+- [ ] Challenges follow context → cause → risk → requirement → response
+- [ ] Common industry patterns are distinguished from project-specific facts
+- [ ] Scenarios state operating conditions, buyer requirements, fit, and limitations
+- [ ] Product-to-Application relationships are verified
+- [ ] Safety, standards, environment, interfaces, and professional-review needs are clear
 
-### Products and process
+## Solution Approach and Recommended Products
 
-- [ ] Every product has a verified function in the solution
-- [ ] Product links resolve directly to canonical URLs
-- [ ] Manufactured, integrated, partner, and third-party roles are represented accurately
-- [ ] Project stages identify buyer inputs, supplier outputs, approval gates, and risks
-- [ ] Scope, change control, documentation, testing, installation, and support are addressed
+- [ ] Approach explains inputs, architecture, functions, interfaces, outputs, and validation
+- [ ] Requirement-to-Solution matrix is complete where useful
+- [ ] Assumptions, exclusions, dependencies, and customization needs are stated
+- [ ] Every recommended Product has a verified function and canonical link
+- [ ] Manufactured, integrated, partner, third-party, and customer-supplied elements are distinguished
+- [ ] Full Product specifications remain on Product pages
 
-### Proof and trust
+## Technology and experience
 
-- [ ] Cases, customer details, images, quotes, and results are authorized
-- [ ] Quantitative results include baseline, unit, method, period, and conditions
+- [ ] Technology Advantages include mechanism/evidence, industry value, and scope
+- [ ] Quantitative claims include source and conditions
+- [ ] Project Experience uses approved Cases or process/test evidence
+- [ ] Customer identity, media, quote, and results are authorized
 - [ ] Measured, customer-reported, and supplier-observed results are distinguished
-- [ ] No case, certification, compliance, performance, savings, or result is invented or guaranteed
-- [ ] Company identity, capability, quality, and contact information are accessible
+- [ ] No outcome is generalized or guaranteed
 
-### FAQ and conversion
+## Industry adaptation
 
-- [ ] FAQ answers project-level recurring questions and states dependencies
+- [ ] Chemical requirements address material, corrosion, containment, hazardous-area, and documentation scope where applicable
+- [ ] Packaging requirements address Product/format, throughput, line integration, changeover, hygiene, and evidence where applicable
+- [ ] Energy requirements address system ratings, protection, environment, standards, and qualified review where applicable
+- [ ] Food requirements address contact scope, hygiene, materials, cleaning, and evidence where applicable
+- [ ] Manufacturing requirements address process, integration, output, safety, commissioning, and lifecycle support where applicable
+- [ ] Page is not a duplicate template with only industry name changed
+
+## FAQ and CTA
+
+- [ ] FAQ answers project-level questions and states dependencies
 - [ ] Product-specific questions remain on Product pages
-- [ ] CTA follows the buyer’s solution-evaluation sequence
+- [ ] CTA follows the Solution evaluation sequence
 - [ ] Inquiry fields capture necessary technical/project inputs
-- [ ] Solution/application/source context persists through forms and CRM
-- [ ] CTA, form, download, product, case, call, and email events are measurable
+- [ ] Solution/Application/Product/Case/source context persists through form/CRM
+- [ ] CTA, forms, uploads, downloads, Product/Case visits, calls, and emails are measurable
 
-### SEO and technical integrity
+## SEO and technical integrity
 
 - [ ] Title, H1, opening, breadcrumb, canonical, and internal anchors represent the same Solution
-- [ ] Main content, links, diagrams, and FAQ exist in rendered HTML
+- [ ] Main content, diagrams, links, Products, and FAQ exist in rendered HTML
 - [ ] Mobile and desktop provide equivalent primary content and actions
-- [ ] Internal links connect Solution hub, products, applications, cases, blogs, FAQs, resources, and inquiry
-- [ ] Structured data matches visible content and does not imply unsupported service/product data
-- [ ] Forms, uploads, downloads, links, tracking, consent, and integrations work
-- [ ] Broken, redirected, blocked, noindex, duplicate, and staging destinations are absent from priority paths
+- [ ] Internal links connect Solution hub, Products, Applications, Cases, Knowledge, resources, and consultation
+- [ ] Structured data matches visible content and contains no unsupported Product/Service data
+- [ ] Forms, uploads, downloads, tracking, consent, CRM, and integrations work
+- [ ] Broken, redirected, blocked, noindex, duplicate, staging, and unintended parameter destinations are absent
 
-### Required Codex output
+## Required Codex output
 
 For every Solution-page analysis or optimization, provide:
 
-1. Industry/problem, buyer, market, project stage, and page objective
+1. Industry/problem, buyer, market, project stage, and Solution objective
 2. Source evidence, standards, safety boundaries, and missing information
-3. Existing pain-point, scenario, technical, product, process, proof, FAQ, and CTA inventory
-4. Proposed module order and requirement-to-solution matrix
-5. Product-role and internal-link map
-6. Project-process and inquiry-field requirements
+3. Module-level analysis for Challenge, Scenario, Approach, Products, Technology, Experience, FAQ, and CTA
+4. Requirement-to-Solution and Product-role tables
+5. Industry adaptation requirements and prohibited claims
+6. Internal-link and conversion-path map
 7. Critical, High, Medium, and Low findings
-8. Claims, confidentiality, technical review, and approval requirements
-9. Validation plan for facts, desktop/mobile rendering, diagrams, links, forms, uploads, metadata, schema, tracking, accessibility, and performance
+8. Confidentiality, technical review, dependency, and approval requirements
+9. Validation plan for facts, desktop/mobile rendering, diagrams, Product links, forms, uploads, metadata, schema, tracking, accessibility, and performance

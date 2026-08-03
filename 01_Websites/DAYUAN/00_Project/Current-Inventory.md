@@ -20,7 +20,7 @@ Record current website pages, HTML files, URL structure and website assets for A
 
 Last Updated:
 
-2026-08-01
+2026-08-02
 
 
 
@@ -69,7 +69,7 @@ Pending Creation
 # 3. Current Website Pages
 
 
-Page types were determined from each file's URL hierarchy, metadata, H1, structured data, page content, and template structure.
+Page types were re-audited using each file's URL hierarchy, metadata, H1, structured data, page content, and template structure. Product listing and product-family pages are classified as Product Category, individual machine pages as Product Detail, solution-related pages as Solution, and company profile pages as About.
 
 | File Name | Page Name | Page Type |
 |---|---|---|
@@ -81,9 +81,9 @@ Page types were determined from each file's URL hierarchy, metadata, H1, structu
 | `flatbed-die-cutting-machine.html` | Flatbed Die Cutting Machine | Product Category |
 | `homepage.html` | DAYUAN Homepage | Homepage |
 | `hot-foil-stamping-die-cutting-machine.html` | Hot Foil Stamping & Die Cutting Machine | Product Category |
-| `product-category.html` | All Products | Product Category / Product Hub |
+| `product-category.html` | All Products | Product Category |
 | `sheet-cutter-machine.html` | Sheet Cutter Machine | Product Category |
-| `solutions.html` | Packaging Solutions | Solution Hub |
+| `solutions.html` | Packaging Solutions | Solution |
 | `stripping-machine.html` | Stripping & Blanking Machine | Product Category |
 | `web-fed-digital-printing-machine.html` | Web-fed Digital Printing Machine | Product Category |
 
@@ -95,6 +95,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `about-dayuan.html`
 
+- **Page Name:** About DAYUAN
 - **Page Type:** About
 - **URL:** https://www.dayuan-machinery.com/about-dayuan
 - **Title:** About DAYUAN | 27 Years Post-press Pioneer | 100+ Patents
@@ -104,6 +105,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `automatic-high-speed-flatbed-die-cutting-machine.html`
 
+- **Page Name:** Automatic High Speed Flatbed Die Cutting Machine
 - **Page Type:** Product Detail
 - **URL:** https://www.dayuan-machinery.com/bht-top-excellence-series/automatic-high-speed-flatbed-die-cutting-machine
 - **Title:** Automatic High Speed Flatbed Die Cutting Machine - DAYUAN Machinery
@@ -113,6 +115,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `automatic-hot-foil-stamping-machine-heavy-duty.html`
 
+- **Page Name:** Automatic Hot Foil Stamping Machine (Heavy Duty)
 - **Page Type:** Product Detail
 - **URL:** https://www.dayuan-machinery.com/bht-top-excellence-cardstock-series/automatic-hot-foil-stamping-machine-heavy-duty
 - **Title:** Automatic Hot Foil Stamping Machine (Heavy Duty) - DAYUAN Machinery
@@ -122,6 +125,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `contact-us.html`
 
+- **Page Name:** Contact Us
 - **Page Type:** Contact
 - **URL:** https://www.dayuan-machinery.com/contact-us
 - **Title:** Contact DAYUAN | Get a Quote for Die Cutting & Hot Stamping
@@ -131,6 +135,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `creasing-machine.html`
 
+- **Page Name:** Creasing & Die Cutting Machine
 - **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/creasing-machine
 - **Title:** Creasing Machine - DAYUAN Machinery
@@ -140,6 +145,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `flatbed-die-cutting-machine.html`
 
+- **Page Name:** Flatbed Die Cutting Machine
 - **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/flatbed-die-cutting-machine
 - **Title:** Automatic Flatbed Die Cutting Machine | 9000/h ±0.075mm | DAYUAN
@@ -149,6 +155,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `homepage.html`
 
+- **Page Name:** DAYUAN Homepage
 - **Page Type:** Homepage
 - **URL:** https://www.dayuan-machinery.com
 - **Title:** Post Press Machinery Leader | Hot Stamping & Die Cutting | DAYUAN
@@ -158,6 +165,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `hot-foil-stamping-die-cutting-machine.html`
 
+- **Page Name:** Hot Foil Stamping & Die Cutting Machine
 - **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/hot-foil-stamping-die-cutting-machine
 - **Title:** Hot Foil stamping & Die Cutting Machine | 820-1500mm | DAYUAN
@@ -167,7 +175,8 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `product-category.html`
 
-- **Page Type:** Product Category / Product Hub
+- **Page Name:** All Products
+- **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/products
 - **Title:** Die Cutters & Sheeters | Hot Stamping & Stripping Machines | DAYUAN
 - **Meta Description:** Explore DAYUAN full equipment range: hot stamping & die cutting machines, flatbed die cutters, sheet cutters, stripping & blanking, integrated lines. 27 years, CE/ISO, 100+ patents, 20000+ global installs. View all products now
@@ -176,6 +185,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `sheet-cutter-machine.html`
 
+- **Page Name:** Sheet Cutter Machine
 - **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/sheet-cutter-machine
 - **Title:** Paper Sheeter Machine | 540 cuts/min | High Speed Sheet Cutter
@@ -185,7 +195,8 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `solutions.html`
 
-- **Page Type:** Solution Hub
+- **Page Name:** Packaging Solutions
+- **Page Type:** Solution
 - **URL:** https://www.dayuan-machinery.com/solutions
 - **Title:** Packaging Solutions | Die Cutting for 7 Industries | DAYUAN
 - **Meta Description:** DAYUAN provides tailored packaging solutions for tobacco, wine, luxury, medicine, daily chemical, food and transport. 27 years expertise, 100+ patents, global service. Find your solution now
@@ -194,6 +205,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `stripping-machine.html`
 
+- **Page Name:** Stripping & Blanking Machine
 - **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/stripping-machine
 - **Title:** Stripping & Blanking Machine | Full Sheet & Row | DAYUAN
@@ -203,6 +215,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 ## `web-fed-digital-printing-machine.html`
 
+- **Page Name:** Web-fed Digital Printing Machine
 - **Page Type:** Product Category
 - **URL:** https://www.dayuan-machinery.com/web-fed-digital-printing-machine
 - **Title:** Web-fed Digital Printing Machine
@@ -217,7 +230,7 @@ URL values were extracted from the canonical element in each archived HTML file.
 
 | Product or Category | HTML File | URL | Page Type | Inventory Status |
 |---|---|---|---|---|
-| All Products | `product-category.html` | https://www.dayuan-machinery.com/products | Product Hub | Inventoried |
+| All Products | `product-category.html` | https://www.dayuan-machinery.com/products | Product Category | Inventoried |
 | Automatic High Speed Flatbed Die Cutting Machine | `automatic-high-speed-flatbed-die-cutting-machine.html` | https://www.dayuan-machinery.com/bht-top-excellence-series/automatic-high-speed-flatbed-die-cutting-machine | Product Detail | Inventoried |
 | Automatic Hot Foil Stamping Machine (Heavy Duty) | `automatic-hot-foil-stamping-machine-heavy-duty.html` | https://www.dayuan-machinery.com/bht-top-excellence-cardstock-series/automatic-hot-foil-stamping-machine-heavy-duty | Product Detail | Inventoried |
 | Creasing & Die Cutting Machine | `creasing-machine.html` | https://www.dayuan-machinery.com/creasing-machine | Product Category | Inventoried |
